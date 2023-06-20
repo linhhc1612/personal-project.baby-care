@@ -1,0 +1,115 @@
+.item-big {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    white-space: nowrap;
+}
+
+.nav-item {
+    display: inline-flex;
+    align-items: center;
+    position: static;
+    margin: 0 10px;
+    padding: 0px;
+    height: 52px;
+    background-color: transparent;
+
+    .nav-link {
+        display: block;
+        text-align: left;
+        padding: 0px 0px;
+        font-size: 15px;
+        font-family: var(--font-base);
+        font-weight: bold;
+        height: 52px;
+        line-height: 52px;
+        position: relative;
+        text-decoration: none;
+        color: #fff;
+        white-space: normal;
+    }
+
+    .item-small {
+        overflow: hidden;
+        display: none;
+        max-height: 0px;
+        max-width: 0px;
+        position: absolute;
+        top: 100%;
+        left: auto;
+        width: 220px;
+        padding: 0;
+        background-color: #fff;
+        box-shadow: 0 1px 2px 2px rgba(0, 0, 0, 0.04);
+        z-index: 99;
+
+        .nav-link-small {
+            font-size: 1.4rem;
+            font-weight: 400;
+            display: block;
+            padding: 5px 20px 5px 10px;
+            color: var(--text-color);
+            position: relative;
+            border-bottom: solid 1px #e5e6ec;
+            text-align: left;
+            white-space: normal;
+
+            &:hover {
+                color: var(--hover);
+            }
+
+            &:last-child {
+                border: none;
+            }
+        }
+    }
+
+    &.active {
+        .nav-link {
+            &::after {
+                content: '';
+                position: absolute;
+                width: 0;
+                height: 0;
+                border-style: solid;
+                border-width: 8px 8px 0 8px;
+                border-color: #fff transparent transparent transparent;
+                top: 0;
+                left: calc(50% - 10px);
+            }
+        }
+    }
+
+    &:first-child {
+        margin-left: 0;
+    }
+
+    &:hover {
+        .nav-link {
+            &::after {
+                content: '';
+                position: absolute;
+                width: 0;
+                height: 0;
+                border-style: solid;
+                border-width: 8px 8px 0 8px;
+                border-color: #fff transparent transparent transparent;
+                top: 0;
+                left: calc(50% - 10px);
+            }
+        }
+
+        svg {
+            transform: rotate(180deg);
+        }
+
+        .item-small {
+            overflow: visible;
+            max-height: 3000px;
+            max-width: 3000px;
+            display: block;
+        }
+    }
+}
