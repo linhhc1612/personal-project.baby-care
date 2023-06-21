@@ -16,6 +16,7 @@ import SignUpPage from '~/pages/SignUpPage';
 import ForgotPage from '~/pages/ForgotPage';
 import ProductDetailPage from '~/pages/ProductDetailPage';
 import NewsDetailPage from '~/pages/NewsDetailPage';
+import SearchPage from '~/pages/SearchPage';
 
 // Public routes
 const publicRoutes = [
@@ -32,6 +33,7 @@ const publicRoutes = [
     { path: config.routes.forgotPage, component: ForgotPage, layout: DefaultLayout },
     { path: config.routes.productDetailPage, component: ProductDetailPage, layout: DefaultLayout },
     { path: config.routes.newsDetailPage, component: NewsDetailPage, layout: DefaultLayout },
+    { path: config.routes.searchPage, component: SearchPage, layout: DefaultLayout },
 ];
 
 // Privite routes

@@ -1,33 +1,42 @@
 import classNames from 'classnames/bind';
 import { NavLink } from 'react-router-dom';
+import PropTypes from 'prop-types';
 
 import styles from './ItemList.module.scss';
+import * as Icons from '~/components/Icons';
 import ItemSmall from './ItemSmall';
-import configs from '~/configs';
 
 const cx = classNames.bind(styles);
 
-function Item({ to, title, icon, itemSmall = false }) {
+function Item({ data }) {
     return (
         <>
-            {itemSmall ? (
-                <button className={cx('nav-item')}>
-                    <span className={cx('nav-link')}>{title}</span>
-                    {icon}
-                    <div className={cx('item-small')}>
-                        <ItemSmall to={configs.routes.productPage + `@outstanding`} title="Sản phẩm nổi bật" />
-                        <ItemSmall to={configs.routes.productPage + `@promotion`} title="Sản phẩm khuyến mãi" />
-                        <ItemSmall to={configs.routes.productPage + `@hand-bag`} title="Túi xách" />
-                        <ItemSmall to={configs.routes.productPage + `@hat`} title="Mũ, nón" />
-                    </div>
-                </button>
+            {!!data.children ? (
+                <>
+                    {' '}
+                    <button className={cx('nav-item')}>
+                        <span className={cx('nav-link')}>{data.title}</span>
+                        <Icons.DownIcon className={cx('ms-1 text-white')} />
+                        <div className={cx('item-small')}>
+                            {data.children.map((result) => (
+                                <ItemSmall key={result.id} data={result} />
+                            ))}
+                        </div>
+                    </button>
+                </>
             ) : (
-                <NavLink to={to} className={(nav) => cx('nav-item', { active: nav.isActive })}>
-                    <span className={cx('nav-link')}>{title}</span>
-                </NavLink>
+                <>
+                    <NavLink to={data.path} className={(nav) => cx('nav-item', { active: nav.isActive })}>
+                        <span className={cx('nav-link')}>{data.title}</span>{' '}
+                    </NavLink>
+                </>
             )}
         </>
     );
 }
+
+Item.propTypes = {
+    data: PropTypes.object.isRequired,
+};
 
 export default Item;

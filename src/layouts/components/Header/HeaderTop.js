@@ -28,7 +28,7 @@ function HeaderTop() {
             <div className={cx('col-lg-5 col-md-6 col-5 d-flex align-item-center')}>
                 <p className={cx('m-0')}>
                     Bạn cần trợ giúp:
-                    <Link to={configs.routes.homePage} className={cx('m-0 text-main fw-bold ps-2 pe-4 border-end')}>
+                    <Link to="tel:0329.***.***" className={cx('m-0 text-main fw-bold ps-2 pe-4 border-end')}>
                         0329.***.***
                     </Link>
                 </p>
