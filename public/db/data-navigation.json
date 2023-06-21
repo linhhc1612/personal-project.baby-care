@@ -1,0 +1,103 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "title": "Trang chủ",
+            "path": "/"
+        },
+        {
+            "id": 2,
+            "title": "Sản phẩm",
+            "path": "/product-page",
+            "children": [
+                {
+                    "id": 1,
+                    "title": "Sản phẩm nổi bật",
+                    "path": "/product-page/@outstanding"
+                },
+                {
+                    "id": 2,
+                    "title": "Sản phẩm khuyến mãi",
+                    "path": "/product-page/@promotion"
+                },
+                {
+                    "id": 3,
+                    "title": "Túi xách",
+                    "path": "/product-page/@hand-bag"
+                },
+                {
+                    "id": 4,
+                    "title": "Mũ, nón",
+                    "path": "/product-page/@hat"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Tin tức",
+            "path": "/news-page"
+        },
+        {
+            "id": 4,
+            "title": "Sản phẩm yêu thích",
+            "path": "/favorite-page"
+        },
+        {
+            "id": 5,
+            "title": "Liên hệ",
+            "path": "/contact-page"
+        },
+        {
+            "id": 6,
+            "title": "Hệ thống cửa hàng",
+            "path": "/store-page"
+        },
+        {
+            "id": 7,
+            "title": "Tủ đồ của bé",
+            "path": "/wardrobe-page",
+            "children": [
+                {
+                    "id": 1,
+                    "title": "Đầm bé gái",
+                    "path": "/wardrobe-page/@dress"
+                },
+                {
+                    "id": 2,
+                    "title": "Bộ bé gái",
+                    "path": "/wardrobe-page/@set-girl"
+                },
+                {
+                    "id": 3,
+                    "title": "Áo bé gái",
+                    "path": "/wardrobe-page/@shirt-girl"
+                },
+                {
+                    "id": 4,
+                    "title": "Bộ bé trai",
+                    "path": "/wardrobe-page/@set-boy"
+                },
+                {
+                    "id": 5,
+                    "title": "Quần bé trai",
+                    "path": "/wardrobe-page/@trousers-boy"
+                },
+                {
+                    "id": 6,
+                    "title": "Áo bé trai",
+                    "path": "/wardrobe-page/@shirt-boy"
+                },
+                {
+                    "id": 7,
+                    "title": "Quần bé gái",
+                    "path": "/wardrobe-page/@trousers-girl"
+                },
+                {
+                    "id": 8,
+                    "title": "Giầy dép",
+                    "path": "/wardrobe-page/@shoes"
+                }
+            ]
+        }
+    ]
+}
