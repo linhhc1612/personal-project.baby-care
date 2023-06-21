@@ -11,7 +11,7 @@ function DefaultLayout({ children }) {
     return (
         <Container fluid>
             <Header />
-            <div className={cx('row px-5')}>{children}</div>
+            {children}
             <Footer />
         </Container>
     );

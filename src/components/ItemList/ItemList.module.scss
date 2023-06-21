@@ -7,9 +7,6 @@
     white-space: nowrap;
     transition: all 0.5s;
 }
-.click {
-    margin-left: -40px;
-}
 
 .nav-item {
     display: inline-flex;
@@ -116,4 +113,8 @@
             display: block;
         }
     }
+}
+
+.click {
+    margin-left: calc(100% + -750px);
 }

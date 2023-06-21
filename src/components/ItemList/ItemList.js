@@ -11,6 +11,9 @@ function ItemList({ children, className }) {
     return <div className={classes}>{children}</div>;
 }
 
-ItemList.propTypes = { children: PropTypes.node.isRequired, className: PropTypes.string };
+ItemList.propTypes = {
+    children: PropTypes.node.isRequired,
+    className: PropTypes.string,
+};
 
 export default ItemList;
