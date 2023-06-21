@@ -1,0 +1,144 @@
+.system-store {
+    background-image: url('../../../assets/upload/bgstore.jpg');
+    background-attachment: scroll;
+    background-size: cover;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    .inner {
+        padding: 60px 0;
+
+        .bg-in {
+            border: 2px dashed var(--main-color);
+            padding: 20px;
+            color: #333;
+            box-shadow: 0 0 1px 10px #fff;
+            border-radius: 6px;
+            font-size: 1.8rem;
+
+            h2 {
+                font-size: 2rem;
+            }
+
+            .description {
+                font-size: 1.6rem;
+
+                .path-to-store {
+                    &:hover {
+                        text-decoration: underline;
+                        color: var(--main-color);
+                    }
+                }
+            }
+        }
+    }
+}
+
+.footer {
+    .logo {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .first-h4 {
+        font-family: var(--font-title);
+        font-size: 2rem;
+    }
+
+    .description-line {
+        font-size: 1.6rem;
+
+        span {
+            font-weight: bold;
+            display: inline;
+        }
+        p {
+            display: inline;
+        }
+    }
+    .last-h4 {
+        margin-top: 20px;
+    }
+
+    .social {
+        .social-button {
+            display: inline-block;
+            margin-right: 10px;
+        }
+    }
+
+    .title-menu {
+        font-family: var(--font-title);
+        font-size: 2rem;
+        position: relative;
+    }
+
+    .list-menu {
+        .li-menu {
+            margin: 0 0 13px;
+            font-size: 1.6rem;
+        }
+    }
+
+    .download-app {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: flex;
+
+        a {
+            padding-right: 10px;
+
+            img {
+                border: solid 1px #ebebeb;
+            }
+        }
+    }
+
+    .payment {
+        margin-top: 20px;
+    }
+
+    .inner {
+        padding-top: 20px;
+        border-top: solid 1px #ebebeb;
+        margin-top: 10px;
+        padding-bottom: 15px;
+    }
+}
+
+// Responsive
+@media (max-width: 767px) {
+    .title-menu {
+        &::after {
+            content: '';
+            position: absolute;
+            right: 0;
+            top: 10px;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 7px 5px 0 5px;
+            border-color: #000000 transparent transparent transparent;
+            transition: all 0.5s;
+        }
+
+        &.active {
+            color: var(--main-color);
+
+            &::after {
+                transform: rotate(180deg);
+                border-color: var(--main-color) transparent transparent transparent;
+            }
+        }
+    }
+
+    .content {
+        display: none;
+        transition: all 0.5s;
+
+        &.active {
+            display: block;
+            transition: all 0.5s;
+        }
+    }
+}

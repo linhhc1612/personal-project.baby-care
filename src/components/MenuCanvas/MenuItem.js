@@ -1,6 +1,7 @@
 import classNames from 'classnames/bind';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
+import PropTypes from 'prop-types';
 
 import styles from './MenuCanvas.module.scss';
 import * as Icons from '~/components/Icons';
@@ -41,5 +42,9 @@ function MenuItem({ data }) {
         </>
     );
 }
+
+MenuItem.propTypes = {
+    data: PropTypes.object.isRequired,
+};
 
 export default MenuItem;

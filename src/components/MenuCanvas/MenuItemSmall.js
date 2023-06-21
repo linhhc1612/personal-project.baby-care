@@ -1,5 +1,6 @@
 import classNames from 'classnames/bind';
 import { Link } from 'react-router-dom';
+import PropTypes from 'prop-types';
 
 import styles from './MenuCanvas.module.scss';
 
@@ -16,5 +17,9 @@ function MenuItemSmall({ data }) {
         </>
     );
 }
+
+MenuItemSmall.propTypes = {
+    data: PropTypes.object.isRequired,
+};
 
 export default MenuItemSmall;
