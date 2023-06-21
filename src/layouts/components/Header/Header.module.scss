@@ -43,6 +43,60 @@
     }
 }
 
+.child-cart-mobile {
+    .btn-bars {
+        width: 4rem;
+        height: 4rem;
+        float: left;
+        margin: 4px 0 0 8px;
+        background-color: transparent;
+    }
+}
+
+.wrapper {
+    max-width: 260px;
+    max-height: 675px;
+    overflow-y: auto;
+
+    .bottom {
+        padding: 30px 10px 10px;
+        background: #f6f6f6;
+
+        .bottom-item {
+            width: 100%;
+            margin-bottom: 15px;
+            padding-left: 0;
+            border-right: 0;
+            font-size: 14px;
+            line-height: 20px;
+
+            .icon {
+                width: 35px;
+                height: 35px;
+                border-radius: 50%;
+                line-height: 30px;
+                font-size: 18px;
+                border: dashed 1px var(--main-color);
+                background-color: #fff;
+                text-align: center;
+
+                svg {
+                    width: 15px;
+                    height: 19px;
+                }
+            }
+
+            .info {
+                width: auto;
+                margin: 0;
+                padding-left: 11px;
+                color: #4c4b6c;
+                line-height: 20px;
+            }
+        }
+    }
+}
+
 // Header Bottom
 .navigation {
     height: 5.2rem;
@@ -73,52 +127,26 @@
     }
 }
 
-.form-search {
-    min-width: 230px;
-    height: 5.2rem;
-    border-radius: 5px;
-    position: relative;
-
-    input {
-        width: 100%;
-        height: 4rem;
-        min-height: 4rem;
-        line-height: 4rem;
-        padding: 0 60px 0 10px;
-        overflow: hidden;
-        background: #fff;
-        border-radius: 25px !important;
-        color: #999ea1;
-        border: solid 1px #fff;
+// Responsive
+@media (max-width: 765px) {
+    .logo {
+        justify-content: center;
+        height: 100%;
     }
 
-    .icon {
+    .btn-bars {
+        top: -62px;
         position: absolute;
-        right: 10px;
-        top: 50%;
-        transform: translateY(-50%);
+        left: 0;
+    }
+
+    .wrapper {
+        max-width: 330px;
     }
 }
 
-.cart-wrapper {
-    position: relative;
-    height: 4rem;
-    width: 4rem;
-    border: solid 1px #fff;
-    border-radius: 4rem;
-    background: #fff;
-    cursor: pointer;
-
-    .bage {
-        position: absolute;
-        top: -5px;
-        left: 27px;
-        background: var(--main-color);
-        color: #fff;
-        height: 1.5rem;
-        width: 1.5rem;
-        font-size: 1.1rem;
-        text-align: center;
-        border-radius: 3px;
+@media (max-width: 992px) {
+    .child-container {
+        padding: 20px 15px 10px;
     }
 }

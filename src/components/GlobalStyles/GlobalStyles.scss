@@ -29,17 +29,19 @@ html {
 }
 
 html *::-webkit-scrollbar {
-    width: 8px;
-    border-radius: 0;
+    width: 5px;
+    background-color: #fff;
 }
 html *::-webkit-scrollbar-thumb {
-    border-radius: 4px;
-    background-color: rgba(22, 24, 35, 0.06);
+    border-radius: 10px;
+    background-color: #919aa8;
+    width: 5px;
 }
 
 html *::-webkit-scrollbar-track {
-    border-radius: 0;
-    background-color: rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    background-color: #fff;
+    width: 5px;
 }
 
 body {
@@ -93,11 +95,47 @@ svg {
     }
 }
 
-// Custom css
-.px-web {
-    padding-left: 20rem;
-    padding-right: 20rem;
+// Custom Off Canvas
+.offcanvas-body {
+    padding: 0;
 }
+
+// Custom css
+.container-app {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 576px) {
+    .container-app {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container-app {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container-app {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container-app {
+        max-width: 1140px;
+    }
+}
+
+// @media (min-width: 1400px) {
+//     .container-app {
+//         max-width: 1320px;
+//     }
+// }
 
 .text-main {
     color: var(--main-color);
