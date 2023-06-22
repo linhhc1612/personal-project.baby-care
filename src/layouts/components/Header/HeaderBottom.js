@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import classNames from 'classnames/bind';
-import axios from 'axios';
+import * as request from '~/untils/httpRequest';
 
 import styles from './Header.module.scss';
 import * as Icons from '~/components/Icons';
@@ -14,14 +14,15 @@ function HeaderBottom() {
     const [navigation, setNavigation] = useState([]);
 
     useEffect(() => {
-        const fetchApi = () => {
-            axios
-                .get('/db/data-navigation.json')
-                .then((res) => {
-                    setNavigation(res.data.data);
-                })
-                .then((error) => console.log(error));
+        const fetchApi = async () => {
+            try {
+                const response = await request.get('db/data-navigation.json');
+                return setNavigation(response.data);
+            } catch (error) {
+                console.log(error);
+            }
         };
+
         fetchApi();
     }, []);
 

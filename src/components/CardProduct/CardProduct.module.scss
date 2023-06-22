@@ -150,27 +150,6 @@
         bottom: 12px;
         visibility: visible;
         z-index: 1;
-
-        .btn-buy {
-            display: flex;
-            flex-flow: row nowrap;
-            background: #fff;
-            border: 1px dashed var(--main-color);
-            border-radius: 5px;
-            width: 100%;
-            text-align: center;
-            color: var(--main-color);
-            align-items: center;
-            justify-content: center;
-            height: 40px;
-            line-height: 38px;
-
-            &:hover {
-                cursor: pointer;
-                background: var(--main-color);
-                color: #fff;
-            }
-        }
     }
 
     &:hover {

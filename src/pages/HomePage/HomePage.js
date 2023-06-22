@@ -2,20 +2,52 @@
 import classNames from 'classnames/bind';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
+import 'swiper/scss/navigation';
+import { Navigation } from 'swiper';
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import axios from 'axios';
+import * as request from '~/untils/httpRequest';
 
 import styles from './HomePage.module.scss';
 import CardProduct from '~/components/CardProduct';
+import CategorySmall from './components/CategotySmall';
 import imgSlider from '~/assets/upload/slider_1.jpg';
+import Button from '~/components/Button';
 
 const cx = classNames.bind(styles);
 
 function HomePage() {
     const [timeLeft, setTimeLeft] = useState({});
     const [productsFlash, setProductsFlash] = useState([]);
+    const [categoryNew, setCategoryNew] = useState([]);
     const timerComponents = [];
+
+    // Call API
+    useEffect(() => {
+        // API Product Flash sale
+        const fetchApiProductFlash = async () => {
+            try {
+                const response = await request.get('db/data-product.json');
+                return setProductsFlash(response.data);
+            } catch (error) {
+                console.log(error);
+            }
+        };
+
+        fetchApiProductFlash();
+
+        // API Category in new
+        const fetchApiCategoryNew = async () => {
+            try {
+                const response = await request.get('db/data-category.json');
+                return setCategoryNew(response.data);
+            } catch (error) {
+                console.log(error);
+            }
+        };
+
+        fetchApiCategoryNew();
+    }, []);
 
     Object.keys(timeLeft).forEach((interval, index) => {
         const index2 = index + 999;
@@ -34,6 +66,7 @@ function HomePage() {
         );
     });
 
+    // Count down
     useEffect(() => {
         const timer = setTimeout(() => {
             setTimeLeft(calculateTimeLeft());
@@ -41,17 +74,6 @@ function HomePage() {
 
         return () => clearTimeout(timer);
     });
-
-    useEffect(() => {
-        const fetchApiProductFlash = () => {
-            axios
-                .get('/db/data-product.json')
-                .then((res) => setProductsFlash(res.data.data))
-                .then((error) => console.log(error));
-        };
-
-        fetchApiProductFlash();
-    }, []);
 
     const calculateTimeLeft = () => {
         let year = new Date().getFullYear();
@@ -114,6 +136,8 @@ function HomePage() {
                         <Swiper
                             spaceBetween={20}
                             slidesPerView={5}
+                            navigation={true}
+                            modules={[Navigation]}
                             breakpoints={{
                                 360: {
                                     slidesPerView: 1.5,
@@ -140,7 +164,15 @@ function HomePage() {
             </div>
             {/* Product Outstanding */}
             <div className={cx('row container-app')}>
-                <div className={cx('', 'section-outstanding')}>Product Outstanding</div>
+                <div className={cx('', 'section-outstanding')}>
+                    <div className={cx('d-flex', 'block-title')}>
+                        <Button to={'product-page' + `\\@outstanding`} primary rounded className={cx('btn-category')}>
+                            <span className={cx('fw-bold')}>Mẫu mới về</span>
+                        </Button>
+
+                        <CategorySmall data={categoryNew} />
+                    </div>
+                </div>
             </div>
             {/* Banner */}
             <div className={cx('row container-app')}>

@@ -3,7 +3,7 @@
         {
             "id": 1,
             "name_product": "Bồ đồ bé trai in hình xe cẩu",
-            "image_product": "product(1).jpg",
+            "image_product": "https://bizweb.dktcdn.net/100/459/160/products/c57efdb033e91bbf4bc459b715a81972-jpeg.jpg?v=1657182141843",
             "price_product": 90000,
             "sold": 300,
             "length_sale": 90,
@@ -14,7 +14,7 @@
         {
             "id": 2,
             "name_product": "Bồ đồ bé trai chất liệu mát lạnh",
-            "image_product": "product(2).jpg",
+            "image_product": "https://bizweb.dktcdn.net/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073000",
             "price_product": 90000,
             "sold": 300,
             "length_sale": 90,
@@ -25,7 +25,7 @@
         {
             "id": 3,
             "name_product": "Áo dài tay Ragland cho bé trai và bé gái",
-            "image_product": "product(3).jpg",
+            "image_product": "https://bizweb.dktcdn.net/100/459/160/products/2e5d44ef397d418c1b904128374e4861-jpeg.jpg?v=1657181943000",
             "price_product": 90000,
             "sold": 300,
             "length_sale": 90,
@@ -36,7 +36,7 @@
         {
             "id": 4,
             "name_product": "Áo thun bé gái cotton hình con voi",
-            "image_product": "product(4).jpg",
+            "image_product": "https://bizweb.dktcdn.net/100/459/160/products/8224f1f46b79a6bd203f60e9eac93f8d-jpeg.jpg?v=1657181802817",
             "price_product": 80000,
             "sold": 300,
             "length_sale": 90,
@@ -47,7 +47,7 @@
         {
             "id": 5,
             "name_product": "Áo thun cộc tay in hình hoạt hình đáng yêu",
-            "image_product": "product(5).jpg",
+            "image_product": "https://bizweb.dktcdn.net/100/459/160/products/2f77c20b2d84631c4b09ef7110581d17-jpeg.jpg?v=1657181534657",
             "price_product": 90000,
             "sold": 300,
             "length_sale": 90,
@@ -58,7 +58,7 @@
         {
             "id": 6,
             "name_product": "Áo thun bé gái, hươu, mèo, gấu",
-            "image_product": "product(6).jpg",
+            "image_product": "https://bizweb.dktcdn.net/100/459/160/products/5014993937a5931fe1bd208c55dc8610-jpeg.jpg?v=1657181370953",
             "price_product": 90000,
             "sold": 300,
             "length_sale": 90,
@@ -69,7 +69,7 @@
         {
             "id": 7,
             "name_product": "DMQ276 Quần đùi Dokma",
-            "image_product": "product(7).jpg",
+            "image_product": "https://bizweb.dktcdn.net/100/459/160/products/af2e57b873e72da4f87e9d50fd92ba4e-jpeg.jpg?v=1657181237600",
             "price_product": 120000,
             "sold": 300,
             "length_sale": 90,

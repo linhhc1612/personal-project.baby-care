@@ -2,7 +2,7 @@ import classNames from 'classnames/bind';
 import { Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import Offcanvas from 'react-bootstrap/Offcanvas';
-import axios from 'axios';
+import * as request from '~/untils/httpRequest';
 
 import styles from './Header.module.scss';
 import configs from '~/configs';
@@ -19,14 +19,15 @@ function HeaderMiddle() {
     const [navigation, setNavigation] = useState([]);
 
     useEffect(() => {
-        const fetchApi = () => {
-            axios
-                .get('/db/data-navigation.json')
-                .then((res) => {
-                    setNavigation(res.data.data);
-                })
-                .then((error) => console.log(error));
+        const fetchApi = async () => {
+            try {
+                const response = await request.get('db/data-navigation.json');
+                return setNavigation(response.data);
+            } catch (error) {
+                console.log(error);
+            }
         };
+
         fetchApi();
     }, []);
 

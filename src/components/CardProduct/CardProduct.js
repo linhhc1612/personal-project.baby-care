@@ -1,50 +1,76 @@
+import { useEffect, useState } from 'react';
 import classNames from 'classnames/bind';
+import { Link } from 'react-router-dom';
+import PropTypes from 'prop-types';
 
 import styles from './CardProduct.module.scss';
-import { Link } from 'react-router-dom';
+import Button from '~/components/Button';
 
 const cx = classNames.bind(styles);
 
 function CardProduct({ data }) {
+    const [formatPrice, setFormatPrice] = useState(data.price_product);
+    const [formatPriceSale, setFormatPriceSale] = useState(data.price_product - (data.price_product * data.sale) / 100);
+
+    useEffect(() => {
+        const format = () => {
+            const formatPri = new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(
+                formatPrice,
+            );
+            const formatPriSale = new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(
+                formatPriceSale,
+            );
+
+            setFormatPrice(formatPri);
+            setFormatPriceSale(formatPriSale);
+        };
+
+        format();
+    }, []);
+
     return (
         <>
             <div className={cx('item-product-main')}>
-                <Link to={'/product-detail-page/' + `@tensp`} className={cx('image-thumb')}>
-                    <span className={cx('label-sale')}>6%</span>
-                    <img
-                        width={199}
-                        height={199}
-                        src="https://bizweb.dktcdn.net/100/459/160/products/c57efdb033e91bbf4bc459b715a81972-jpeg.jpg?v=1657182141843"
-                        alt=""
-                    />
+                <Link to={'/product-detail-page/' + `@${data.name_product}`} className={cx('image-thumb')}>
+                    <span className={cx('label-sale')}>{data.sale}%</span>
+                    <img width={199} height={199} src={data.image_product} alt={data.name_product} />
                 </Link>
 
                 <div className={cx('info-product')}>
                     <h3 className={cx('product-name')}>
-                        <Link to="">Bồ đồ bé trai in hình xe cẩu</Link>
+                        <Link to={'/product-detail-page/' + `@${data.name_product}`}>{data.name_product}</Link>
                     </h3>
                     <div className={cx('price-box')}>
-                        <span className={cx('price')}>85.000₫</span>
+                        <span className={cx('price')}>{formatPriceSale}</span>
                         <span className={cx('compare-price')}>
-                            Giá gốc: <span>90.000₫</span>
+                            Giá gốc: <span>{formatPrice}</span>
                         </span>
                     </div>
                     <div className={cx('quantity-sale')}>
                         <div className={cx('title-count')}>
-                            <b>300</b> sản phẩm đã bán
+                            <b>{data.sold}</b> sản phẩm đã bán
                         </div>
                         <div className={cx('bar-process')}>
-                            <div className={cx('count-length-sale')} style={{ width: '90%' }}></div>
+                            <div
+                                className={cx('count-length-sale')}
+                                style={{ width: `${data.length_sale}` + '%' }}
+                            ></div>
                         </div>
                     </div>
                 </div>
 
                 <div className={cx('action-card')}>
-                    <button className={cx('btn-buy')}>Cho vào giỏ</button>
+                    <Button outline rounded>
+                        {data.quantity >= 100 ? 'Cho vào giỏ' : 'Lựa chọn'}
+                    </Button>
                 </div>
             </div>
         </>
     );
 }
+
+CardProduct.propTypes = {
+    data: PropTypes.object.isRequired,
+};
 
 export default CardProduct;

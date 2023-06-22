@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "image": "https://bizweb.dktcdn.net/thumb/thumb/100/459/160/collections/dam-be-gai-80.png?v=1657182649087",
+            "title": "Đầm bé gái",
+            "new": true
+        },
+        {
+            "id": 2,
+            "image": "https://bizweb.dktcdn.net/thumb/thumb/100/459/160/collections/bo-be-gai-80.png?v=1657182638380",
+            "title": "Bộ bé gái",
+            "new": true
+        },
+        {
+            "id": 3,
+            "image": "https://bizweb.dktcdn.net/thumb/thumb/100/459/160/collections/ao-be-gai-80.png?v=1657182670947",
+            "title": "Áo bé gái",
+            "new": true
+        },
+        {
+            "id": 4,
+            "image": "https://bizweb.dktcdn.net/thumb/thumb/100/459/160/collections/bo-be-trai-80.png?v=1657182685220",
+            "title": "Bộ bé trai",
+            "new": true
+        },
+        {
+            "id": 5,
+            "image": "https://bizweb.dktcdn.net/thumb/thumb/100/459/160/collections/quan-be-trai-80.png?v=1657182701517",
+            "title": "Quần bé trai",
+            "new": true
+        }
+    ]
+}
