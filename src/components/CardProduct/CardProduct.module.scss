@@ -1,0 +1,183 @@
+.item-product-main {
+    position: relative;
+    margin-bottom: 20px;
+    overflow: hidden;
+    border: 1px solid #eee;
+    border-radius: 12px;
+    background: #fff;
+    transition: all 400ms ease;
+
+    .image-thumb {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        z-index: 0;
+        overflow: hidden;
+        height: 211px;
+        border-radius: 12px;
+
+        .label-sale {
+            box-shadow: 0 5px 5px #c1c1c1;
+            background-color: var(--main-color);
+            color: #ffffff;
+            font-size: 12px;
+            border-radius: 3px;
+            font-family: var(--font-family);
+            line-height: 18px;
+            width: 34px;
+            height: 18px;
+            top: 6px;
+            right: 2px;
+            text-align: center;
+            position: absolute;
+            z-index: 99;
+
+            &::before {
+                content: '';
+                position: absolute;
+                bottom: -7px;
+                left: 8px;
+                border-left: 5px solid;
+                border-bottom: 7px solid transparent;
+                box-shadow: -3px 2px 3px #c1c1c1;
+                border-left-color: var(--main-color);
+            }
+        }
+
+        img {
+            min-height: unset;
+            width: auto !important;
+            height: unset !important;
+
+            max-width: 100%;
+            max-height: 100%;
+            // width: auto !important;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            transition: all 0.5s;
+        }
+    }
+
+    .info-product {
+        background: rgba(255, 255, 255, 0.8);
+        transition: transform 400ms ease;
+        padding: 10px;
+        transform: translateY(-45px);
+
+        .product-name {
+            font-family: var(--font-family);
+            text-overflow: ellipsis;
+            overflow: hidden;
+            color: var(--text-color);
+            text-decoration: none;
+            font-size: 15px;
+            font-weight: 400;
+            margin: 5px 0;
+            line-height: 1.3;
+            padding: 10px 0 0;
+            white-space: nowrap;
+        }
+
+        .price-box {
+            color: var(--price);
+            line-height: 23px;
+            display: block;
+            font-size: 1.4rem;
+            font-weight: 700;
+            margin-right: 0px;
+            margin-bottom: 0;
+            height: 50px;
+            padding: 0;
+            font-family: var(--font-base);
+
+            .compare-price {
+                font-size: 1.4rem;
+                color: var(--main-color);
+                line-height: 17px;
+                font-weight: 300;
+                display: block;
+
+                span {
+                    text-decoration: line-through;
+                    color: #818181;
+                    font-weight: bold;
+                }
+            }
+        }
+
+        .quantity-sale {
+            padding: 0 0px 10px;
+
+            .title-count {
+                color: var(--text-color);
+                font-size: 1.2rem;
+            }
+
+            .bar-process {
+                display: block;
+                width: 100%;
+                height: 10px;
+                background: #ebebeb;
+                margin-top: 2px;
+                border-radius: 9999px;
+                position: relative;
+                overflow: hidden;
+
+                .count-length-sale {
+                    width: 0%;
+                    height: 100%;
+                    background-color: var(--main-color);
+                    border-radius: 99px 0 0 99px;
+                    position: absolute;
+                    top: 0;
+                    z-index: 1;
+                }
+            }
+        }
+    }
+
+    .action-card {
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        padding: 0 10px;
+        transition: all 400ms ease;
+        bottom: 12px;
+        visibility: visible;
+        z-index: 1;
+
+        .btn-buy {
+            display: flex;
+            flex-flow: row nowrap;
+            background: #fff;
+            border: 1px dashed var(--main-color);
+            border-radius: 5px;
+            width: 100%;
+            text-align: center;
+            color: var(--main-color);
+            align-items: center;
+            justify-content: center;
+            height: 40px;
+            line-height: 38px;
+
+            &:hover {
+                cursor: pointer;
+                background: var(--main-color);
+                color: #fff;
+            }
+        }
+    }
+
+    &:hover {
+        .image-thumb {
+            img {
+                transform: scale(1.1) !important;
+            }
+        }
+    }
+}

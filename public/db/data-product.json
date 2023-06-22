@@ -1,0 +1,81 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "name_product": "Bồ đồ bé trai in hình xe cẩu",
+            "image_product": "product(1).jpg",
+            "price_product": 90000,
+            "sold": 300,
+            "length_sale": 90,
+            "sale": 6,
+            "quantity": 100,
+            "flash": true
+        },
+        {
+            "id": 2,
+            "name_product": "Bồ đồ bé trai chất liệu mát lạnh",
+            "image_product": "product(2).jpg",
+            "price_product": 90000,
+            "sold": 300,
+            "length_sale": 90,
+            "sale": 6,
+            "quantity": 100,
+            "flash": true
+        },
+        {
+            "id": 3,
+            "name_product": "Áo dài tay Ragland cho bé trai và bé gái",
+            "image_product": "product(3).jpg",
+            "price_product": 90000,
+            "sold": 300,
+            "length_sale": 90,
+            "sale": 6,
+            "quantity": 100,
+            "flash": true
+        },
+        {
+            "id": 4,
+            "name_product": "Áo thun bé gái cotton hình con voi",
+            "image_product": "product(4).jpg",
+            "price_product": 80000,
+            "sold": 300,
+            "length_sale": 90,
+            "sale": 44,
+            "quantity": 100,
+            "flash": true
+        },
+        {
+            "id": 5,
+            "name_product": "Áo thun cộc tay in hình hoạt hình đáng yêu",
+            "image_product": "product(5).jpg",
+            "price_product": 90000,
+            "sold": 300,
+            "length_sale": 90,
+            "sale": 28,
+            "quantity": 100,
+            "flash": true
+        },
+        {
+            "id": 6,
+            "name_product": "Áo thun bé gái, hươu, mèo, gấu",
+            "image_product": "product(6).jpg",
+            "price_product": 90000,
+            "sold": 300,
+            "length_sale": 90,
+            "sale": 28,
+            "quantity": 100,
+            "flash": true
+        },
+        {
+            "id": 7,
+            "name_product": "DMQ276 Quần đùi Dokma",
+            "image_product": "product(7).jpg",
+            "price_product": 120000,
+            "sold": 300,
+            "length_sale": 90,
+            "sale": 4,
+            "quantity": 100,
+            "flash": true
+        }
+    ]
+}

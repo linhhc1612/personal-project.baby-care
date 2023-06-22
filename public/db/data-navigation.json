@@ -3,99 +3,99 @@
         {
             "id": 1,
             "title": "Trang chủ",
-            "path": "/"
+            "key": ""
         },
         {
             "id": 2,
             "title": "Sản phẩm",
-            "path": "/product-page",
+            "key": "product-page",
             "children": [
                 {
                     "id": 1,
                     "title": "Sản phẩm nổi bật",
-                    "path": "/product-page/@outstanding"
+                    "key": "@outstanding"
                 },
                 {
                     "id": 2,
                     "title": "Sản phẩm khuyến mãi",
-                    "path": "/product-page/@promotion"
+                    "key": "@promotion"
                 },
                 {
                     "id": 3,
                     "title": "Túi xách",
-                    "path": "/product-page/@hand-bag"
+                    "key": "@hand-bag"
                 },
                 {
                     "id": 4,
                     "title": "Mũ, nón",
-                    "path": "/product-page/@hat"
+                    "key": "@hat"
                 }
             ]
         },
         {
             "id": 3,
             "title": "Tin tức",
-            "path": "/news-page"
+            "key": "news-page"
         },
         {
             "id": 4,
             "title": "Sản phẩm yêu thích",
-            "path": "/favorite-page"
+            "key": "favorite-page"
         },
         {
             "id": 5,
             "title": "Liên hệ",
-            "path": "/contact-page"
+            "key": "contact-page"
         },
         {
             "id": 6,
             "title": "Hệ thống cửa hàng",
-            "path": "/store-page"
+            "key": "store-page"
         },
         {
             "id": 7,
             "title": "Tủ đồ của bé",
-            "path": "/wardrobe-page",
+            "key": "wardrobe-page",
             "children": [
                 {
                     "id": 1,
                     "title": "Đầm bé gái",
-                    "path": "/wardrobe-page/@dress"
+                    "key": "@dress"
                 },
                 {
                     "id": 2,
                     "title": "Bộ bé gái",
-                    "path": "/wardrobe-page/@set-girl"
+                    "key": "@set-girl"
                 },
                 {
                     "id": 3,
                     "title": "Áo bé gái",
-                    "path": "/wardrobe-page/@shirt-girl"
+                    "key": "@shirt-girl"
                 },
                 {
                     "id": 4,
                     "title": "Bộ bé trai",
-                    "path": "/wardrobe-page/@set-boy"
+                    "key": "@set-boy"
                 },
                 {
                     "id": 5,
                     "title": "Quần bé trai",
-                    "path": "/wardrobe-page/@trousers-boy"
+                    "key": "@trousers-boy"
                 },
                 {
                     "id": 6,
                     "title": "Áo bé trai",
-                    "path": "/wardrobe-page/@shirt-boy"
+                    "key": "@shirt-boy"
                 },
                 {
                     "id": 7,
                     "title": "Quần bé gái",
-                    "path": "/wardrobe-page/@trousers-girl"
+                    "key": "@trousers-girl"
                 },
                 {
                     "id": 8,
                     "title": "Giầy dép",
-                    "path": "/wardrobe-page/@shoes"
+                    "key": "@shoes"
                 }
             ]
         }

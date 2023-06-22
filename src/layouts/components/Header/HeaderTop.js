@@ -2,6 +2,7 @@
 import classNames from 'classnames/bind';
 import { Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
+import * as request from '~/untils/httpRequest';
 import axios from 'axios';
 
 import styles from './Header.module.scss';
@@ -11,15 +12,24 @@ import * as Icons from '~/components/Icons';
 const cx = classNames.bind(styles);
 
 function HeaderTop() {
-    const [marquees, setMarquees] = useState([]);
+    const [marquees, setMarquees] = useState([{}]);
 
     useEffect(() => {
-        const fetchApiMarquee = () => {
-            axios
-                .get('/db/data-marquee.json')
-                .then((res) => setMarquees(res.data.data))
-                .then((error) => console.log(error));
+        const fetchApiMarquee = async (query, type) => {
+            try {
+                const response = await request.get('db/data-marquee.json');
+                console.log(response.data);
+                return response.data;
+            } catch (error) {
+                console.log(error);
+            }
         };
+        // const fetchApiMarquee = () => {
+        //     axios
+        //         .get('/db/data-marquee.json')
+        //         .then((res) => setMarquees(res.data.data))
+        //         .then((error) => console.log(error));
+        // };
         fetchApiMarquee();
     }, []);
 
@@ -40,8 +50,8 @@ function HeaderTop() {
                     </div>
                     <div className={cx('col-lg-3 col-md-12 col-7 order-lg-2 order-md-3 order-2')}>
                         <marquee>
-                            {marquees.map((result) => (
-                                <span className={cx('pe-4')} key={result.id}>
+                            {marquees.map((result, index) => (
+                                <span className={cx('pe-4')} key={index}>
                                     {result.title}
                                 </span>
                             ))}
