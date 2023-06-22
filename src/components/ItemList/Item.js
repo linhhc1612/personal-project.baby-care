@@ -13,20 +13,22 @@ function Item({ data }) {
         <>
             {!!data.children ? (
                 <>
-                    {' '}
                     <button className={cx('nav-item')}>
                         <span className={cx('nav-link')}>{data.title}</span>
                         <Icons.DownIcon className={cx('ms-1 text-white')} />
                         <div className={cx('item-small')}>
                             {data.children.map((result) => (
-                                <ItemSmall key={result.id} data={result} />
+                                <ItemSmall key={result.id} data={result} checkKey={data.key} />
                             ))}
                         </div>
                     </button>
                 </>
             ) : (
                 <>
-                    <NavLink to={data.path} className={(nav) => cx('nav-item', { active: nav.isActive })}>
+                    <NavLink
+                        to={data.key === '' ? '/' : '/' + data.key}
+                        className={(nav) => cx('nav-item', { active: nav.isActive })}
+                    >
                         <span className={cx('nav-link')}>{data.title}</span>{' '}
                     </NavLink>
                 </>

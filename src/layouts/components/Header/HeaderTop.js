@@ -2,7 +2,7 @@
 import classNames from 'classnames/bind';
 import { Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
-import axios from 'axios';
+import * as request from '~/untils/httpRequest';
 
 import styles from './Header.module.scss';
 import configs from '~/configs';
@@ -14,12 +14,15 @@ function HeaderTop() {
     const [marquees, setMarquees] = useState([]);
 
     useEffect(() => {
-        const fetchApiMarquee = () => {
-            axios
-                .get('/db/data-marquee.json')
-                .then((res) => setMarquees(res.data.data))
-                .then((error) => console.log(error));
+        const fetchApiMarquee = async () => {
+            try {
+                const response = await request.get('db/data-marquee.json');
+                return setMarquees(response.data);
+            } catch (error) {
+                console.log(error);
+            }
         };
+
         fetchApiMarquee();
     }, []);
 

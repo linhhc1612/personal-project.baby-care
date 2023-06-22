@@ -10,7 +10,7 @@ const routes = {
     loginPage: '/login-page',
     signUpPage: '/sign-up-page',
     forgotPage: '/forgot-page',
-    productDetailPage: '/product-detail-page',
+    productDetailPage: '/product-detail-page/:id',
     newsDetailPage: '/newsDetail-page',
     searchPage: '/search-page',
 };

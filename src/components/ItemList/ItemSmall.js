@@ -6,9 +6,12 @@ import styles from './ItemList.module.scss';
 
 const cx = classNames.bind(styles);
 
-function ItemSmall({ data }) {
+function ItemSmall({ data, checkKey }) {
     return (
-        <Link to={data.path} className={cx('nav-link-small')}>
+        <Link
+            to={checkKey === 'product-page' ? '/product-page/' + data.key : '/wardrobe-page/' + data.key}
+            className={cx('nav-link-small')}
+        >
             {data.title}
         </Link>
     );
@@ -16,6 +19,7 @@ function ItemSmall({ data }) {
 
 ItemSmall.propTypes = {
     data: PropTypes.object.isRequired,
+    checkKey: PropTypes.string.isRequired,
 };
 
 export default ItemSmall;

@@ -1,13 +1,145 @@
 .section-slider {
     padding: 20px 15px;
+
+    .img-slider {
+        img {
+            border-radius: 7px;
+        }
+    }
 }
 
 .section-flash {
     margin-top: 25px;
+
+    .inner {
+        padding: 0px 10px 0px;
+        border: solid 2px red;
+        border-radius: 8px;
+        margin-bottom: 25px;
+        position: relative;
+        .title-sale {
+            display: inline-block;
+            position: relative;
+            top: -25px;
+            background: #fff;
+            padding: 0 15px;
+
+            .timer {
+                display: flex;
+                align-items: center;
+
+                .title {
+                    margin: 0 15px 0 0;
+                    font-family: var(--font-family);
+                    line-height: 50px;
+                    padding: 0;
+                    font-size: 3.2rem;
+                    font-weight: 500;
+
+                    a {
+                        color: var(--main-color);
+                        font-weight: 500;
+                    }
+                }
+
+                .count-down {
+                    color: var(--main-color);
+                    font-weight: bold;
+
+                    .time-in-day {
+                        display: inline-block;
+                        padding: 0 5px;
+                        height: 32px;
+                        border-radius: 4px;
+                        background: var(--main-color);
+                        color: #fff;
+                        line-height: 32px;
+                        font-weight: bold;
+                        margin: 0 5px;
+
+                        &:first-child {
+                            margin-left: 0;
+                        }
+                    }
+
+                    .dot {
+                        &:last-child {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 .section-outstanding {
     padding-top: 10px;
+
+    .block-title {
+        margin-bottom: 20px;
+
+        .btn-category {
+            width: 140px;
+            display: inline-block;
+            font-size: 1.8rem;
+            font-family: var(--font-family);
+            padding: 0 20px;
+            line-height: 40px;
+        }
+
+        .tab-list {
+            display: flex;
+            margin-bottom: 0;
+            overflow: hidden;
+            overflow-x: auto;
+            padding: 0;
+            margin-left: 50px;
+
+            .cate-item {
+                display: inline-flex;
+                justify-content: center;
+                align-items: center;
+                margin-left: 20px;
+                min-width: 130px;
+
+                .image {
+                    width: 35px;
+                    height: 35px;
+                    display: block;
+                    border-radius: 35px;
+                    overflow: hidden;
+
+                    img {
+                        max-height: 100%;
+                        transition: all 0.5s;
+                        width: auto;
+                        height: unset;
+                    }
+                }
+
+                .title-cate {
+                    font-size: 1.4rem;
+                    margin-bottom: 0;
+                    padding-left: 10px;
+
+                    a {
+                        &:hover {
+                            font-weight: 500;
+                        }
+                    }
+                }
+
+                &:hover {
+                    .image {
+                        img {
+                            transform: rotate(380deg);
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 .section-banner {
@@ -39,4 +171,22 @@
 
 .section-services {
     padding: 10px 10px 20px;
+}
+
+// Responsive
+@media (max-width: 767px) {
+    .title-sale {
+        left: 50%;
+        transform: translateX(-50%);
+
+        .timer {
+            flex-flow: column;
+            text-align: center;
+
+            .title {
+                font-size: 2.5rem;
+                margin: 0;
+            }
+        }
+    }
 }

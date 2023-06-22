@@ -30,17 +30,20 @@ html {
 
 html *::-webkit-scrollbar {
     width: 5px;
+    height: 5px;
     background-color: #fff;
 }
 html *::-webkit-scrollbar-thumb {
     border-radius: 10px;
     background-color: #919aa8;
+    height: 5px;
     width: 5px;
 }
 
 html *::-webkit-scrollbar-track {
     border-radius: 10px;
     background-color: #fff;
+    height: 5px;
     width: 5px;
 }
 
@@ -104,6 +107,36 @@ ul {
     padding: 0;
 }
 
+// Custom nav in Swiper
+.swiper-button-prev,
+.swiper-button-next {
+    z-index: 1;
+    top: 40%;
+    width: 25px;
+    height: 40px;
+    box-shadow: 0 1px 12px 0 rgba(0, 0, 0, 0.12);
+    background-blend-mode: difference;
+    background-size: 12px;
+    border-radius: 5px;
+    font-size: 0;
+    background: #fff;
+    background-image: none;
+}
+
+.swiper-button-prev {
+    &::after {
+        content: '<' !important;
+        font-size: 2rem !important;
+        font-weight: 900;
+    }
+}
+.swiper-button-next {
+    &::after {
+        content: '>' !important;
+        font-size: 2rem !important;
+        font-weight: 900;
+    }
+}
 // Custom css
 .container-app {
     width: 100%;
