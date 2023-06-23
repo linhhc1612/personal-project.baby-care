@@ -54,7 +54,7 @@
             max-height: 100%;
             // width: auto !important;
             position: absolute;
-            top: 0;
+            top: -10px;
             bottom: 0;
             left: 0;
             right: 0;
@@ -67,7 +67,11 @@
         background: rgba(255, 255, 255, 0.8);
         transition: transform 400ms ease;
         padding: 10px;
-        transform: translateY(-45px);
+        text-align: start;
+
+        &.flash {
+            transform: translateY(-45px);
+        }
 
         .product-name {
             font-family: var(--font-family);
@@ -143,13 +147,18 @@
 
     .action-card {
         position: absolute;
+        bottom: -60px;
         left: 0px;
         right: 0px;
         padding: 0 10px;
+        visibility: hidden;
         transition: all 400ms ease;
-        bottom: 12px;
-        visibility: visible;
-        z-index: 1;
+
+        &.flash {
+            bottom: 12px;
+            visibility: visible;
+            z-index: 1;
+        }
     }
 
     &:hover {
@@ -157,6 +166,16 @@
             img {
                 transform: scale(1.1) !important;
             }
+        }
+
+        .info-product {
+            transform: translateY(-45px);
+        }
+
+        .action-card {
+            bottom: 12px;
+            visibility: visible;
+            z-index: 1;
         }
     }
 }

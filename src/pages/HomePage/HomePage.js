@@ -1,25 +1,33 @@
 /* eslint-disable no-useless-concat */
+import 'https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js';
+import React, { useEffect, useState } from 'react';
 import classNames from 'classnames/bind';
+import { Link } from 'react-router-dom';
+import * as request from '~/untils/httpRequest';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/scss/navigation';
-import { Navigation } from 'swiper';
-import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
-import * as request from '~/untils/httpRequest';
+import 'swiper/css/grid';
+
+import { Navigation, Grid } from 'swiper';
 
 import styles from './HomePage.module.scss';
 import CardProduct from '~/components/CardProduct';
-import CategorySmall from './components/CategotySmall';
-import imgSlider from '~/assets/upload/slider_1.jpg';
+import CategoryList from './components/CategotyList';
 import Button from '~/components/Button';
+import imgSlider from '~/assets/upload/slider_1.jpg';
+import imgBanner from '~/assets/upload/bannerlarge.jpg';
+import imgCam1 from '~/assets/upload/bgcam_1.jpg';
+import imgCam2 from '~/assets/upload/bgcam_2.jpg';
 
 const cx = classNames.bind(styles);
 
 function HomePage() {
     const [timeLeft, setTimeLeft] = useState({});
-    const [productsFlash, setProductsFlash] = useState([]);
-    const [categoryNew, setCategoryNew] = useState([]);
+    const [arrCategory, setArrCategory] = useState([]);
+    const [arrProductFlash] = useState([]);
+    const [arrProductNew] = useState([]);
+    const [arrCategoryNew] = useState([]);
     const timerComponents = [];
 
     // Call API
@@ -28,7 +36,14 @@ function HomePage() {
         const fetchApiProductFlash = async () => {
             try {
                 const response = await request.get('db/data-product.json');
-                return setProductsFlash(response.data);
+
+                response.data.map((res) => {
+                    if (res.flash) {
+                        return arrProductFlash.push(res);
+                    } else {
+                        return arrProductNew.push(res);
+                    }
+                });
             } catch (error) {
                 console.log(error);
             }
@@ -40,7 +55,14 @@ function HomePage() {
         const fetchApiCategoryNew = async () => {
             try {
                 const response = await request.get('db/data-category.json');
-                return setCategoryNew(response.data);
+
+                response.data.map((res) => {
+                    if (res.new) {
+                        return arrCategoryNew.push(res);
+                    } else {
+                        return setArrCategory(response.data);
+                    }
+                });
             } catch (error) {
                 console.log(error);
             }
@@ -153,9 +175,9 @@ function HomePage() {
                                 },
                             }}
                         >
-                            {productsFlash.map((result) => (
+                            {arrProductFlash.map((result) => (
                                 <SwiperSlide key={result.id}>
-                                    <CardProduct data={result} />
+                                    <CardProduct data={result} typeDefault={false} />
                                 </SwiperSlide>
                             ))}
                         </Swiper>
@@ -170,25 +192,131 @@ function HomePage() {
                             <span className={cx('fw-bold')}>Mẫu mới về</span>
                         </Button>
 
-                        <CategorySmall data={categoryNew} />
+                        <ul className={cx('tab-list')}>
+                            {arrCategoryNew.map((result) => (
+                                <CategoryList key={result.id} data={result} />
+                            ))}
+                        </ul>
                     </div>
+
+                    <Swiper
+                        slidesPerView={5}
+                        grid={{
+                            fill: 'row',
+                            rows: 2,
+                        }}
+                        spaceBetween={10}
+                        navigation
+                        modules={[Grid, Navigation]}
+                        breakpoints={{
+                            360: {
+                                slidesPerView: 1.5,
+                                spaceBetween: 10,
+                            },
+                            768: {
+                                slidesPerView: 3.5,
+                                spaceBetween: 10,
+                            },
+                            992: {
+                                slidesPerView: 5,
+                                spaceBetween: 10,
+                            },
+                        }}
+                    >
+                        {arrProductNew.map((result) => (
+                            <SwiperSlide key={result.id}>
+                                <CardProduct data={result} typeDefault={true} />
+                            </SwiperSlide>
+                        ))}
+                    </Swiper>
                 </div>
             </div>
             {/* Banner */}
             <div className={cx('row container-app')}>
-                <div className={cx('', 'section-banner')}>Banner</div>
+                <div className={cx('', 'section-banner')}>
+                    <Swiper spaceBetween={50} slidesPerView={1}>
+                        <SwiperSlide>
+                            <Link to={'product-page' + `\\@all`} className={cx('img-banner')}>
+                                <img src={imgBanner} alt="Banner" />
+                            </Link>
+                        </SwiperSlide>
+                    </Swiper>
+                </div>
             </div>
             {/* Top */}
             <div className={cx('row container-app')}>
-                <div className={cx('', 'section-top')}>Top</div>
+                <div className={cx('', 'section-top')}>
+                    <h2 className={cx('title-module')}>Top danh mục</h2>
+
+                    <ul className={cx('wrapper')}>
+                        {arrCategory.map((result) => (
+                            <CategoryList data={result} />
+                        ))}
+                    </ul>
+                </div>
             </div>
             {/* Deal */}
             <div className={cx('row container-app')}>
-                <div className={cx('', 'section-deal')}>Deal</div>
+                <div className={cx('', 'section-deal')}>
+                    <div className={cx('row')}>
+                        <div className={cx('col-lg-6 col-12 mb-3')}>
+                            <div className={cx('item')} style={{ backgroundImage: `url(${imgCam1})` }}>
+                                <h2>Giá sốc mỗi ngày</h2>
+                                <h5>Số lượng có hạn</h5>
+                                <div className={cx('deal-content')}>
+                                    <h6>Bộ sưu tập mùa hè cho bé Thiết kế mới</h6>
+                                    <p>
+                                        Giá chỉ từ <span>125K</span>
+                                    </p>
+                                    <div className={cx('time-map')}>
+                                        <p>Nhanh tay kẻo hết!</p>
+                                        <div className={cx('count-down')}>
+                                            {timerComponents.length ? timerComponents : <span>Count Down!</span>}
+                                        </div>
+                                        <Button to={'/product-page/' + `@outstanding`} outlineWhite rounded>
+                                            Xem ngay
+                                        </Button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className={cx('col-lg-6 col-12 mb-3')}>
+                            <div className={cx('item')} style={{ backgroundImage: `url(${imgCam2})` }}>
+                                <h2>Bé chơi bé khỏe</h2>
+                                <h5>Số lượng rất ít</h5>
+                                <div className={cx('deal-content')}>
+                                    <h6>Bộ sưu tập đồ chơi trí tuệ cho bé</h6>
+                                    <p>
+                                        Chỉ từ <span>250K</span>
+                                    </p>
+                                    <div className={cx('time-map')}>
+                                        <p>Mua ngay kẻo hết!</p>
+                                        <div className={cx('count-down')}>
+                                            {timerComponents.length ? timerComponents : <span>Count Down!</span>}
+                                        </div>
+                                        <Button to={'/product-page/' + `@outstanding`} outlineWhite rounded>
+                                            Xem ngay
+                                        </Button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             {/* Coupon */}
             <div className={cx('row container-app')}>
-                <div className={cx('', 'section-coupon')}>Coupon</div>
+                <div className={cx('', 'section-coupon')}>
+                    <div className={cx('module-body')}>
+                        <Link to={'/product-page/' + `@outstanding`}>
+                            <span className={cx('purchase-text')}>
+                                Siêu ưu đãi cho <strong>đơn hàng đầu tiên.</strong>
+                            </span>
+                            <span className={cx('purchase-code')}>EgoKIDSU</span>
+                            <span className={cx('purchase-description')}>Sử dụng mã khi thanh toán!</span>
+                        </Link>
+                    </div>
+                </div>
             </div>
             {/* Best Sale */}
             <div className={cx('row container-app')}>
