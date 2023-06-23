@@ -8,9 +8,10 @@ import Button from '~/components/Button';
 
 const cx = classNames.bind(styles);
 
-function CardProduct({ data }) {
-    const [formatPrice, setFormatPrice] = useState(data.price_product);
-    const [formatPriceSale, setFormatPriceSale] = useState(data.price_product - (data.price_product * data.sale) / 100);
+function CardProduct({ typeDefault = true, data }) {
+    const renderPrice = data.price_product;
+    const [formatPrice, setFormatPrice] = useState(renderPrice);
+    const [formatPriceSale, setFormatPriceSale] = useState(renderPrice - (renderPrice * data.sale) / 100);
 
     useEffect(() => {
         const format = () => {
@@ -36,7 +37,7 @@ function CardProduct({ data }) {
                     <img width={199} height={199} src={data.image_product} alt={data.name_product} />
                 </Link>
 
-                <div className={cx('info-product')}>
+                <div className={cx('info-product', typeDefault ? '' : 'flash')}>
                     <h3 className={cx('product-name')}>
                         <Link to={'/product-detail-page/' + `@${data.name_product}`}>{data.name_product}</Link>
                     </h3>
@@ -46,20 +47,22 @@ function CardProduct({ data }) {
                             Giá gốc: <span>{formatPrice}</span>
                         </span>
                     </div>
-                    <div className={cx('quantity-sale')}>
-                        <div className={cx('title-count')}>
-                            <b>{data.sold}</b> sản phẩm đã bán
+                    {!typeDefault && (
+                        <div className={cx('quantity-sale')}>
+                            <div className={cx('title-count')}>
+                                <b>{data.sold}</b> sản phẩm đã bán
+                            </div>
+                            <div className={cx('bar-process')}>
+                                <div
+                                    className={cx('count-length-sale')}
+                                    style={{ width: `${data.length_sale}` + '%' }}
+                                ></div>
+                            </div>
                         </div>
-                        <div className={cx('bar-process')}>
-                            <div
-                                className={cx('count-length-sale')}
-                                style={{ width: `${data.length_sale}` + '%' }}
-                            ></div>
-                        </div>
-                    </div>
+                    )}
                 </div>
 
-                <div className={cx('action-card')}>
+                <div className={cx('action-card', typeDefault ? '' : 'flash')}>
                     <Button outline rounded>
                         {data.quantity >= 100 ? 'Cho vào giỏ' : 'Lựa chọn'}
                     </Button>
@@ -71,6 +74,7 @@ function CardProduct({ data }) {
 
 CardProduct.propTypes = {
     data: PropTypes.object.isRequired,
+    typeDefault: PropTypes.bool,
 };
 
 export default CardProduct;

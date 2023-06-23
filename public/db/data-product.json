@@ -76,6 +76,116 @@
             "sale": 4,
             "quantity": 100,
             "flash": true
+        },
+        {
+            "id": 8,
+            "name_product": "Váy đuôi cá cổ hàn quốc cực đẹp cho bé",
+            "image_product": "https://bizweb.dktcdn.net/100/459/160/products/231d285e1b36928c8a4917ba5028560d-jpeg.jpg?v=1657178946107",
+            "price_product": 50000,
+            "sold": 300,
+            "length_sale": 90,
+            "sale": 24,
+            "quantity": 99,
+            "flash": false
+        },
+        {
+            "id": 9,
+            "name_product": "Áo thun ba lỗ hình thú chất cotton bé yêu",
+            "image_product": "https://bizweb.dktcdn.net/100/459/160/products/4b9bc93b9d876513de13b0abc0a73ca9-jpeg.jpg?v=1657178616570",
+            "price_product": 55000,
+            "sold": 300,
+            "length_sale": 90,
+            "sale": 0,
+            "quantity": 100,
+            "flash": false
+        },
+        {
+            "id": 10,
+            "name_product": "Áo thun dễ thương in hình khủng long chạy xe",
+            "image_product": "https://bizweb.dktcdn.net/100/459/160/products/3c97e39656588c318e41b77e13b33ce1-jpeg.jpg?v=1657178341633",
+            "price_product": 50000,
+            "sold": 300,
+            "length_sale": 90,
+            "sale": 44,
+            "quantity": 100,
+            "flash": false
+        },
+        {
+            "id": 11,
+            "name_product": "Áo thun cotton xịn siêu dễ thương Puggy",
+            "image_product": "https://bizweb.dktcdn.net/100/459/160/products/901b2285710b4306df86b3f592e6d065-jpeg.jpg?v=1657178237060",
+            "price_product": 50000,
+            "sold": 300,
+            "length_sale": 90,
+            "sale": 44,
+            "quantity": 99,
+            "flash": false
+        },
+        {
+            "id": 12,
+            "name_product": "Áo thun dày dặn mịn mát cho bé",
+            "image_product": "https://bizweb.dktcdn.net/100/459/160/products/3f4c61dd2571dcd7ad8c02a5af94a0ea-jpeg.jpg?v=1657178123317",
+            "price_product": 50000,
+            "sold": 300,
+            "length_sale": 90,
+            "sale": 24,
+            "quantity": 99,
+            "flash": false
+        },
+        {
+            "id": 13,
+            "name_product": "Áo thun cotton dày dặn cho bé trai bé gái họa tiết chữ",
+            "image_product": "https://bizweb.dktcdn.net/100/459/160/products/1d66c081c00bd8f4f0133ab4b9ef4834-jpeg.jpg?v=1657177916673",
+            "price_product": 50000,
+            "sold": 300,
+            "length_sale": 90,
+            "sale": 24,
+            "quantity": 99,
+            "flash": false
+        },
+        {
+            "id": 14,
+            "name_product": "Áo thun bé trai, bé gái chất liệu mềm mịn thoàng mát",
+            "image_product": "https://bizweb.dktcdn.net/100/459/160/products/5fca4fe069d4e8da1df47bcf217ed6bb-jpeg.jpg?v=1657177817000",
+            "price_product": 50000,
+            "sold": 300,
+            "length_sale": 90,
+            "sale": 24,
+            "quantity": 99,
+            "flash": false
+        },
+        {
+            "id": 15,
+            "name_product": "Áo thun cho bé in hình khủng long tím cute",
+            "image_product": "https://bizweb.dktcdn.net/100/459/160/products/1a0a13e2301bb3a55b0ffca2e38110ab-jpeg.jpg?v=1657177710023",
+            "price_product": 50000,
+            "sold": 300,
+            "length_sale": 90,
+            "sale": 24,
+            "quantity": 99,
+            "flash": false
+        },
+        {
+            "id": 16,
+            "name_product": "Áo thun ngắn tay in hình bò sữa mixe",
+            "image_product": "https://bizweb.dktcdn.net/100/459/160/products/5d49254c8e13e7b30c47ea542799228e-jpeg.jpg?v=1657177586453",
+            "price_product": 50000,
+            "sold": 300,
+            "length_sale": 90,
+            "sale": 24,
+            "quantity": 99,
+            "flash": false
+        },
+        {
+            "id": 17,
+            "name_product": "Áo thun cotton dày dặn cho bé trai",
+            "image_product": "https://bizweb.dktcdn.net/100/459/160/products/e6293224b32da9b056a4f349642bc41c-jpeg.jpg?v=1657177402117",
+            "price_product": 50000,
+            "sold": 300,
+            "length_sale": 90,
+            "sale": 24,
+            "quantity": 99,
+            "flash": false
         }
     ]
 }

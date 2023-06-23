@@ -35,6 +35,19 @@
         }
     }
 
+    &.outlineWhite {
+        border-style: dashed;
+        border-color: var(--main-color);
+        color: var(--main-color);
+        background-color: #fff;
+        font-weight: 700;
+
+        &:hover {
+            background-color: var(--main-color);
+            color: #fff;
+        }
+    }
+
     &.rounded {
         border-radius: 5px;
     }
