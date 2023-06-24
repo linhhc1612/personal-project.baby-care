@@ -157,14 +157,6 @@
 .section-top {
     padding-bottom: 30px;
 
-    .title-module {
-        font-family: var(--font-family);
-        font-size: 29px;
-        font-weight: bold;
-        color: var(--main-color);
-        margin-bottom: 15px;
-    }
-
     .wrapper {
         max-width: 100%;
         overflow-x: auto;
@@ -383,6 +375,11 @@
     margin: 10px 0 30px;
     padding: 40px 0 30px;
     background-color: var(--bg-best-sale);
+
+    img {
+        border-radius: 12px;
+        overflow: hidden;
+    }
 }
 
 .section-news {
@@ -391,6 +388,14 @@
 
 .section-services {
     padding: 10px 10px 20px;
+}
+
+.title-module {
+    font-family: var(--font-family);
+    font-size: 29px;
+    font-weight: bold;
+    color: var(--main-color);
+    margin-bottom: 15px;
 }
 
 // Responsive

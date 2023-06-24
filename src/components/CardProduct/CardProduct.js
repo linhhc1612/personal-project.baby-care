@@ -8,7 +8,7 @@ import Button from '~/components/Button';
 
 const cx = classNames.bind(styles);
 
-function CardProduct({ typeDefault = true, data }) {
+function CardProduct({ typeDefault = true, data, checkData }) {
     const renderPrice = data.price_product;
     const [formatPrice, setFormatPrice] = useState(renderPrice);
     const [formatPriceSale, setFormatPriceSale] = useState(renderPrice - (renderPrice * data.sale) / 100);
@@ -27,19 +27,20 @@ function CardProduct({ typeDefault = true, data }) {
         };
 
         format();
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     return (
         <>
             <div className={cx('item-product-main')}>
-                <Link to={'/product-detail-page/' + `@${data.name_product}`} className={cx('image-thumb')}>
+                <Link to={'/product-detail-page/' + `@${data.id}-` + checkData} className={cx('image-thumb')}>
                     <span className={cx('label-sale')}>{data.sale}%</span>
                     <img width={199} height={199} src={data.image_product} alt={data.name_product} />
                 </Link>
 
                 <div className={cx('info-product', typeDefault ? '' : 'flash')}>
                     <h3 className={cx('product-name')}>
-                        <Link to={'/product-detail-page/' + `@${data.name_product}`}>{data.name_product}</Link>
+                        <Link to={'/product-detail-page/' + `@${data.id}-` + checkData}>{data.name_product}</Link>
                     </h3>
                     <div className={cx('price-box')}>
                         <span className={cx('price')}>{formatPriceSale}</span>
@@ -73,8 +74,9 @@ function CardProduct({ typeDefault = true, data }) {
 }
 
 CardProduct.propTypes = {
-    data: PropTypes.object.isRequired,
+    data: PropTypes.object,
     typeDefault: PropTypes.bool,
+    checkData: PropTypes.string,
 };
 
 export default CardProduct;

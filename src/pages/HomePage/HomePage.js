@@ -1,3 +1,4 @@
+/* eslint-disable array-callback-return */
 /* eslint-disable no-useless-concat */
 import 'https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js';
 import React, { useEffect, useState } from 'react';
@@ -19,56 +20,42 @@ import imgSlider from '~/assets/upload/slider_1.jpg';
 import imgBanner from '~/assets/upload/bannerlarge.jpg';
 import imgCam1 from '~/assets/upload/bgcam_1.jpg';
 import imgCam2 from '~/assets/upload/bgcam_2.jpg';
+import imgBestSale from '~/assets/upload/bestseler.jpg';
 
 const cx = classNames.bind(styles);
 
 function HomePage() {
     const [timeLeft, setTimeLeft] = useState({});
-    const [arrCategory, setArrCategory] = useState([]);
-    const [arrProductFlash] = useState([]);
-    const [arrProductNew] = useState([]);
-    const [arrCategoryNew] = useState([]);
+    const [arrProduct, setArrProduct] = useState([]);
+    const [arrCategory, setArrCategory] = useState([{}]);
     const timerComponents = [];
 
-    // Call API
+    // API Product Flash sale
     useEffect(() => {
-        // API Product Flash sale
-        const fetchApiProductFlash = async () => {
+        const fetchApiProduct = async () => {
             try {
                 const response = await request.get('db/data-product.json');
 
-                response.data.map((res) => {
-                    if (res.flash) {
-                        return arrProductFlash.push(res);
-                    } else {
-                        return arrProductNew.push(res);
-                    }
-                });
+                return setArrProduct(response.data);
             } catch (error) {
                 console.log(error);
             }
         };
 
-        fetchApiProductFlash();
+        fetchApiProduct();
 
-        // API Category in new
-        const fetchApiCategoryNew = async () => {
+        const fetchApiCategory = async () => {
             try {
                 const response = await request.get('db/data-category.json');
 
-                response.data.map((res) => {
-                    if (res.new) {
-                        return arrCategoryNew.push(res);
-                    } else {
-                        return setArrCategory(response.data);
-                    }
-                });
+                setArrCategory(response.data);
             } catch (error) {
                 console.log(error);
             }
         };
 
-        fetchApiCategoryNew();
+        fetchApiCategory();
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     Object.keys(timeLeft).forEach((interval, index) => {
@@ -175,11 +162,14 @@ function HomePage() {
                                 },
                             }}
                         >
-                            {arrProductFlash.map((result) => (
-                                <SwiperSlide key={result.id}>
-                                    <CardProduct data={result} typeDefault={false} />
-                                </SwiperSlide>
-                            ))}
+                            {arrProduct.map(
+                                (result) =>
+                                    result.flash && (
+                                        <SwiperSlide key={result.id}>
+                                            <CardProduct data={result} typeDefault={false} checkData="flash" />
+                                        </SwiperSlide>
+                                    ),
+                            )}
                         </Swiper>
                     </div>
                 </div>
@@ -193,9 +183,10 @@ function HomePage() {
                         </Button>
 
                         <ul className={cx('tab-list')}>
-                            {arrCategoryNew.map((result) => (
-                                <CategoryList key={result.id} data={result} />
-                            ))}
+                            {arrCategory.map(
+                                (result) =>
+                                    result.new && <CategoryList key={result.id} data={result} checkData="small" />,
+                            )}
                         </ul>
                     </div>
 
@@ -223,11 +214,14 @@ function HomePage() {
                             },
                         }}
                     >
-                        {arrProductNew.map((result) => (
-                            <SwiperSlide key={result.id}>
-                                <CardProduct data={result} typeDefault={true} />
-                            </SwiperSlide>
-                        ))}
+                        {arrProduct.map(
+                            (result) =>
+                                !result.flash && (
+                                    <SwiperSlide key={result.id}>
+                                        <CardProduct data={result} typeDefault={true} />
+                                    </SwiperSlide>
+                                ),
+                        )}
                     </Swiper>
                 </div>
             </div>
@@ -249,8 +243,8 @@ function HomePage() {
                     <h2 className={cx('title-module')}>Top danh mục</h2>
 
                     <ul className={cx('wrapper')}>
-                        {arrCategory.map((result) => (
-                            <CategoryList data={result} />
+                        {arrCategory.map((result, index) => (
+                            <CategoryList key={index} data={result} checkData="large" />
                         ))}
                     </ul>
                 </div>
@@ -273,7 +267,12 @@ function HomePage() {
                                         <div className={cx('count-down')}>
                                             {timerComponents.length ? timerComponents : <span>Count Down!</span>}
                                         </div>
-                                        <Button to={'/product-page/' + `@outstanding`} outlineWhite rounded>
+                                        <Button
+                                            to={'/product-page/' + `@outstanding`}
+                                            className={'w-fit-content'}
+                                            outlineWhite
+                                            rounded
+                                        >
                                             Xem ngay
                                         </Button>
                                     </div>
@@ -294,7 +293,12 @@ function HomePage() {
                                         <div className={cx('count-down')}>
                                             {timerComponents.length ? timerComponents : <span>Count Down!</span>}
                                         </div>
-                                        <Button to={'/product-page/' + `@outstanding`} outlineWhite rounded>
+                                        <Button
+                                            to={'/product-page/' + `@outstanding`}
+                                            className={'w-fit-content'}
+                                            outlineWhite
+                                            rounded
+                                        >
                                             Xem ngay
                                         </Button>
                                     </div>
@@ -319,8 +323,51 @@ function HomePage() {
                 </div>
             </div>
             {/* Best Sale */}
-            <div className={cx('row container-app')}>
-                <div className={cx('', 'section-best')}>Best Sale</div>
+            <div className={cx('row', 'section-best')}>
+                <div className={cx('container-app')}>
+                    <div className={cx('row')}>
+                        <div className={cx('col-lg-3 col-12 d-md-none d-lg-block d-block')}>
+                            <Link to={'/product-page/' + `@all`}>
+                                <img src={imgBestSale} alt={imgBestSale} />
+                            </Link>
+                        </div>
+                        <div className={cx('col-lg-9 col-12')}>
+                            <Link to={'/product-page/' + `@outstanding`}>
+                                <h2 className={cx('title-module')}>Top danh mục</h2>
+                            </Link>
+
+                            <Swiper
+                                spaceBetween={20}
+                                slidesPerView={4}
+                                navigation={true}
+                                modules={[Navigation]}
+                                breakpoints={{
+                                    360: {
+                                        slidesPerView: 2,
+                                        spaceBetween: 10,
+                                    },
+                                    768: {
+                                        slidesPerView: 3.5,
+                                        spaceBetween: 10,
+                                    },
+                                    992: {
+                                        slidesPerView: 4,
+                                        spaceBetween: 10,
+                                    },
+                                }}
+                            >
+                                {arrProduct.map(
+                                    (result) =>
+                                        result.sold >= 500 && (
+                                            <SwiperSlide key={result.id}>
+                                                <CardProduct data={result} typeDefault={true} checkData="top" />
+                                            </SwiperSlide>
+                                        ),
+                                )}
+                            </Swiper>
+                        </div>
+                    </div>
+                </div>
             </div>
             {/* News */}
             <div className={cx('row container-app')}>
