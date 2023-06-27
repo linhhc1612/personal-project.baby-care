@@ -1,0 +1,16 @@
+{
+    "data": [
+        {
+            "id": "b_1",
+            "title": "Thời trang bé gái tuổi Teen và những điều ba mẹ cần biết",
+            "image": "https://bizweb.dktcdn.net/100/459/160/articles/ao-choang-cho-be12.jpg?v=1657188531777",
+            "create_at": "07/07/2022"
+        },
+        {
+            "id": "b_2",
+            "title": "Có nên mua quần áo trẻ em trên sàn online?",
+            "image": "https://bizweb.dktcdn.net/100/459/160/articles/ao-choang-canh-doi-cho-be-8.jpg?v=1657187722780",
+            "create_at": "07/07/2022"
+        }
+    ]
+}

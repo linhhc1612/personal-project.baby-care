@@ -1,7 +1,7 @@
 const routes = {
     homePage: '/',
     productPage: '/product-page/:key',
-    newsPage: '/news-page',
+    newsPage: '/news-page/:key',
     favoritePage: '/favorite-page',
     contactPage: '/contact-page',
     storePage: '/store-page',

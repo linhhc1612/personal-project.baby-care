@@ -384,6 +384,11 @@
 
 .section-news {
     padding: 0 0 30px;
+
+    .img-blog {
+        border-radius: 12px !important;
+        overflow: hidden;
+    }
 }
 
 .section-services {

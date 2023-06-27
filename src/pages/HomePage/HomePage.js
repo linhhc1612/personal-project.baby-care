@@ -5,22 +5,28 @@ import React, { useEffect, useState } from 'react';
 import classNames from 'classnames/bind';
 import { Link } from 'react-router-dom';
 import * as request from '~/untils/httpRequest';
+
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/scss/navigation';
 import 'swiper/css/grid';
-
 import { Navigation, Grid } from 'swiper';
 
 import styles from './HomePage.module.scss';
 import CardProduct from '~/components/CardProduct';
 import CategoryList from './components/CategotyList';
 import Button from '~/components/Button';
+import Blog from '~/components/Blog';
+import Service from '~/components/Service';
+
 import imgSlider from '~/assets/upload/slider_1.jpg';
 import imgBanner from '~/assets/upload/bannerlarge.jpg';
 import imgCam1 from '~/assets/upload/bgcam_1.jpg';
 import imgCam2 from '~/assets/upload/bgcam_2.jpg';
 import imgBestSale from '~/assets/upload/bestseler.jpg';
+import imgVertical from '~/assets/upload/banner_vertical2.jpg';
+import imgHori1 from '~/assets/upload/banner_hori01.jpg';
+import imgHori2 from '~/assets/upload/banner_hori02.jpg';
 
 const cx = classNames.bind(styles);
 
@@ -28,10 +34,12 @@ function HomePage() {
     const [timeLeft, setTimeLeft] = useState({});
     const [arrProduct, setArrProduct] = useState([]);
     const [arrCategory, setArrCategory] = useState([{}]);
+    const [arrBlog, setArrBlog] = useState([]);
+    const [arrService, setArrService] = useState([]);
     const timerComponents = [];
 
-    // API Product Flash sale
     useEffect(() => {
+        // API Product
         const fetchApiProduct = async () => {
             try {
                 const response = await request.get('db/data-product.json');
@@ -41,9 +49,9 @@ function HomePage() {
                 console.log(error);
             }
         };
-
         fetchApiProduct();
 
+        // API Category
         const fetchApiCategory = async () => {
             try {
                 const response = await request.get('db/data-category.json');
@@ -53,8 +61,31 @@ function HomePage() {
                 console.log(error);
             }
         };
-
         fetchApiCategory();
+
+        // API Blog
+        const fetchApiBlog = async () => {
+            try {
+                const response = await request.get('db/data-blog.json');
+
+                setArrBlog(response.data);
+            } catch (error) {
+                console.log(error);
+            }
+        };
+        fetchApiBlog();
+
+        // API Service
+        const fetchApiService = async () => {
+            try {
+                const response = await request.get('db/data-service.json');
+
+                setArrService(response.data);
+            } catch (error) {
+                console.log(error);
+            }
+        };
+        fetchApiService();
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
@@ -371,11 +402,54 @@ function HomePage() {
             </div>
             {/* News */}
             <div className={cx('row container-app')}>
-                <div className={cx('', 'section-news')}>News</div>
+                <div className={cx('', 'section-news')}>
+                    <div className={cx('row')}>
+                        <div className={cx('col-lg-6 col-12')}>
+                            <Link to={'/news-page/' + `@all`}>
+                                <h2 className={cx('title-module')}>Tin mới cập nhật</h2>
+                            </Link>
+
+                            <div className={cx('blog-wrapper')}>
+                                {arrBlog.map((result) => (
+                                    <Blog key={result.id} data={result} />
+                                ))}
+                            </div>
+                        </div>
+                        <div className={cx('col-lg-6 col-12')}>
+                            <div className={cx('row')}>
+                                <div className={cx('col-md-6')}>
+                                    <Link to={'/news-page/' + `@all`}>
+                                        <img
+                                            src={imgVertical}
+                                            alt="banner-blog"
+                                            className={cx('mb-md-0 mb-3', 'img-blog')}
+                                        />
+                                    </Link>
+                                </div>
+                                <div className={cx('col-md-6')}>
+                                    <Link to={'/news-page/' + `@all`}>
+                                        <img src={imgHori1} alt="banner-blog" className={cx('mb-3', 'img-blog')} />
+                                    </Link>
+                                    <Link to={'/news-page/' + `@all`}>
+                                        <img src={imgHori2} alt="banner-blog" className={cx('mb-3', 'img-blog')} />
+                                    </Link>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             {/* Services */}
             <div className={cx('row container-app')}>
-                <div className={cx('', 'section-services')}>Services</div>
+                <div className={cx('', 'section-services')}>
+                    <div className={cx('row')}>
+                        {arrService.map((result) => (
+                            <div key={result.id} className={cx('col-lg-3 col-md-6 col-12')}>
+                                <Service data={result} />
+                            </div>
+                        ))}
+                    </div>
+                </div>
             </div>
         </>
     );

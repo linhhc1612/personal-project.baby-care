@@ -1,0 +1,28 @@
+{
+    "data": [
+        {
+            "id": "s_1",
+            "image": "https://bizweb.dktcdn.net/100/459/160/themes/867807/assets/ico_sv1.png?1684485482688",
+            "title": "Hỗ trợ 24/7",
+            "description": "Nhân viên online hỗ trợ"
+        },
+        {
+            "id": "s_2",
+            "image": "https://bizweb.dktcdn.net/100/459/160/themes/867807/assets/ico_sv2.png?1684485482688",
+            "title": "Tiết kiệm",
+            "description": "Mua nhiều ưu đãi hơn"
+        },
+        {
+            "id": "s_3",
+            "image": "https://bizweb.dktcdn.net/100/459/160/themes/867807/assets/ico_sv3.png?1684485482688",
+            "title": "Quà tặng",
+            "description": "Tri ân khách hàng cũ"
+        },
+        {
+            "id": "s_4",
+            "image": "https://bizweb.dktcdn.net/100/459/160/themes/867807/assets/ico_sv4.png?1684485482688",
+            "title": "Vận chuyển",
+            "description": "Siêu nhanh, toàn thế giới"
+        }
+    ]
+}
