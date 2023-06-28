@@ -1,0 +1,50 @@
+.item-service {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background: #fff;
+    transition: all 0.5s;
+    padding: 10px;
+    border: dashed 1px var(--main-color);
+    margin-top: 10px;
+    border-radius: 7px !important;
+    overflow: hidden;
+
+    .image {
+        width: 45px;
+
+        img {
+            transition: all 0.5s;
+            background: transparent;
+        }
+    }
+
+    .content-service {
+        width: calc(100% - 45px);
+        padding-left: 10px;
+        text-align: left;
+
+        h4 {
+            font-size: 1.6rem;
+            font-weight: bold;
+            display: block;
+            color: var(--text-color);
+            margin: 0 0 5px;
+        }
+
+        p {
+            margin: 0;
+            padding: 0;
+            font-size: 1.4rem;
+            color: #838383;
+        }
+    }
+
+    &:hover {
+        .image {
+            img {
+                transform: scale(0.8);
+            }
+        }
+    }
+}

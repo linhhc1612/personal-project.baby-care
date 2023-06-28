@@ -124,6 +124,101 @@ ul {
     padding: 0;
 }
 
+// Custom Breadcrumb
+.breadcrumb {
+    width: 100%;
+    padding: 0 7.5px;
+    margin: 0 0 15px;
+    border-radius: 0;
+    background-color: transparent;
+    float: left;
+    text-align: left;
+
+    font-size: 1.4rem;
+    font-weight: 400;
+    font-family: var(--font-base);
+    line-height: 24px;
+
+    .breadcrumb-item {
+        &.active {
+            color: var(--hover);
+        }
+    }
+}
+
+// Custom input type checkbox
+.form-check-input {
+    width: 40px !important;
+    height: 20px;
+    outline: none;
+    box-shadow: none;
+    border: solid 0px #ebebeb;
+    background-color: #ebebeb;
+
+    &:focus {
+        outline: none;
+        box-shadow: none;
+    }
+
+    &:checked {
+        background-color: var(--hover);
+        border-color: var(--hover);
+    }
+}
+
+.form-check-label {
+    line-height: 25px !important;
+    padding-left: 15px;
+}
+
+// Custom Pagination
+.pagination {
+    border: none;
+
+    .page-item {
+        display: inline-block;
+        text-align: center;
+        margin: 0 5px;
+
+        a,
+        span {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.6rem;
+            min-width: 35px;
+            height: 35px;
+            line-height: 32px;
+            background: #fff;
+            color: var(--text-color);
+            padding: 0;
+            border: solid 1px #ebebeb;
+            border-radius: 4px;
+
+            &:focus {
+                box-shadow: none;
+            }
+        }
+
+        &.active {
+            span {
+                background-color: var(--hover);
+                border-color: var(--hover);
+                color: #fff;
+            }
+        }
+
+        &:hover {
+            a,
+            span {
+                background-color: var(--hover);
+                border-color: var(--hover);
+                color: #fff;
+            }
+        }
+    }
+}
+
 // Custom nav in Swiper
 .swiper {
     width: 100%;
@@ -215,6 +310,14 @@ ul {
 
 .bg-menu {
     background-color: var(--menu);
+}
+
+.title-module {
+    font-family: var(--font-family);
+    font-size: 29px;
+    font-weight: bold;
+    color: var(--main-color);
+    margin-bottom: 15px;
 }
 
 // Font-face

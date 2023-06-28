@@ -51,4 +51,8 @@
     &.rounded {
         border-radius: 5px;
     }
+
+    &.w-fit-content {
+        max-width: 120px;
+    }
 }

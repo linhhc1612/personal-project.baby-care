@@ -1,7 +1,7 @@
 {
     "data": [
         {
-            "id": 1,
+            "id": "cid-1",
             "image_small": "https://bizweb.dktcdn.net/thumb/thumb/100/459/160/collections/dam-be-gai-80.png?v=1657182649087",
             "image_large": "https://bizweb.dktcdn.net/thumb/compact/100/459/160/collections/dam-be-gai-80.png?v=1657182649087",
             "title": "Đầm bé gái",
@@ -9,7 +9,7 @@
             "new": true
         },
         {
-            "id": 2,
+            "id": "cid-2",
             "image_small": "https://bizweb.dktcdn.net/thumb/thumb/100/459/160/collections/bo-be-gai-80.png?v=1657182638380",
             "image_large": "https://bizweb.dktcdn.net/thumb/compact/100/459/160/collections/bo-be-gai-80.png?v=1657182638380",
             "title": "Bộ bé gái",
@@ -17,7 +17,7 @@
             "new": true
         },
         {
-            "id": 3,
+            "id": "cid-3",
             "image_small": "https://bizweb.dktcdn.net/thumb/thumb/100/459/160/collections/ao-be-gai-80.png?v=1657182670947",
             "image_large": "https://bizweb.dktcdn.net/thumb/compact/100/459/160/collections/ao-be-gai-80.png?v=1657182670947",
             "title": "Áo bé gái",
@@ -25,7 +25,7 @@
             "new": true
         },
         {
-            "id": 4,
+            "id": "cid-4",
             "image_small": "https://bizweb.dktcdn.net/thumb/thumb/100/459/160/collections/bo-be-trai-80.png?v=1657182685220",
             "image_large": "https://bizweb.dktcdn.net/thumb/compact/100/459/160/collections/bo-be-trai-80.png?v=1657182685220",
             "title": "Bộ bé trai",
@@ -33,7 +33,7 @@
             "new": true
         },
         {
-            "id": 5,
+            "id": "cid-5",
             "image_small": "https://bizweb.dktcdn.net/thumb/thumb/100/459/160/collections/quan-be-trai-80.png?v=1657182701517",
             "image_large": "https://bizweb.dktcdn.net/thumb/compact/100/459/160/collections/quan-be-trai-80.png?v=1657182701517",
             "title": "Quần bé trai",
@@ -41,7 +41,7 @@
             "new": true
         },
         {
-            "id": 6,
+            "id": "cid-6",
             "image_small": "",
             "image_large": "https://bizweb.dktcdn.net/thumb/compact/100/459/160/collections/ao-be-trai-80.png?v=1657182718667",
             "title": "Áo bé trai",
@@ -49,7 +49,7 @@
             "new": false
         },
         {
-            "id": 7,
+            "id": "cid-7",
             "image_small": "",
             "image_large": "https://bizweb.dktcdn.net/thumb/compact/100/459/160/collections/quan-be-gai-80.png?v=1657182733363",
             "title": "Quần bé gái",
@@ -57,7 +57,7 @@
             "new": false
         },
         {
-            "id": 8,
+            "id": "cid-8",
             "image_small": "",
             "image_large": "https://bizweb.dktcdn.net/thumb/compact/100/459/160/collections/giay-be-gai-80.png?v=1657184995837",
             "title": "Giày dép",

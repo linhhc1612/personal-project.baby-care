@@ -1,74 +1,93 @@
+/* eslint-disable array-callback-return */
 /* eslint-disable no-useless-concat */
 import 'https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js';
 import React, { useEffect, useState } from 'react';
 import classNames from 'classnames/bind';
 import { Link } from 'react-router-dom';
 import * as request from '~/untils/httpRequest';
+
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/scss/navigation';
 import 'swiper/css/grid';
-
 import { Navigation, Grid } from 'swiper';
 
 import styles from './HomePage.module.scss';
 import CardProduct from '~/components/CardProduct';
 import CategoryList from './components/CategotyList';
 import Button from '~/components/Button';
+import Blog from '~/components/Blog';
+import Service from '~/components/Service';
+
 import imgSlider from '~/assets/upload/slider_1.jpg';
 import imgBanner from '~/assets/upload/bannerlarge.jpg';
 import imgCam1 from '~/assets/upload/bgcam_1.jpg';
 import imgCam2 from '~/assets/upload/bgcam_2.jpg';
+import imgBestSale from '~/assets/upload/bestseler.jpg';
+import imgVertical from '~/assets/upload/banner_vertical2.jpg';
+import imgHori1 from '~/assets/upload/banner_hori01.jpg';
+import imgHori2 from '~/assets/upload/banner_hori02.jpg';
 
 const cx = classNames.bind(styles);
 
 function HomePage() {
     const [timeLeft, setTimeLeft] = useState({});
-    const [arrCategory, setArrCategory] = useState([]);
-    const [arrProductFlash] = useState([]);
-    const [arrProductNew] = useState([]);
-    const [arrCategoryNew] = useState([]);
+    const [arrProduct, setArrProduct] = useState([]);
+    const [arrCategory, setArrCategory] = useState([{}]);
+    const [arrBlog, setArrBlog] = useState([]);
+    const [arrService, setArrService] = useState([]);
     const timerComponents = [];
 
-    // Call API
     useEffect(() => {
-        // API Product Flash sale
-        const fetchApiProductFlash = async () => {
+        // API Product
+        const fetchApiProduct = async () => {
             try {
                 const response = await request.get('db/data-product.json');
 
-                response.data.map((res) => {
-                    if (res.flash) {
-                        return arrProductFlash.push(res);
-                    } else {
-                        return arrProductNew.push(res);
-                    }
-                });
+                return setArrProduct(response.data);
             } catch (error) {
                 console.log(error);
             }
         };
+        fetchApiProduct();
 
-        fetchApiProductFlash();
-
-        // API Category in new
-        const fetchApiCategoryNew = async () => {
+        // API Category
+        const fetchApiCategory = async () => {
             try {
                 const response = await request.get('db/data-category.json');
 
-                response.data.map((res) => {
-                    if (res.new) {
-                        return arrCategoryNew.push(res);
-                    } else {
-                        return setArrCategory(response.data);
-                    }
-                });
+                setArrCategory(response.data);
             } catch (error) {
                 console.log(error);
             }
         };
+        fetchApiCategory();
 
-        fetchApiCategoryNew();
+        // API Blog
+        const fetchApiBlog = async () => {
+            try {
+                const response = await request.get('db/data-blog.json');
+                const data = response.data;
+
+                setArrBlog(data.slice(0, 2));
+            } catch (error) {
+                console.log(error);
+            }
+        };
+        fetchApiBlog();
+
+        // API Service
+        const fetchApiService = async () => {
+            try {
+                const response = await request.get('db/data-service.json');
+
+                setArrService(response.data);
+            } catch (error) {
+                console.log(error);
+            }
+        };
+        fetchApiService();
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     Object.keys(timeLeft).forEach((interval, index) => {
@@ -131,7 +150,7 @@ function HomePage() {
                 <div className={cx('', 'section-slider')}>
                     <Swiper spaceBetween={50} slidesPerView={1}>
                         <SwiperSlide>
-                            <Link to={'product-page' + `\\@all`} className={cx('img-slider')}>
+                            <Link to={'/product-page/' + `@all` + '/' + `Tất cả sản phẩm`} className={cx('img-slider')}>
                                 <img src={imgSlider} alt="slider" />
                             </Link>
                         </SwiperSlide>
@@ -145,7 +164,10 @@ function HomePage() {
                         <div className={cx('title-sale')}>
                             <div className={cx('timer')}>
                                 <h2 className={cx('title')}>
-                                    <Link to={'product-page' + `\\@promotion`} className={cx('text-main')}>
+                                    <Link
+                                        to={'/product-page/' + `@promotion` + '/' + `Sản phẩm khuyến mãi`}
+                                        className={cx('text-main')}
+                                    >
                                         Deal sốc mỗi ngày
                                     </Link>
                                 </h2>
@@ -175,11 +197,14 @@ function HomePage() {
                                 },
                             }}
                         >
-                            {arrProductFlash.map((result) => (
-                                <SwiperSlide key={result.id}>
-                                    <CardProduct data={result} typeDefault={false} />
-                                </SwiperSlide>
-                            ))}
+                            {arrProduct.map(
+                                (result) =>
+                                    result.flash && (
+                                        <SwiperSlide key={result.id}>
+                                            <CardProduct data={result} typeDefault={false} checkData="flash" />
+                                        </SwiperSlide>
+                                    ),
+                            )}
                         </Swiper>
                     </div>
                 </div>
@@ -188,14 +213,20 @@ function HomePage() {
             <div className={cx('row container-app')}>
                 <div className={cx('', 'section-outstanding')}>
                     <div className={cx('d-flex', 'block-title')}>
-                        <Button to={'product-page' + `\\@outstanding`} primary rounded className={cx('btn-category')}>
+                        <Button
+                            to={'/product-page/' + `@outstanding` + '/' + `Sản phẩm nổi bật`}
+                            primary
+                            rounded
+                            className={cx('btn-category')}
+                        >
                             <span className={cx('fw-bold')}>Mẫu mới về</span>
                         </Button>
 
                         <ul className={cx('tab-list')}>
-                            {arrCategoryNew.map((result) => (
-                                <CategoryList key={result.id} data={result} />
-                            ))}
+                            {arrCategory.map(
+                                (result) =>
+                                    result.new && <CategoryList key={result.id} data={result} checkData="small" />,
+                            )}
                         </ul>
                     </div>
 
@@ -223,11 +254,14 @@ function HomePage() {
                             },
                         }}
                     >
-                        {arrProductNew.map((result) => (
-                            <SwiperSlide key={result.id}>
-                                <CardProduct data={result} typeDefault={true} />
-                            </SwiperSlide>
-                        ))}
+                        {arrProduct.map(
+                            (result) =>
+                                !result.flash && (
+                                    <SwiperSlide key={result.id}>
+                                        <CardProduct data={result} typeDefault={true} />
+                                    </SwiperSlide>
+                                ),
+                        )}
                     </Swiper>
                 </div>
             </div>
@@ -236,7 +270,7 @@ function HomePage() {
                 <div className={cx('', 'section-banner')}>
                     <Swiper spaceBetween={50} slidesPerView={1}>
                         <SwiperSlide>
-                            <Link to={'product-page' + `\\@all`} className={cx('img-banner')}>
+                            <Link to={'/product-page/' + `@all` + '/' + `Tất cả sản phẩm`} className={cx('img-banner')}>
                                 <img src={imgBanner} alt="Banner" />
                             </Link>
                         </SwiperSlide>
@@ -249,8 +283,8 @@ function HomePage() {
                     <h2 className={cx('title-module')}>Top danh mục</h2>
 
                     <ul className={cx('wrapper')}>
-                        {arrCategory.map((result) => (
-                            <CategoryList data={result} />
+                        {arrCategory.map((result, index) => (
+                            <CategoryList key={index} data={result} checkData="large" />
                         ))}
                     </ul>
                 </div>
@@ -273,7 +307,12 @@ function HomePage() {
                                         <div className={cx('count-down')}>
                                             {timerComponents.length ? timerComponents : <span>Count Down!</span>}
                                         </div>
-                                        <Button to={'/product-page/' + `@outstanding`} outlineWhite rounded>
+                                        <Button
+                                            to={'/product-page/' + `@outstanding` + '/' + `Sản phẩm nổi bật`}
+                                            className={'w-fit-content'}
+                                            outlineWhite
+                                            rounded
+                                        >
                                             Xem ngay
                                         </Button>
                                     </div>
@@ -294,7 +333,12 @@ function HomePage() {
                                         <div className={cx('count-down')}>
                                             {timerComponents.length ? timerComponents : <span>Count Down!</span>}
                                         </div>
-                                        <Button to={'/product-page/' + `@outstanding`} outlineWhite rounded>
+                                        <Button
+                                            to={'/product-page/' + `@outstanding` + '/' + `Sản phẩm nổi bật`}
+                                            className={'w-fit-content'}
+                                            outlineWhite
+                                            rounded
+                                        >
                                             Xem ngay
                                         </Button>
                                     </div>
@@ -308,7 +352,7 @@ function HomePage() {
             <div className={cx('row container-app')}>
                 <div className={cx('', 'section-coupon')}>
                     <div className={cx('module-body')}>
-                        <Link to={'/product-page/' + `@outstanding`}>
+                        <Link to={'/product-page/' + `@outstanding` + '/' + `Sản phẩm nổi bật`}>
                             <span className={cx('purchase-text')}>
                                 Siêu ưu đãi cho <strong>đơn hàng đầu tiên.</strong>
                             </span>
@@ -319,16 +363,102 @@ function HomePage() {
                 </div>
             </div>
             {/* Best Sale */}
-            <div className={cx('row container-app')}>
-                <div className={cx('', 'section-best')}>Best Sale</div>
+            <div className={cx('row', 'section-best')}>
+                <div className={cx('container-app')}>
+                    <div className={cx('row')}>
+                        <div className={cx('col-lg-3 col-12 d-md-none d-lg-block d-block')}>
+                            <Link to={'/product-page/' + `@all` + '/' + `Tất cả sản phẩm`}>
+                                <img src={imgBestSale} alt={imgBestSale} />
+                            </Link>
+                        </div>
+                        <div className={cx('col-lg-9 col-12')}>
+                            <Link to={'/product-page/' + `@outstanding` + '/' + `Sản phẩm nổi bật`}>
+                                <h2 className={cx('title-module')}>Bán chạy của Tháng</h2>
+                            </Link>
+
+                            <Swiper
+                                spaceBetween={20}
+                                slidesPerView={4}
+                                navigation={true}
+                                modules={[Navigation]}
+                                breakpoints={{
+                                    360: {
+                                        slidesPerView: 2,
+                                        spaceBetween: 10,
+                                    },
+                                    768: {
+                                        slidesPerView: 3.5,
+                                        spaceBetween: 10,
+                                    },
+                                    992: {
+                                        slidesPerView: 4,
+                                        spaceBetween: 10,
+                                    },
+                                }}
+                            >
+                                {arrProduct.map(
+                                    (result) =>
+                                        result.sold >= 500 && (
+                                            <SwiperSlide key={result.id}>
+                                                <CardProduct data={result} typeDefault={true} checkData="top" />
+                                            </SwiperSlide>
+                                        ),
+                                )}
+                            </Swiper>
+                        </div>
+                    </div>
+                </div>
             </div>
             {/* News */}
             <div className={cx('row container-app')}>
-                <div className={cx('', 'section-news')}>News</div>
+                <div className={cx('', 'section-news')}>
+                    <div className={cx('row')}>
+                        <div className={cx('col-lg-6 col-12')}>
+                            <Link to={'/product-page/' + `@all` + '/' + `Tất cả sản phẩm`}>
+                                <h2 className={cx('title-module')}>Tin mới cập nhật</h2>
+                            </Link>
+
+                            <div className={cx('blog-wrapper')}>
+                                {arrBlog.map((result) => (
+                                    <Blog key={result.id} data={result} />
+                                ))}
+                            </div>
+                        </div>
+                        <div className={cx('col-lg-6 col-12')}>
+                            <div className={cx('row')}>
+                                <div className={cx('col-md-6')}>
+                                    <Link to={'/product-page/' + `@all` + '/' + `Tất cả sản phẩm`}>
+                                        <img
+                                            src={imgVertical}
+                                            alt="banner-blog"
+                                            className={cx('mb-md-0 mb-3', 'img-blog')}
+                                        />
+                                    </Link>
+                                </div>
+                                <div className={cx('col-md-6')}>
+                                    <Link to={'/product-page/' + `@all` + '/' + `Tất cả sản phẩm`}>
+                                        <img src={imgHori1} alt="banner-blog" className={cx('mb-3', 'img-blog')} />
+                                    </Link>
+                                    <Link to={'/product-page/' + `@all` + '/' + `Tất cả sản phẩm`}>
+                                        <img src={imgHori2} alt="banner-blog" className={cx('mb-3', 'img-blog')} />
+                                    </Link>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             {/* Services */}
             <div className={cx('row container-app')}>
-                <div className={cx('', 'section-services')}>Services</div>
+                <div className={cx('', 'section-services')}>
+                    <div className={cx('row')}>
+                        {arrService.map((result) => (
+                            <div key={result.id} className={cx('col-lg-3 col-md-6 col-12')}>
+                                <Service data={result} />
+                            </div>
+                        ))}
+                    </div>
+                </div>
             </div>
         </>
     );
