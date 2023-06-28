@@ -6,11 +6,19 @@ import styles from './MenuCanvas.module.scss';
 
 const cx = classNames.bind(styles);
 
-function MenuItemSmall({ data }) {
+function MenuItemSmall({ data, checkKey }) {
     return (
         <>
             {data.map((result) => (
-                <Link to={result.path} key={result.id} className={cx('item-small-children')}>
+                <Link
+                    to={
+                        checkKey === 'product-page'
+                            ? '/product-page/' + result.key + '/' + result.title
+                            : '/wardrobe-page/' + result.key + '/' + result.title
+                    }
+                    key={result.id}
+                    className={cx('item-small-children')}
+                >
                     {result.title}
                 </Link>
             ))}
@@ -20,6 +28,7 @@ function MenuItemSmall({ data }) {
 
 MenuItemSmall.propTypes = {
     data: PropTypes.array.isRequired,
+    checkKey: PropTypes.string.isRequired,
 };
 
 export default MenuItemSmall;

@@ -10,7 +10,10 @@ function CategoryList({ data, checkData }) {
     return (
         <>
             <li key={data.id} className={cx('cate-item')}>
-                <Link to={'/product-page/' + `@${data.id}-` + checkData} className={cx('image')}>
+                <Link
+                    to={'/product-page/' + `@${data.id}-` + checkData + '/' + `${data.title}`}
+                    className={cx('image')}
+                >
                     <img
                         src={data.size === 'large' ? data.image_large : data.image_small}
                         className={cx(data.image_large !== '' ? 'image-large' : 'image-small')}
@@ -18,7 +21,7 @@ function CategoryList({ data, checkData }) {
                     />
                 </Link>
                 <h4 className="title-cate">
-                    <Link to={'/product-page/' + `@${data.id}-` + checkData}>{data.title}</Link>
+                    <Link to={'/product-page/' + `@${data.id}-` + checkData + '/' + `${data.title}`}>{data.title}</Link>
                 </h4>
             </li>
         </>

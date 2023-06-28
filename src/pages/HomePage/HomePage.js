@@ -67,8 +67,9 @@ function HomePage() {
         const fetchApiBlog = async () => {
             try {
                 const response = await request.get('db/data-blog.json');
+                const data = response.data;
 
-                setArrBlog(response.data);
+                setArrBlog(data.slice(0, 2));
             } catch (error) {
                 console.log(error);
             }
@@ -149,7 +150,7 @@ function HomePage() {
                 <div className={cx('', 'section-slider')}>
                     <Swiper spaceBetween={50} slidesPerView={1}>
                         <SwiperSlide>
-                            <Link to={'product-page' + `\\@all`} className={cx('img-slider')}>
+                            <Link to={'/product-page/' + `@all` + '/' + `Tất cả sản phẩm`} className={cx('img-slider')}>
                                 <img src={imgSlider} alt="slider" />
                             </Link>
                         </SwiperSlide>
@@ -163,7 +164,10 @@ function HomePage() {
                         <div className={cx('title-sale')}>
                             <div className={cx('timer')}>
                                 <h2 className={cx('title')}>
-                                    <Link to={'product-page' + `\\@promotion`} className={cx('text-main')}>
+                                    <Link
+                                        to={'/product-page/' + `@promotion` + '/' + `Sản phẩm khuyến mãi`}
+                                        className={cx('text-main')}
+                                    >
                                         Deal sốc mỗi ngày
                                     </Link>
                                 </h2>
@@ -209,7 +213,12 @@ function HomePage() {
             <div className={cx('row container-app')}>
                 <div className={cx('', 'section-outstanding')}>
                     <div className={cx('d-flex', 'block-title')}>
-                        <Button to={'product-page' + `\\@outstanding`} primary rounded className={cx('btn-category')}>
+                        <Button
+                            to={'/product-page/' + `@outstanding` + '/' + `Sản phẩm nổi bật`}
+                            primary
+                            rounded
+                            className={cx('btn-category')}
+                        >
                             <span className={cx('fw-bold')}>Mẫu mới về</span>
                         </Button>
 
@@ -261,7 +270,7 @@ function HomePage() {
                 <div className={cx('', 'section-banner')}>
                     <Swiper spaceBetween={50} slidesPerView={1}>
                         <SwiperSlide>
-                            <Link to={'product-page' + `\\@all`} className={cx('img-banner')}>
+                            <Link to={'/product-page/' + `@all` + '/' + `Tất cả sản phẩm`} className={cx('img-banner')}>
                                 <img src={imgBanner} alt="Banner" />
                             </Link>
                         </SwiperSlide>
@@ -299,7 +308,7 @@ function HomePage() {
                                             {timerComponents.length ? timerComponents : <span>Count Down!</span>}
                                         </div>
                                         <Button
-                                            to={'/product-page/' + `@outstanding`}
+                                            to={'/product-page/' + `@outstanding` + '/' + `Sản phẩm nổi bật`}
                                             className={'w-fit-content'}
                                             outlineWhite
                                             rounded
@@ -325,7 +334,7 @@ function HomePage() {
                                             {timerComponents.length ? timerComponents : <span>Count Down!</span>}
                                         </div>
                                         <Button
-                                            to={'/product-page/' + `@outstanding`}
+                                            to={'/product-page/' + `@outstanding` + '/' + `Sản phẩm nổi bật`}
                                             className={'w-fit-content'}
                                             outlineWhite
                                             rounded
@@ -343,7 +352,7 @@ function HomePage() {
             <div className={cx('row container-app')}>
                 <div className={cx('', 'section-coupon')}>
                     <div className={cx('module-body')}>
-                        <Link to={'/product-page/' + `@outstanding`}>
+                        <Link to={'/product-page/' + `@outstanding` + '/' + `Sản phẩm nổi bật`}>
                             <span className={cx('purchase-text')}>
                                 Siêu ưu đãi cho <strong>đơn hàng đầu tiên.</strong>
                             </span>
@@ -358,13 +367,13 @@ function HomePage() {
                 <div className={cx('container-app')}>
                     <div className={cx('row')}>
                         <div className={cx('col-lg-3 col-12 d-md-none d-lg-block d-block')}>
-                            <Link to={'/product-page/' + `@all`}>
+                            <Link to={'/product-page/' + `@all` + '/' + `Tất cả sản phẩm`}>
                                 <img src={imgBestSale} alt={imgBestSale} />
                             </Link>
                         </div>
                         <div className={cx('col-lg-9 col-12')}>
-                            <Link to={'/product-page/' + `@outstanding`}>
-                                <h2 className={cx('title-module')}>Top danh mục</h2>
+                            <Link to={'/product-page/' + `@outstanding` + '/' + `Sản phẩm nổi bật`}>
+                                <h2 className={cx('title-module')}>Bán chạy của Tháng</h2>
                             </Link>
 
                             <Swiper
@@ -405,7 +414,7 @@ function HomePage() {
                 <div className={cx('', 'section-news')}>
                     <div className={cx('row')}>
                         <div className={cx('col-lg-6 col-12')}>
-                            <Link to={'/news-page/' + `@all`}>
+                            <Link to={'/product-page/' + `@all` + '/' + `Tất cả sản phẩm`}>
                                 <h2 className={cx('title-module')}>Tin mới cập nhật</h2>
                             </Link>
 
@@ -418,7 +427,7 @@ function HomePage() {
                         <div className={cx('col-lg-6 col-12')}>
                             <div className={cx('row')}>
                                 <div className={cx('col-md-6')}>
-                                    <Link to={'/news-page/' + `@all`}>
+                                    <Link to={'/product-page/' + `@all` + '/' + `Tất cả sản phẩm`}>
                                         <img
                                             src={imgVertical}
                                             alt="banner-blog"
@@ -427,10 +436,10 @@ function HomePage() {
                                     </Link>
                                 </div>
                                 <div className={cx('col-md-6')}>
-                                    <Link to={'/news-page/' + `@all`}>
+                                    <Link to={'/product-page/' + `@all` + '/' + `Tất cả sản phẩm`}>
                                         <img src={imgHori1} alt="banner-blog" className={cx('mb-3', 'img-blog')} />
                                     </Link>
-                                    <Link to={'/news-page/' + `@all`}>
+                                    <Link to={'/product-page/' + `@all` + '/' + `Tất cả sản phẩm`}>
                                         <img src={imgHori2} alt="banner-blog" className={cx('mb-3', 'img-blog')} />
                                     </Link>
                                 </div>

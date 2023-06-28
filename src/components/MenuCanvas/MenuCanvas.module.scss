@@ -66,5 +66,9 @@
         &:first-child {
             padding-top: 10px;
         }
+
+        &:hover {
+            color: var(--hover);
+        }
     }
 }

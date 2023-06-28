@@ -1,0 +1,67 @@
+.filter-item {
+    width: 100%;
+    float: left;
+    margin-bottom: 0px;
+
+    .title {
+        position: relative;
+
+        h2 {
+            font-family: var(--font-family);
+            text-transform: none;
+            font-weight: bold;
+            font-size: 1.4rem;
+            margin-bottom: 15px;
+            border-bottom: solid 2px var(--main-color);
+            display: block;
+            background: #f2586e;
+            color: #fff;
+            padding: 8px 10px 5px;
+            border-radius: 3px;
+
+            span {
+                font-size: 1.6rem;
+            }
+        }
+    }
+
+    .content {
+        width: 100%;
+        float: left;
+        position: relative;
+        padding-top: 0;
+
+        ul {
+            padding-left: 0px;
+            max-height: 240px;
+            overflow-y: auto;
+            list-style: none outside;
+
+            li {
+                margin: 0;
+                cursor: pointer;
+                line-height: 28px;
+                min-width: 100%;
+                float: left;
+                padding: 0px;
+                position: relative;
+                display: flex;
+                margin-bottom: 10px;
+
+                span {
+                    font-size: 1.4rem;
+                    cursor: pointer;
+                    color: var(--text-color);
+                    font-family: var(--font-base);
+                    font-weight: 400;
+
+                    label {
+                        display: inline-block;
+                        line-height: 15px;
+                        position: relative;
+                    }
+                }
+            }
+        }
+    }
+}

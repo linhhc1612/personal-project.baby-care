@@ -9,7 +9,11 @@ const cx = classNames.bind(styles);
 function ItemSmall({ data, checkKey }) {
     return (
         <Link
-            to={checkKey === 'product-page' ? '/product-page/' + data.key : '/wardrobe-page/' + data.key}
+            to={
+                checkKey === 'product-page'
+                    ? '/product-page/' + data.key + '/' + data.title
+                    : '/wardrobe-page/' + data.key + '/' + data.title
+            }
             className={cx('nav-link-small')}
         >
             {data.title}

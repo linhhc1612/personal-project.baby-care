@@ -2,8 +2,8 @@ import classNames from 'classnames/bind';
 import { Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import Offcanvas from 'react-bootstrap/Offcanvas';
-import * as request from '~/untils/httpRequest';
 
+import * as request from '~/untils/httpRequest';
 import styles from './Header.module.scss';
 import configs from '~/configs';
 import * as Icons from '~/components/Icons';

@@ -29,12 +29,12 @@ function MenuItem({ data }) {
                     </button>
 
                     <div className={cx('item-small', show ? 'active' : '')}>
-                        <MenuItemSmall data={data.children} />
+                        <MenuItemSmall data={data.children} checkKey={data.key} />
                     </div>
                 </>
             ) : (
                 <>
-                    <Link to={data.path} className={cx('d-flex justify-content-between align-items-center', 'item')}>
+                    <Link to={data.key} className={cx('d-flex justify-content-between align-items-center', 'item')}>
                         {data.title}
                     </Link>
                 </>
