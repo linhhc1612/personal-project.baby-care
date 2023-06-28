@@ -267,6 +267,21 @@ ul {
         color: var(--text-color);
     }
 }
+
+.swiper-slide-visible {
+    img {
+        border-color: 1px solid var(--main-color);
+        border-radius: 5px;
+        opacity: 0.5;
+    }
+}
+
+.swiper-slide-thumb-active {
+    img {
+        opacity: 1;
+    }
+}
+
 // Custom css
 .container-app {
     width: 100%;

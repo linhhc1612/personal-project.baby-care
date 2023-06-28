@@ -244,7 +244,7 @@ function ProductPage() {
                         <div className={cx('row')}>
                             {currentItems.map((result) => (
                                 <div key={result.id} className={cx('col-6 col-md-3')}>
-                                    <CardProduct data={result} typeDefault={true} />
+                                    <CardProduct data={result} typeDefault={true} checkData="product" />
                                 </div>
                             ))}
                         </div>
