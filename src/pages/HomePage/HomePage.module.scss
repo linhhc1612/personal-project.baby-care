@@ -164,53 +164,6 @@
         white-space: nowrap;
         padding: 0;
         margin: 0;
-
-        .cate-item {
-            width: 130px;
-            margin: 0 20px 0 0;
-            padding: 0 0px;
-            height: 100%;
-            text-align: center;
-            display: inline-block;
-
-            .image {
-                margin-bottom: 10px;
-                height: 130px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                overflow: hidden;
-                border-radius: 12px !important;
-
-                .image-large {
-                    width: auto !important;
-                    height: unset !important;
-                    max-height: 100%;
-                    background: #f8f8f8;
-                    transition: all 0.5s;
-                }
-            }
-
-            .title-cate {
-                font-size: 1.4rem;
-                margin-bottom: 0;
-                padding-left: 10px;
-
-                a {
-                    &:hover {
-                        font-weight: 500;
-                    }
-                }
-            }
-
-            &:hover {
-                .image {
-                    .image-large {
-                        transform: scale(1.1);
-                    }
-                }
-            }
-        }
     }
 }
 

@@ -10,7 +10,51 @@
             "sale": 6,
             "quantity": 100,
             "flash": true,
-            "create_at": "2023-07-01"
+            "create_at": "2023-07-01",
+            "trade_mark": "Regland",
+            "information": [
+                { "content": "Chất liệu: cotton tici mềm mịn, thấm hút mồ hôi, thoáng mát cho bé" },
+                {
+                    "content": "Hình in sử dụng công nghệ in chuyển nhiệt không bong tróc, không bếp dính, không phai màu và an toàn cho da của bé."
+                }
+            ],
+            "information_detail": [
+                { "content": "Áo cotton thấm mồ hôi tốt" },
+                { "content": "Chú ý: Màu sắc có thể hơi khác với thực tế do màn hình và độ sáng khác nhau" },
+                { "content": "Hình in sử dụng công nghệ in chuyển nhiệt thân thiện với môi trường, an toàn với da bé" },
+                { "content": "Hướng dẫn chọn size:" },
+                { "content": "Số 1: 8 - 11 kg;" },
+                { "content": "Số 2: 12 - 14 kg;" },
+                { "content": "Số 3: 14 - 16kg;" },
+                { "content": "Số 4: 16 - 18kg;" },
+                { "content": "Số 5: 18 - 20kg;" },
+                { "content": "BẢO QUẢN SẢN PHẨM" },
+                { "content": "Không giặt với nước nóng." },
+                { "content": "Không dùng thuốc tẩy, hóa chất." },
+                { "content": "Không giặt chung với quần áo sẫm màu." }
+            ],
+            "instruct": [{ "content": "" }],
+            "news_more": [
+                {
+                    "name": "Thời trang bé gái tuổi Teen và những điều ba mẹ cần biết",
+                    "image": "https://bizweb.dktcdn.net/100/459/160/articles/ao-choang-cho-be12.jpg?v=1657188531777"
+                }
+            ],
+            "category": "outstanding",
+            "album": [
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/c57efdb033e91bbf4bc459b715a81972-jpeg.jpg?v=1657182141843",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/c57efdb033e91bbf4bc459b715a81972-jpeg.jpg?v=1657182141843"
+                },
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/9c85284acb50a032f513c85b8f236f14-jpeg.jpg?v=1657182141843",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/9c85284acb50a032f513c85b8f236f14-jpeg.jpg?v=1657182141843"
+                },
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/fbf885b042f51c66735fcd2f43bc52b6-jpeg.jpg?v=1657182141843",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/fbf885b042f51c66735fcd2f43bc52b6-jpeg.jpg?v=1657182141843"
+                }
+            ]
         },
         {
             "id": "pid-2",
@@ -22,7 +66,51 @@
             "sale": 6,
             "quantity": 100,
             "flash": true,
-            "create_at": "2023-07-01"
+            "create_at": "2023-07-01",
+            "trade_mark": "Regland",
+            "information": [
+                { "content": "Chất liệu: cotton tici mềm mịn, thấm hút mồ hôi, thoáng mát cho bé" },
+                {
+                    "content": "Hình in sử dụng công nghệ in chuyển nhiệt không bong tróc, không bếp dính, không phai màu và an toàn cho da của bé."
+                }
+            ],
+            "information_detail": [
+                { "content": "Áo cotton thấm mồ hôi tốt" },
+                { "content": "Chú ý: Màu sắc có thể hơi khác với thực tế do màn hình và độ sáng khác nhau" },
+                { "content": "Hình in sử dụng công nghệ in chuyển nhiệt thân thiện với môi trường, an toàn với da bé" },
+                { "content": "Hướng dẫn chọn size:" },
+                { "content": "Số 1: 8 - 11 kg;" },
+                { "content": "Số 2: 12 - 14 kg;" },
+                { "content": "Số 3: 14 - 16kg;" },
+                { "content": "Số 4: 16 - 18kg;" },
+                { "content": "Số 5: 18 - 20kg;" },
+                { "content": "BẢO QUẢN SẢN PHẨM" },
+                { "content": "Không giặt với nước nóng." },
+                { "content": "Không dùng thuốc tẩy, hóa chất." },
+                { "content": "Không giặt chung với quần áo sẫm màu." }
+            ],
+            "instruct": [{ "content": "" }],
+            "news_more": [
+                {
+                    "name": "Thời trang bé gái tuổi Teen và những điều ba mẹ cần biết",
+                    "image": "https://bizweb.dktcdn.net/100/459/160/articles/ao-choang-cho-be12.jpg?v=1657188531777"
+                }
+            ],
+            "category": "outstanding",
+            "album": [
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997"
+                },
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457"
+                },
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727"
+                }
+            ]
         },
         {
             "id": "pid-3",
@@ -34,7 +122,51 @@
             "sale": 6,
             "quantity": 100,
             "flash": true,
-            "create_at": "2023-07-01"
+            "create_at": "2023-07-01",
+            "trade_mark": "Regland",
+            "information": [
+                { "content": "Chất liệu: cotton tici mềm mịn, thấm hút mồ hôi, thoáng mát cho bé" },
+                {
+                    "content": "Hình in sử dụng công nghệ in chuyển nhiệt không bong tróc, không bếp dính, không phai màu và an toàn cho da của bé."
+                }
+            ],
+            "information_detail": [
+                { "content": "Áo cotton thấm mồ hôi tốt" },
+                { "content": "Chú ý: Màu sắc có thể hơi khác với thực tế do màn hình và độ sáng khác nhau" },
+                { "content": "Hình in sử dụng công nghệ in chuyển nhiệt thân thiện với môi trường, an toàn với da bé" },
+                { "content": "Hướng dẫn chọn size:" },
+                { "content": "Số 1: 8 - 11 kg;" },
+                { "content": "Số 2: 12 - 14 kg;" },
+                { "content": "Số 3: 14 - 16kg;" },
+                { "content": "Số 4: 16 - 18kg;" },
+                { "content": "Số 5: 18 - 20kg;" },
+                { "content": "BẢO QUẢN SẢN PHẨM" },
+                { "content": "Không giặt với nước nóng." },
+                { "content": "Không dùng thuốc tẩy, hóa chất." },
+                { "content": "Không giặt chung với quần áo sẫm màu." }
+            ],
+            "instruct": [{ "content": "" }],
+            "news_more": [
+                {
+                    "name": "Thời trang bé gái tuổi Teen và những điều ba mẹ cần biết",
+                    "image": "https://bizweb.dktcdn.net/100/459/160/articles/ao-choang-cho-be12.jpg?v=1657188531777"
+                }
+            ],
+            "category": "outstanding",
+            "album": [
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997"
+                },
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457"
+                },
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727"
+                }
+            ]
         },
         {
             "id": "pid-4",
@@ -46,7 +178,51 @@
             "sale": 44,
             "quantity": 100,
             "flash": true,
-            "create_at": "2023-07-01"
+            "create_at": "2023-07-01",
+            "trade_mark": "Regland",
+            "information": [
+                { "content": "Chất liệu: cotton tici mềm mịn, thấm hút mồ hôi, thoáng mát cho bé" },
+                {
+                    "content": "Hình in sử dụng công nghệ in chuyển nhiệt không bong tróc, không bếp dính, không phai màu và an toàn cho da của bé."
+                }
+            ],
+            "information_detail": [
+                { "content": "Áo cotton thấm mồ hôi tốt" },
+                { "content": "Chú ý: Màu sắc có thể hơi khác với thực tế do màn hình và độ sáng khác nhau" },
+                { "content": "Hình in sử dụng công nghệ in chuyển nhiệt thân thiện với môi trường, an toàn với da bé" },
+                { "content": "Hướng dẫn chọn size:" },
+                { "content": "Số 1: 8 - 11 kg;" },
+                { "content": "Số 2: 12 - 14 kg;" },
+                { "content": "Số 3: 14 - 16kg;" },
+                { "content": "Số 4: 16 - 18kg;" },
+                { "content": "Số 5: 18 - 20kg;" },
+                { "content": "BẢO QUẢN SẢN PHẨM" },
+                { "content": "Không giặt với nước nóng." },
+                { "content": "Không dùng thuốc tẩy, hóa chất." },
+                { "content": "Không giặt chung với quần áo sẫm màu." }
+            ],
+            "instruct": [{ "content": "" }],
+            "news_more": [
+                {
+                    "name": "Thời trang bé gái tuổi Teen và những điều ba mẹ cần biết",
+                    "image": "https://bizweb.dktcdn.net/100/459/160/articles/ao-choang-cho-be12.jpg?v=1657188531777"
+                }
+            ],
+            "category": "outstanding",
+            "album": [
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997"
+                },
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457"
+                },
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727"
+                }
+            ]
         },
         {
             "id": "pid-5",
@@ -58,7 +234,51 @@
             "sale": 28,
             "quantity": 100,
             "flash": true,
-            "create_at": "2023-07-01"
+            "create_at": "2023-07-01",
+            "trade_mark": "Regland",
+            "information": [
+                { "content": "Chất liệu: cotton tici mềm mịn, thấm hút mồ hôi, thoáng mát cho bé" },
+                {
+                    "content": "Hình in sử dụng công nghệ in chuyển nhiệt không bong tróc, không bếp dính, không phai màu và an toàn cho da của bé."
+                }
+            ],
+            "information_detail": [
+                { "content": "Áo cotton thấm mồ hôi tốt" },
+                { "content": "Chú ý: Màu sắc có thể hơi khác với thực tế do màn hình và độ sáng khác nhau" },
+                { "content": "Hình in sử dụng công nghệ in chuyển nhiệt thân thiện với môi trường, an toàn với da bé" },
+                { "content": "Hướng dẫn chọn size:" },
+                { "content": "Số 1: 8 - 11 kg;" },
+                { "content": "Số 2: 12 - 14 kg;" },
+                { "content": "Số 3: 14 - 16kg;" },
+                { "content": "Số 4: 16 - 18kg;" },
+                { "content": "Số 5: 18 - 20kg;" },
+                { "content": "BẢO QUẢN SẢN PHẨM" },
+                { "content": "Không giặt với nước nóng." },
+                { "content": "Không dùng thuốc tẩy, hóa chất." },
+                { "content": "Không giặt chung với quần áo sẫm màu." }
+            ],
+            "instruct": [{ "content": "" }],
+            "news_more": [
+                {
+                    "name": "Thời trang bé gái tuổi Teen và những điều ba mẹ cần biết",
+                    "image": "https://bizweb.dktcdn.net/100/459/160/articles/ao-choang-cho-be12.jpg?v=1657188531777"
+                }
+            ],
+            "category": "outstanding",
+            "album": [
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997"
+                },
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457"
+                },
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727"
+                }
+            ]
         },
         {
             "id": "pid-6",
@@ -70,7 +290,51 @@
             "sale": 28,
             "quantity": 100,
             "flash": true,
-            "create_at": "2023-07-01"
+            "create_at": "2023-07-01",
+            "trade_mark": "Regland",
+            "information": [
+                { "content": "Chất liệu: cotton tici mềm mịn, thấm hút mồ hôi, thoáng mát cho bé" },
+                {
+                    "content": "Hình in sử dụng công nghệ in chuyển nhiệt không bong tróc, không bếp dính, không phai màu và an toàn cho da của bé."
+                }
+            ],
+            "information_detail": [
+                { "content": "Áo cotton thấm mồ hôi tốt" },
+                { "content": "Chú ý: Màu sắc có thể hơi khác với thực tế do màn hình và độ sáng khác nhau" },
+                { "content": "Hình in sử dụng công nghệ in chuyển nhiệt thân thiện với môi trường, an toàn với da bé" },
+                { "content": "Hướng dẫn chọn size:" },
+                { "content": "Số 1: 8 - 11 kg;" },
+                { "content": "Số 2: 12 - 14 kg;" },
+                { "content": "Số 3: 14 - 16kg;" },
+                { "content": "Số 4: 16 - 18kg;" },
+                { "content": "Số 5: 18 - 20kg;" },
+                { "content": "BẢO QUẢN SẢN PHẨM" },
+                { "content": "Không giặt với nước nóng." },
+                { "content": "Không dùng thuốc tẩy, hóa chất." },
+                { "content": "Không giặt chung với quần áo sẫm màu." }
+            ],
+            "instruct": [{ "content": "" }],
+            "news_more": [
+                {
+                    "name": "Thời trang bé gái tuổi Teen và những điều ba mẹ cần biết",
+                    "image": "https://bizweb.dktcdn.net/100/459/160/articles/ao-choang-cho-be12.jpg?v=1657188531777"
+                }
+            ],
+            "category": "promotion",
+            "album": [
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997"
+                },
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457"
+                },
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727"
+                }
+            ]
         },
         {
             "id": "pid-7",
@@ -82,7 +346,51 @@
             "sale": 4,
             "quantity": 100,
             "flash": true,
-            "create_at": "2023-07-01"
+            "create_at": "2023-07-01",
+            "trade_mark": "Regland",
+            "information": [
+                { "content": "Chất liệu: cotton tici mềm mịn, thấm hút mồ hôi, thoáng mát cho bé" },
+                {
+                    "content": "Hình in sử dụng công nghệ in chuyển nhiệt không bong tróc, không bếp dính, không phai màu và an toàn cho da của bé."
+                }
+            ],
+            "information_detail": [
+                { "content": "Áo cotton thấm mồ hôi tốt" },
+                { "content": "Chú ý: Màu sắc có thể hơi khác với thực tế do màn hình và độ sáng khác nhau" },
+                { "content": "Hình in sử dụng công nghệ in chuyển nhiệt thân thiện với môi trường, an toàn với da bé" },
+                { "content": "Hướng dẫn chọn size:" },
+                { "content": "Số 1: 8 - 11 kg;" },
+                { "content": "Số 2: 12 - 14 kg;" },
+                { "content": "Số 3: 14 - 16kg;" },
+                { "content": "Số 4: 16 - 18kg;" },
+                { "content": "Số 5: 18 - 20kg;" },
+                { "content": "BẢO QUẢN SẢN PHẨM" },
+                { "content": "Không giặt với nước nóng." },
+                { "content": "Không dùng thuốc tẩy, hóa chất." },
+                { "content": "Không giặt chung với quần áo sẫm màu." }
+            ],
+            "instruct": [{ "content": "" }],
+            "news_more": [
+                {
+                    "name": "Thời trang bé gái tuổi Teen và những điều ba mẹ cần biết",
+                    "image": "https://bizweb.dktcdn.net/100/459/160/articles/ao-choang-cho-be12.jpg?v=1657188531777"
+                }
+            ],
+            "category": "promotion",
+            "album": [
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997"
+                },
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457"
+                },
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727"
+                }
+            ]
         },
         {
             "id": "pid-8",
@@ -94,7 +402,51 @@
             "sale": 24,
             "quantity": 99,
             "flash": false,
-            "create_at": "2023-07-01"
+            "create_at": "2023-07-01",
+            "trade_mark": "Regland",
+            "information": [
+                { "content": "Chất liệu: cotton tici mềm mịn, thấm hút mồ hôi, thoáng mát cho bé" },
+                {
+                    "content": "Hình in sử dụng công nghệ in chuyển nhiệt không bong tróc, không bếp dính, không phai màu và an toàn cho da của bé."
+                }
+            ],
+            "information_detail": [
+                { "content": "Áo cotton thấm mồ hôi tốt" },
+                { "content": "Chú ý: Màu sắc có thể hơi khác với thực tế do màn hình và độ sáng khác nhau" },
+                { "content": "Hình in sử dụng công nghệ in chuyển nhiệt thân thiện với môi trường, an toàn với da bé" },
+                { "content": "Hướng dẫn chọn size:" },
+                { "content": "Số 1: 8 - 11 kg;" },
+                { "content": "Số 2: 12 - 14 kg;" },
+                { "content": "Số 3: 14 - 16kg;" },
+                { "content": "Số 4: 16 - 18kg;" },
+                { "content": "Số 5: 18 - 20kg;" },
+                { "content": "BẢO QUẢN SẢN PHẨM" },
+                { "content": "Không giặt với nước nóng." },
+                { "content": "Không dùng thuốc tẩy, hóa chất." },
+                { "content": "Không giặt chung với quần áo sẫm màu." }
+            ],
+            "instruct": [{ "content": "" }],
+            "news_more": [
+                {
+                    "name": "Thời trang bé gái tuổi Teen và những điều ba mẹ cần biết",
+                    "image": "https://bizweb.dktcdn.net/100/459/160/articles/ao-choang-cho-be12.jpg?v=1657188531777"
+                }
+            ],
+            "category": "promotion",
+            "album": [
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997"
+                },
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457"
+                },
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727"
+                }
+            ]
         },
         {
             "id": "pid-9",
@@ -106,7 +458,51 @@
             "sale": 0,
             "quantity": 100,
             "flash": false,
-            "create_at": "2023-07-01"
+            "create_at": "2023-07-01",
+            "trade_mark": "Regland",
+            "information": [
+                { "content": "Chất liệu: cotton tici mềm mịn, thấm hút mồ hôi, thoáng mát cho bé" },
+                {
+                    "content": "Hình in sử dụng công nghệ in chuyển nhiệt không bong tróc, không bếp dính, không phai màu và an toàn cho da của bé."
+                }
+            ],
+            "information_detail": [
+                { "content": "Áo cotton thấm mồ hôi tốt" },
+                { "content": "Chú ý: Màu sắc có thể hơi khác với thực tế do màn hình và độ sáng khác nhau" },
+                { "content": "Hình in sử dụng công nghệ in chuyển nhiệt thân thiện với môi trường, an toàn với da bé" },
+                { "content": "Hướng dẫn chọn size:" },
+                { "content": "Số 1: 8 - 11 kg;" },
+                { "content": "Số 2: 12 - 14 kg;" },
+                { "content": "Số 3: 14 - 16kg;" },
+                { "content": "Số 4: 16 - 18kg;" },
+                { "content": "Số 5: 18 - 20kg;" },
+                { "content": "BẢO QUẢN SẢN PHẨM" },
+                { "content": "Không giặt với nước nóng." },
+                { "content": "Không dùng thuốc tẩy, hóa chất." },
+                { "content": "Không giặt chung với quần áo sẫm màu." }
+            ],
+            "instruct": [{ "content": "" }],
+            "news_more": [
+                {
+                    "name": "Thời trang bé gái tuổi Teen và những điều ba mẹ cần biết",
+                    "image": "https://bizweb.dktcdn.net/100/459/160/articles/ao-choang-cho-be12.jpg?v=1657188531777"
+                }
+            ],
+            "category": "promotion",
+            "album": [
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997"
+                },
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457"
+                },
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727"
+                }
+            ]
         },
         {
             "id": "pid-10",
@@ -118,7 +514,51 @@
             "sale": 44,
             "quantity": 100,
             "flash": false,
-            "create_at": "2023-07-01"
+            "create_at": "2023-07-01",
+            "trade_mark": "Regland",
+            "information": [
+                { "content": "Chất liệu: cotton tici mềm mịn, thấm hút mồ hôi, thoáng mát cho bé" },
+                {
+                    "content": "Hình in sử dụng công nghệ in chuyển nhiệt không bong tróc, không bếp dính, không phai màu và an toàn cho da của bé."
+                }
+            ],
+            "information_detail": [
+                { "content": "Áo cotton thấm mồ hôi tốt" },
+                { "content": "Chú ý: Màu sắc có thể hơi khác với thực tế do màn hình và độ sáng khác nhau" },
+                { "content": "Hình in sử dụng công nghệ in chuyển nhiệt thân thiện với môi trường, an toàn với da bé" },
+                { "content": "Hướng dẫn chọn size:" },
+                { "content": "Số 1: 8 - 11 kg;" },
+                { "content": "Số 2: 12 - 14 kg;" },
+                { "content": "Số 3: 14 - 16kg;" },
+                { "content": "Số 4: 16 - 18kg;" },
+                { "content": "Số 5: 18 - 20kg;" },
+                { "content": "BẢO QUẢN SẢN PHẨM" },
+                { "content": "Không giặt với nước nóng." },
+                { "content": "Không dùng thuốc tẩy, hóa chất." },
+                { "content": "Không giặt chung với quần áo sẫm màu." }
+            ],
+            "instruct": [{ "content": "" }],
+            "news_more": [
+                {
+                    "name": "Thời trang bé gái tuổi Teen và những điều ba mẹ cần biết",
+                    "image": "https://bizweb.dktcdn.net/100/459/160/articles/ao-choang-cho-be12.jpg?v=1657188531777"
+                }
+            ],
+            "category": "promotion",
+            "album": [
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997"
+                },
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457"
+                },
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727"
+                }
+            ]
         },
         {
             "id": "pid-11",
@@ -130,7 +570,51 @@
             "sale": 44,
             "quantity": 99,
             "flash": false,
-            "create_at": "2023-07-01"
+            "create_at": "2023-07-01",
+            "trade_mark": "Regland",
+            "information": [
+                { "content": "Chất liệu: cotton tici mềm mịn, thấm hút mồ hôi, thoáng mát cho bé" },
+                {
+                    "content": "Hình in sử dụng công nghệ in chuyển nhiệt không bong tróc, không bếp dính, không phai màu và an toàn cho da của bé."
+                }
+            ],
+            "information_detail": [
+                { "content": "Áo cotton thấm mồ hôi tốt" },
+                { "content": "Chú ý: Màu sắc có thể hơi khác với thực tế do màn hình và độ sáng khác nhau" },
+                { "content": "Hình in sử dụng công nghệ in chuyển nhiệt thân thiện với môi trường, an toàn với da bé" },
+                { "content": "Hướng dẫn chọn size:" },
+                { "content": "Số 1: 8 - 11 kg;" },
+                { "content": "Số 2: 12 - 14 kg;" },
+                { "content": "Số 3: 14 - 16kg;" },
+                { "content": "Số 4: 16 - 18kg;" },
+                { "content": "Số 5: 18 - 20kg;" },
+                { "content": "BẢO QUẢN SẢN PHẨM" },
+                { "content": "Không giặt với nước nóng." },
+                { "content": "Không dùng thuốc tẩy, hóa chất." },
+                { "content": "Không giặt chung với quần áo sẫm màu." }
+            ],
+            "instruct": [{ "content": "" }],
+            "news_more": [
+                {
+                    "name": "Thời trang bé gái tuổi Teen và những điều ba mẹ cần biết",
+                    "image": "https://bizweb.dktcdn.net/100/459/160/articles/ao-choang-cho-be12.jpg?v=1657188531777"
+                }
+            ],
+            "category": "outstanding",
+            "album": [
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997"
+                },
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457"
+                },
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727"
+                }
+            ]
         },
         {
             "id": "pid-12",
@@ -142,7 +626,51 @@
             "sale": 24,
             "quantity": 99,
             "flash": false,
-            "create_at": "2023-07-01"
+            "create_at": "2023-07-01",
+            "trade_mark": "Regland",
+            "information": [
+                { "content": "Chất liệu: cotton tici mềm mịn, thấm hút mồ hôi, thoáng mát cho bé" },
+                {
+                    "content": "Hình in sử dụng công nghệ in chuyển nhiệt không bong tróc, không bếp dính, không phai màu và an toàn cho da của bé."
+                }
+            ],
+            "information_detail": [
+                { "content": "Áo cotton thấm mồ hôi tốt" },
+                { "content": "Chú ý: Màu sắc có thể hơi khác với thực tế do màn hình và độ sáng khác nhau" },
+                { "content": "Hình in sử dụng công nghệ in chuyển nhiệt thân thiện với môi trường, an toàn với da bé" },
+                { "content": "Hướng dẫn chọn size:" },
+                { "content": "Số 1: 8 - 11 kg;" },
+                { "content": "Số 2: 12 - 14 kg;" },
+                { "content": "Số 3: 14 - 16kg;" },
+                { "content": "Số 4: 16 - 18kg;" },
+                { "content": "Số 5: 18 - 20kg;" },
+                { "content": "BẢO QUẢN SẢN PHẨM" },
+                { "content": "Không giặt với nước nóng." },
+                { "content": "Không dùng thuốc tẩy, hóa chất." },
+                { "content": "Không giặt chung với quần áo sẫm màu." }
+            ],
+            "instruct": [{ "content": "" }],
+            "news_more": [
+                {
+                    "name": "Thời trang bé gái tuổi Teen và những điều ba mẹ cần biết",
+                    "image": "https://bizweb.dktcdn.net/100/459/160/articles/ao-choang-cho-be12.jpg?v=1657188531777"
+                }
+            ],
+            "category": "outstanding",
+            "album": [
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997"
+                },
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457"
+                },
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727"
+                }
+            ]
         },
         {
             "id": "pid-13",
@@ -154,7 +682,51 @@
             "sale": 24,
             "quantity": 99,
             "flash": false,
-            "create_at": "2023-06-28"
+            "create_at": "2023-06-28",
+            "trade_mark": "Regland",
+            "information": [
+                { "content": "Chất liệu: cotton tici mềm mịn, thấm hút mồ hôi, thoáng mát cho bé" },
+                {
+                    "content": "Hình in sử dụng công nghệ in chuyển nhiệt không bong tróc, không bếp dính, không phai màu và an toàn cho da của bé."
+                }
+            ],
+            "information_detail": [
+                { "content": "Áo cotton thấm mồ hôi tốt" },
+                { "content": "Chú ý: Màu sắc có thể hơi khác với thực tế do màn hình và độ sáng khác nhau" },
+                { "content": "Hình in sử dụng công nghệ in chuyển nhiệt thân thiện với môi trường, an toàn với da bé" },
+                { "content": "Hướng dẫn chọn size:" },
+                { "content": "Số 1: 8 - 11 kg;" },
+                { "content": "Số 2: 12 - 14 kg;" },
+                { "content": "Số 3: 14 - 16kg;" },
+                { "content": "Số 4: 16 - 18kg;" },
+                { "content": "Số 5: 18 - 20kg;" },
+                { "content": "BẢO QUẢN SẢN PHẨM" },
+                { "content": "Không giặt với nước nóng." },
+                { "content": "Không dùng thuốc tẩy, hóa chất." },
+                { "content": "Không giặt chung với quần áo sẫm màu." }
+            ],
+            "instruct": [{ "content": "" }],
+            "news_more": [
+                {
+                    "name": "Thời trang bé gái tuổi Teen và những điều ba mẹ cần biết",
+                    "image": "https://bizweb.dktcdn.net/100/459/160/articles/ao-choang-cho-be12.jpg?v=1657188531777"
+                }
+            ],
+            "category": "outstanding",
+            "album": [
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997"
+                },
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457"
+                },
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727"
+                }
+            ]
         },
         {
             "id": "pid-14",
@@ -166,7 +738,51 @@
             "sale": 24,
             "quantity": 99,
             "flash": false,
-            "create_at": "2023-06-28"
+            "create_at": "2023-06-28",
+            "trade_mark": "Regland",
+            "information": [
+                { "content": "Chất liệu: cotton tici mềm mịn, thấm hút mồ hôi, thoáng mát cho bé" },
+                {
+                    "content": "Hình in sử dụng công nghệ in chuyển nhiệt không bong tróc, không bếp dính, không phai màu và an toàn cho da của bé."
+                }
+            ],
+            "information_detail": [
+                { "content": "Áo cotton thấm mồ hôi tốt" },
+                { "content": "Chú ý: Màu sắc có thể hơi khác với thực tế do màn hình và độ sáng khác nhau" },
+                { "content": "Hình in sử dụng công nghệ in chuyển nhiệt thân thiện với môi trường, an toàn với da bé" },
+                { "content": "Hướng dẫn chọn size:" },
+                { "content": "Số 1: 8 - 11 kg;" },
+                { "content": "Số 2: 12 - 14 kg;" },
+                { "content": "Số 3: 14 - 16kg;" },
+                { "content": "Số 4: 16 - 18kg;" },
+                { "content": "Số 5: 18 - 20kg;" },
+                { "content": "BẢO QUẢN SẢN PHẨM" },
+                { "content": "Không giặt với nước nóng." },
+                { "content": "Không dùng thuốc tẩy, hóa chất." },
+                { "content": "Không giặt chung với quần áo sẫm màu." }
+            ],
+            "instruct": [{ "content": "" }],
+            "news_more": [
+                {
+                    "name": "Thời trang bé gái tuổi Teen và những điều ba mẹ cần biết",
+                    "image": "https://bizweb.dktcdn.net/100/459/160/articles/ao-choang-cho-be12.jpg?v=1657188531777"
+                }
+            ],
+            "category": "outstanding",
+            "album": [
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997"
+                },
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457"
+                },
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727"
+                }
+            ]
         },
         {
             "id": "pid-15",
@@ -178,7 +794,51 @@
             "sale": 24,
             "quantity": 99,
             "flash": false,
-            "create_at": "2023-06-28"
+            "create_at": "2023-06-28",
+            "trade_mark": "Regland",
+            "information": [
+                { "content": "Chất liệu: cotton tici mềm mịn, thấm hút mồ hôi, thoáng mát cho bé" },
+                {
+                    "content": "Hình in sử dụng công nghệ in chuyển nhiệt không bong tróc, không bếp dính, không phai màu và an toàn cho da của bé."
+                }
+            ],
+            "information_detail": [
+                { "content": "Áo cotton thấm mồ hôi tốt" },
+                { "content": "Chú ý: Màu sắc có thể hơi khác với thực tế do màn hình và độ sáng khác nhau" },
+                { "content": "Hình in sử dụng công nghệ in chuyển nhiệt thân thiện với môi trường, an toàn với da bé" },
+                { "content": "Hướng dẫn chọn size:" },
+                { "content": "Số 1: 8 - 11 kg;" },
+                { "content": "Số 2: 12 - 14 kg;" },
+                { "content": "Số 3: 14 - 16kg;" },
+                { "content": "Số 4: 16 - 18kg;" },
+                { "content": "Số 5: 18 - 20kg;" },
+                { "content": "BẢO QUẢN SẢN PHẨM" },
+                { "content": "Không giặt với nước nóng." },
+                { "content": "Không dùng thuốc tẩy, hóa chất." },
+                { "content": "Không giặt chung với quần áo sẫm màu." }
+            ],
+            "instruct": [{ "content": "" }],
+            "news_more": [
+                {
+                    "name": "Thời trang bé gái tuổi Teen và những điều ba mẹ cần biết",
+                    "image": "https://bizweb.dktcdn.net/100/459/160/articles/ao-choang-cho-be12.jpg?v=1657188531777"
+                }
+            ],
+            "category": "outstanding",
+            "album": [
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997"
+                },
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457"
+                },
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727"
+                }
+            ]
         },
         {
             "id": "pid-16",
@@ -190,7 +850,51 @@
             "sale": 24,
             "quantity": 99,
             "flash": false,
-            "create_at": "2023-06-28"
+            "create_at": "2023-06-28",
+            "trade_mark": "Regland",
+            "information": [
+                { "content": "Chất liệu: cotton tici mềm mịn, thấm hút mồ hôi, thoáng mát cho bé" },
+                {
+                    "content": "Hình in sử dụng công nghệ in chuyển nhiệt không bong tróc, không bếp dính, không phai màu và an toàn cho da của bé."
+                }
+            ],
+            "information_detail": [
+                { "content": "Áo cotton thấm mồ hôi tốt" },
+                { "content": "Chú ý: Màu sắc có thể hơi khác với thực tế do màn hình và độ sáng khác nhau" },
+                { "content": "Hình in sử dụng công nghệ in chuyển nhiệt thân thiện với môi trường, an toàn với da bé" },
+                { "content": "Hướng dẫn chọn size:" },
+                { "content": "Số 1: 8 - 11 kg;" },
+                { "content": "Số 2: 12 - 14 kg;" },
+                { "content": "Số 3: 14 - 16kg;" },
+                { "content": "Số 4: 16 - 18kg;" },
+                { "content": "Số 5: 18 - 20kg;" },
+                { "content": "BẢO QUẢN SẢN PHẨM" },
+                { "content": "Không giặt với nước nóng." },
+                { "content": "Không dùng thuốc tẩy, hóa chất." },
+                { "content": "Không giặt chung với quần áo sẫm màu." }
+            ],
+            "instruct": [{ "content": "" }],
+            "news_more": [
+                {
+                    "name": "Thời trang bé gái tuổi Teen và những điều ba mẹ cần biết",
+                    "image": "https://bizweb.dktcdn.net/100/459/160/articles/ao-choang-cho-be12.jpg?v=1657188531777"
+                }
+            ],
+            "category": "outstanding",
+            "album": [
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997"
+                },
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457"
+                },
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727"
+                }
+            ]
         },
         {
             "id": "pid-17",
@@ -202,7 +906,51 @@
             "sale": 24,
             "quantity": 99,
             "flash": false,
-            "create_at": "2023-06-28"
+            "create_at": "2023-06-28",
+            "trade_mark": "Regland",
+            "information": [
+                { "content": "Chất liệu: cotton tici mềm mịn, thấm hút mồ hôi, thoáng mát cho bé" },
+                {
+                    "content": "Hình in sử dụng công nghệ in chuyển nhiệt không bong tróc, không bếp dính, không phai màu và an toàn cho da của bé."
+                }
+            ],
+            "information_detail": [
+                { "content": "Áo cotton thấm mồ hôi tốt" },
+                { "content": "Chú ý: Màu sắc có thể hơi khác với thực tế do màn hình và độ sáng khác nhau" },
+                { "content": "Hình in sử dụng công nghệ in chuyển nhiệt thân thiện với môi trường, an toàn với da bé" },
+                { "content": "Hướng dẫn chọn size:" },
+                { "content": "Số 1: 8 - 11 kg;" },
+                { "content": "Số 2: 12 - 14 kg;" },
+                { "content": "Số 3: 14 - 16kg;" },
+                { "content": "Số 4: 16 - 18kg;" },
+                { "content": "Số 5: 18 - 20kg;" },
+                { "content": "BẢO QUẢN SẢN PHẨM" },
+                { "content": "Không giặt với nước nóng." },
+                { "content": "Không dùng thuốc tẩy, hóa chất." },
+                { "content": "Không giặt chung với quần áo sẫm màu." }
+            ],
+            "instruct": [{ "content": "" }],
+            "news_more": [
+                {
+                    "name": "Thời trang bé gái tuổi Teen và những điều ba mẹ cần biết",
+                    "image": "https://bizweb.dktcdn.net/100/459/160/articles/ao-choang-cho-be12.jpg?v=1657188531777"
+                }
+            ],
+            "category": "outstanding",
+            "album": [
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997"
+                },
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457"
+                },
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727"
+                }
+            ]
         }
     ]
 }

@@ -11,7 +11,7 @@ const routes = {
     signUpPage: '/sign-up-page',
     forgotPage: '/forgot-page',
     productDetailPage: '/product-detail-page/:id/:name',
-    newsDetailPage: '/newsDetail-page',
+    newsDetailPage: '/news-detail-page/:name',
     searchPage: '/search-page',
 };
 

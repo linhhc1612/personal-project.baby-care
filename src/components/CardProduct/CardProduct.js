@@ -33,17 +33,14 @@ function CardProduct({ typeDefault = true, data, checkData }) {
     return (
         <>
             <div className={cx('item-product-main')}>
-                <Link
-                    to={'/product-detail-page/' + `@${data.id}-` + checkData + '/' + `${data.name_product}`}
-                    className={cx('image-thumb')}
-                >
+                <Link to={'/product-detail-page/' + `${data.id}/${data.name_product}`} className={cx('image-thumb')}>
                     <span className={cx('label-sale')}>{data.sale}%</span>
                     <img width={199} height={199} src={data.image_product} alt={data.name_product} />
                 </Link>
 
                 <div className={cx('info-product', typeDefault ? '' : 'flash')}>
                     <h3 className={cx('product-name')}>
-                        <Link to={'/product-detail-page/' + `@${data.id}-` + checkData + '/' + `${data.name_product}`}>
+                        <Link to={'/product-detail-page/' + `${data.id}/${data.name_product}`}>
                             {data.name_product}
                         </Link>
                     </h3>
