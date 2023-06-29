@@ -2,7 +2,7 @@ import classNames from 'classnames/bind';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
-import styles from '~/pages/HomePage/HomePage.module.scss';
+import styles from './CategoryList.module.scss';
 
 const cx = classNames.bind(styles);
 

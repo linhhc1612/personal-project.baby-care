@@ -1,3 +1,9 @@
+.detail-image {
+    .image-small {
+        z-index: 0;
+    }
+}
+
 .detail-info {
     .title-product {
         font-size: 1.8rem;
@@ -334,6 +340,27 @@
 
         .wrapper {
             padding: 0 5px 7px 5px;
+        }
+    }
+}
+
+.detail-more {
+    z-index: 1;
+    margin: 20px 0 0;
+
+    .box-news-more {
+        li {
+            padding: 0 0 10px;
+            border-bottom: solid 1px #ebebeb;
+            margin-bottom: 10px;
+
+            a {
+                display: block;
+                max-height: 22px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
         }
     }
 }

@@ -3,29 +3,40 @@
 import { useEffect, useState } from 'react';
 import classNames from 'classnames/bind';
 import { Breadcrumb } from 'react-bootstrap';
+import Tab from 'react-bootstrap/Tab';
+import Tabs from 'react-bootstrap/Tabs';
+
 import 'swiper/css';
 import 'swiper/css/free-mode';
 import 'swiper/css/navigation';
 import 'swiper/css/thumbs';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { FreeMode, Navigation, Thumbs } from 'swiper';
+import { FreeMode, Grid, Navigation, Thumbs } from 'swiper';
 
 import * as request from '~/untils/httpRequest';
 import * as Icons from '~/components/Icons';
 import configs from '~/configs';
 import styles from './ProductDetailPage.module.scss';
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import Service from '~/components/Service';
+import CategoryList from '~/components/Category';
+import CardProduct from '~/components/CardProduct';
 
 const cx = classNames.bind(styles);
 
 function ProductDetailPage() {
     const [thumbsSwiper, setThumbsSwiper] = useState(null);
     const [albumProduct, setAlbumProduct] = useState([]);
+    const [informationProduct, setInformationProduct] = useState([]);
+    const [informationDetailProduct, setInformationDetailProduct] = useState([]);
+    const [instructProduct, setInstructProduct] = useState([]);
+    const [newsMoreProduct, setNewsMoreProduct] = useState([]);
     const [objProduct, setObjProduct] = useState([]);
     const [timeLeft, setTimeLeft] = useState({});
     const [valueBuy, setValueBuy] = useState(1);
     const [arrService, setArrService] = useState([]);
+    const [arrCategory, setArrCategory] = useState([]);
+    const [arrProductMore, setArrProductMore] = useState([]);
 
     const param = useParams();
     const timerComponents = [];
@@ -37,16 +48,25 @@ function ProductDetailPage() {
         const fetchApiProduct = async () => {
             try {
                 const response = await request.get('db/data-product.json');
-                const newAlbum = [];
+                const newData = [];
+                let currentCate = '';
 
                 response.data.forEach((data) => {
                     if (data.id === param.id) {
-                        newAlbum.push(data);
-                        newAlbum.forEach((data) => setAlbumProduct(data.album));
+                        newData.push(data);
+                        newData.forEach((data) => {
+                            setAlbumProduct(data.album);
+                            setInformationProduct(data.information);
+                            setInformationDetailProduct(data.information_detail);
+                            setInstructProduct(data.instruct);
+                            setNewsMoreProduct(data.news_more);
+                            currentCate = data.category;
+                        });
 
-                        const formatPri = new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(
-                            data.price_product,
-                        );
+                        const formatPri = new Intl.NumberFormat('vi-VN', {
+                            style: 'currency',
+                            currency: 'VND',
+                        }).format(data.price_product);
                         const formatPriSale = new Intl.NumberFormat('vi-VN', {
                             style: 'currency',
                             currency: 'VND',
@@ -54,7 +74,14 @@ function ProductDetailPage() {
 
                         setFormatPrice(formatPri);
                         setFormatPriceSale(formatPriSale);
+
                         return setObjProduct(data);
+                    }
+
+                    if (currentCate === data.category) {
+                        newData.push(data);
+
+                        return setArrProductMore(newData);
                     }
                 });
             } catch (error) {
@@ -75,7 +102,19 @@ function ProductDetailPage() {
             }
         };
         fetchApiService();
-    }, []);
+
+        // API Category
+        const fetchApiCategory = async () => {
+            try {
+                const response = await request.get('db/data-category.json');
+
+                setArrCategory(response.data);
+            } catch (error) {
+                console.log(error);
+            }
+        };
+        fetchApiCategory();
+    }, [param]);
 
     Object.keys(timeLeft).forEach((interval, index) => {
         const index2 = index + 999;
@@ -169,6 +208,7 @@ function ProductDetailPage() {
                         navigation={true}
                         watchSlidesProgress={true}
                         modules={[FreeMode, Navigation, Thumbs]}
+                        className={cx('image-small')}
                     >
                         {albumProduct.map((result, index) => (
                             <SwiperSlide key={index}>
@@ -303,6 +343,119 @@ function ProductDetailPage() {
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+                <div className={cx('col-12', 'detail-more')}>
+                    <div className={cx('row')}>
+                        <div className={cx('col-lg-8 col-12 mb-3')}>
+                            <Tabs defaultActiveKey="detail" id="uncontrolled-tab-example" className={cx('mb-3', 'tab')}>
+                                <Tab eventKey="info" title="Thông tin">
+                                    {informationProduct.map((data, index) => (
+                                        <div key={index} className={cx('d-block')}>
+                                            <p>{data.content !== '' ? data.content : 'Nội dung đang cập nhật'}</p>
+                                        </div>
+                                    ))}
+                                </Tab>
+                                <Tab eventKey="detail" title="Chi tiết">
+                                    {informationDetailProduct.map((data, index) => (
+                                        <div key={index} className={cx('d-block')}>
+                                            <p>{data.content !== '' ? data.content : 'Nội dung đang cập nhật'}</p>
+                                        </div>
+                                    ))}
+                                </Tab>
+                                <Tab eventKey="instruct" title="Hướng dẫn">
+                                    {instructProduct.map((data, index) => (
+                                        <div key={index} className={cx('d-block')}>
+                                            <p>{data.content !== '' ? data.content : 'Nội dung đang cập nhật'}</p>
+                                        </div>
+                                    ))}
+                                </Tab>
+                            </Tabs>
+                        </div>
+                        <div className={cx('col-lg-4 col-12 mb-3')}>
+                            <h2 className={cx('title-module')}>Danh mục nổi bật</h2>
+
+                            <div className={cx('text-center mb-5')}>
+                                <Swiper
+                                    slidesPerView={3}
+                                    grid={{
+                                        fill: 'row',
+                                        rows: 2,
+                                    }}
+                                    spaceBetween={10}
+                                    navigation
+                                    modules={[Grid, Navigation]}
+                                    breakpoints={{
+                                        360: {
+                                            slidesPerView: 2,
+                                            spaceBetween: 10,
+                                        },
+                                        768: {
+                                            slidesPerView: 4,
+                                            spaceBetween: 10,
+                                        },
+                                        992: {
+                                            slidesPerView: 3,
+                                            spaceBetween: 10,
+                                        },
+                                    }}
+                                >
+                                    {arrCategory.map(
+                                        (result) =>
+                                            !result.flash && (
+                                                <SwiperSlide key={result.id}>
+                                                    <CategoryList data={result} checkData="large" />
+                                                </SwiperSlide>
+                                            ),
+                                    )}
+                                </Swiper>
+                            </div>
+
+                            <h2 className={cx('title-module')}>Tin tức liên quan</h2>
+
+                            <ul className={cx('p-0', 'box-news-more')}>
+                                {newsMoreProduct.map((data, index) => (
+                                    <li key={index}>
+                                        <Link to={'/news-detail-page/' + `${data.name}`}>{data.name}</Link>
+                                    </li>
+                                ))}
+                            </ul>
+                        </div>
+                    </div>
+                    <div className={cx('row')}>
+                        <div className={cx('col-12')}>
+                            <h2 className={cx('title-module')}>Sản phẩm liên quan</h2>
+                            <Swiper
+                                spaceBetween={20}
+                                slidesPerView={5}
+                                navigation={true}
+                                modules={[Navigation]}
+                                breakpoints={{
+                                    360: {
+                                        slidesPerView: 1.5,
+                                        spaceBetween: 10,
+                                    },
+                                    768: {
+                                        slidesPerView: 3.5,
+                                        spaceBetween: 10,
+                                    },
+                                    992: {
+                                        slidesPerView: 5,
+                                        spaceBetween: 20,
+                                    },
+                                }}
+                            >
+                                {arrProductMore.map(
+                                    (result) =>
+                                        result.id !== objProduct.id && (
+                                            <SwiperSlide key={result.id}>
+                                                <CardProduct data={result} typeDefault={true} checkData="more" />
+                                            </SwiperSlide>
+                                        ),
+                                )}
+                            </Swiper>
+                        </div>
+                        <div className={cx('col-12')}></div>
                     </div>
                 </div>
             </div>

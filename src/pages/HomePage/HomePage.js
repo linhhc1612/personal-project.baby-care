@@ -14,7 +14,7 @@ import { Navigation, Grid } from 'swiper';
 
 import styles from './HomePage.module.scss';
 import CardProduct from '~/components/CardProduct';
-import CategoryList from './components/CategotyList';
+import CategoryList from '~/components/Category';
 import Button from '~/components/Button';
 import Blog from '~/components/Blog';
 import Service from '~/components/Service';
@@ -282,7 +282,7 @@ function HomePage() {
                 <div className={cx('', 'section-top')}>
                     <h2 className={cx('title-module')}>Top danh mục</h2>
 
-                    <ul className={cx('wrapper')}>
+                    <ul className={cx('d-flex align-items-center', 'wrapper')}>
                         {arrCategory.map((result, index) => (
                             <CategoryList key={index} data={result} checkData="large" />
                         ))}
