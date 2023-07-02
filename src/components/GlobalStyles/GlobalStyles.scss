@@ -81,6 +81,7 @@ body {
 
 button,
 input,
+textarea,
 [tabIndex] {
     border: none;
     outline: none;
@@ -346,6 +347,13 @@ ul {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
+}
+
+.text-error-message {
+    color: red;
+    font-size: 1.2rem;
+    font-style: italic;
+    line-height: 30px;
 }
 
 @media (min-width: 576px) {

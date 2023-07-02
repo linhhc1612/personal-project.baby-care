@@ -71,7 +71,7 @@ function Header() {
                                     0329.***.***
                                 </Link>
                             </p>
-                            <Link to={configs.routes.favoritePage} className={cx('m-0 ps-4')}>
+                            <Link to={'/favorite-page' + `/Sản phẩm yêu thích`} className={cx('m-0 ps-4')}>
                                 Yêu thích (0)
                             </Link>
                         </div>
@@ -85,16 +85,16 @@ function Header() {
                             </marquee>
                         </div>
                         <div className={cx('col-lg-4 col-md-6 order-lg-3 order-md-2 text-end d-none d-md-block')}>
-                            <Link to={configs.routes.storePage} className={cx('pe-4')}>
+                            <Link to={'/store-page' + `/Hệ thống cửa hàng`} className={cx('pe-4')}>
                                 <span className={cx('text-main pe-1')}>
                                     <Icons.LocationDotIcon />
                                 </span>{' '}
                                 Cửa hàng
                             </Link>
-                            <Link to={configs.routes.loginPage} className={cx('ps-4 pe-4 border-start')}>
+                            <Link to={'/login-page' + `/Đăng nhập tài khoản`} className={cx('ps-4 pe-4 border-start')}>
                                 Đăng nhập
                             </Link>
-                            <Link to={configs.routes.signUpPage} className={cx('ps-4 border-start')}>
+                            <Link to={'/sign-up-page' + `/Đăng ký tài khoản`} className={cx('ps-4 border-start')}>
                                 Đăng ký
                             </Link>
                         </div>
