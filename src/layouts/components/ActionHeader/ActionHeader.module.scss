@@ -4,12 +4,13 @@
     border-radius: 5px;
     position: relative;
 
-    input {
+    .input-form-search {
         width: 100%;
         height: 4rem;
         min-height: 4rem;
         line-height: 4rem;
         padding: 0 60px 0 10px;
+        margin: 0;
         overflow: hidden;
         background: #fff;
         border-radius: 25px !important;

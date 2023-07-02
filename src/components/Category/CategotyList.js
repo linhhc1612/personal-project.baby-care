@@ -9,20 +9,18 @@ const cx = classNames.bind(styles);
 function CategoryList({ data, checkData }) {
     return (
         <>
-            <li key={data.id} className={cx('cate-item')}>
+            <li key={data.id} className={cx('cate-item', checkData === 'large' ? 'cate-large' : 'cate-small')}>
                 <Link
                     to={'/product-page/' + `@${data.id}-` + checkData + '/' + `${data.title}`}
-                    className={cx('image')}
+                    className={cx('image', checkData === 'large' ? 'image-large' : 'image-small')}
                 >
-                    <img
-                        src={data.size === 'large' ? data.image_large : data.image_small}
-                        className={cx(data.image_large !== '' ? 'image-large' : 'image-small')}
-                        alt={data.title}
-                    />
+                    <img src={checkData === 'large' ? data.image_large : data.image_small} alt={data.title} />
                 </Link>
-                <h4 className="title-cate">
-                    <Link to={'/product-page/' + `@${data.id}-` + checkData + '/' + `${data.title}`}>{data.title}</Link>
-                </h4>
+                <Link to={'/product-page/' + `@${data.id}-` + checkData + '/' + `${data.title}`}>
+                    <h4 className={cx('title-cate', checkData === 'large' ? 'title-large' : 'title-small')}>
+                        {data.title}
+                    </h4>
+                </Link>
             </li>
         </>
     );

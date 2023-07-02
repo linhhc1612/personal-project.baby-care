@@ -10,12 +10,12 @@ function Blog({ data }) {
     return (
         <>
             <div className={cx('item-blog')}>
-                <Link to={'/news-page/' + `@${data.id}`} className={cx('thumb')}>
+                <Link to={'/news-detail-page/' + `${data.id}/${data.title}`} className={cx('thumb')}>
                     <img src={data.image} alt={data.title} />
                 </Link>
 
                 <div className={cx('content-blog')}>
-                    <Link to={'/news-page/' + `@${data.id}`} className={cx('title')}>
+                    <Link to={'/news-detail-page/' + `${data.id}/${data.title}`} className={cx('title')}>
                         <h3>{data.title}</h3>
                     </Link>
                     <div className={cx('date-form')}>

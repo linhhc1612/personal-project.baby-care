@@ -23,6 +23,7 @@ function ActionHeader() {
                         type="text"
                         placeholder="Tìm kiếm sản phẩm..."
                         onChange={(event) => setSearchValue(event.target.value)}
+                        className={cx('input-form-search')}
                     />
                     <Link
                         to={searchValue ? configs.routes.searchPage : ''}

@@ -26,7 +26,7 @@ function Item({ data }) {
             ) : (
                 <>
                     <NavLink
-                        to={data.key === '' ? '/' : '/' + data.key}
+                        to={data.key === '' ? '/' : '/' + data.key + '/' + data.title}
                         className={(nav) => cx('nav-item', { active: nav.isActive })}
                     >
                         <span className={cx('nav-link')}>{data.title}</span>{' '}

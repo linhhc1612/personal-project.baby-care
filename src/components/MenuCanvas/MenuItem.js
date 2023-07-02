@@ -34,7 +34,10 @@ function MenuItem({ data }) {
                 </>
             ) : (
                 <>
-                    <Link to={data.key} className={cx('d-flex justify-content-between align-items-center', 'item')}>
+                    <Link
+                        to={`/${data.key}/${data.title}`}
+                        className={cx('d-flex justify-content-between align-items-center', 'item')}
+                    >
                         {data.title}
                     </Link>
                 </>
