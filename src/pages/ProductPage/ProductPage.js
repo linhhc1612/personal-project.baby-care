@@ -35,8 +35,8 @@ function ProductPage() {
         // API Navigation
         const fetchApiNav = async () => {
             try {
-                const response = await request.get('db/data-navigation.json');
-                return setNavigation(response.data);
+                const response = await request.get('/navigates');
+                return setNavigation(response);
             } catch (error) {
                 console.log(error);
             }
@@ -47,9 +47,9 @@ function ProductPage() {
         // API Filter
         const fetchApiFilter = async () => {
             try {
-                const response = await request.get('db/data-filter.json');
+                const response = await request.get('/filters');
 
-                return setFilter(response.data);
+                return setFilter(response);
             } catch (error) {
                 console.log(error);
             }
@@ -62,15 +62,26 @@ function ProductPage() {
         // API Product
         const fetchApiProduct = async () => {
             try {
-                const response = await request.get('db/data-product.json');
+                const response = await request.get('/products');
+                const newData = [];
+                const key = param.key.slice(1);
 
-                return setArrProduct(response.data);
+                response.map((data) => {
+                    if (data.category === key) {
+                        newData.push(data);
+                        setArrProduct(newData);
+                    }
+
+                    if (key === 'all') {
+                        setArrProduct(response);
+                    }
+                });
             } catch (error) {
                 console.log(error);
             }
         };
         fetchApiProduct();
-    }, [currentPage]);
+    }, [param]);
 
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
@@ -250,7 +261,10 @@ function ProductPage() {
                         </div>
                         <div className={cx('d-flex justify-content-end align-item-center')}>
                             <Pagination>
-                                <Pagination.Prev onClick={() => setCurrentPage(currentPage - 1)} />
+                                <Pagination.Prev
+                                    onClick={() => setCurrentPage(currentPage - 1)}
+                                    className={cx(currentPage - 1 === 0 ? 'd-none' : 'd-inline-block')}
+                                />
                                 <Pagination.Item
                                     onClick={(e) => setCurrentPage(parseInt(e.target.innerText))}
                                     className={cx(currentPage - 1 === 0 ? 'd-none' : 'd-inline-block')}
@@ -258,10 +272,16 @@ function ProductPage() {
                                     {currentPage - 1}
                                 </Pagination.Item>
                                 <Pagination.Item active>{currentPage}</Pagination.Item>
-                                <Pagination.Item onClick={(e) => setCurrentPage(parseInt(e.target.innerText))}>
+                                <Pagination.Item
+                                    onClick={(e) => setCurrentPage(parseInt(e.target.innerText))}
+                                    className={cx(currentPage + 1 >= currentItems.length ? 'd-none' : 'd-inline-block')}
+                                >
                                     {currentPage + 1}
                                 </Pagination.Item>
-                                <Pagination.Next onClick={() => setCurrentPage(currentPage + 1)} />
+                                <Pagination.Next
+                                    onClick={() => setCurrentPage(currentPage + 1)}
+                                    className={cx(currentPage + 1 >= currentItems.length ? 'd-none' : 'd-inline-block')}
+                                />
                             </Pagination>
                         </div>
                     </div>

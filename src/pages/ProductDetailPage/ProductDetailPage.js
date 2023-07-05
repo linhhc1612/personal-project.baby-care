@@ -21,6 +21,7 @@ import { Link, useParams } from 'react-router-dom';
 import Service from '~/components/Service';
 import CategoryList from '~/components/Category';
 import CardProduct from '~/components/CardProduct';
+import axios from 'axios';
 
 const cx = classNames.bind(styles);
 
@@ -32,11 +33,12 @@ function ProductDetailPage() {
     const [instructProduct, setInstructProduct] = useState([]);
     const [newsMoreProduct, setNewsMoreProduct] = useState([]);
     const [objProduct, setObjProduct] = useState([]);
+    const [arrProductMore, setArrProductMore] = useState([]);
+    const [arrProduct, setArrProduct] = useState([]);
     const [timeLeft, setTimeLeft] = useState({});
     const [valueBuy, setValueBuy] = useState(1);
     const [arrService, setArrService] = useState([]);
     const [arrCategory, setArrCategory] = useState([]);
-    const [arrProductMore, setArrProductMore] = useState([]);
 
     const param = useParams();
     const timerComponents = [];
@@ -47,11 +49,13 @@ function ProductDetailPage() {
         // API Product
         const fetchApiProduct = async () => {
             try {
-                const response = await request.get('db/data-product.json');
+                const response = await request.get('/products');
                 const newData = [];
                 let currentCate = '';
 
-                response.data.forEach((data) => {
+                setArrProduct(response);
+
+                response.forEach((data) => {
                     if (data.id === param.id) {
                         newData.push(data);
                         newData.forEach((data) => {
@@ -94,9 +98,9 @@ function ProductDetailPage() {
         // API Service
         const fetchApiService = async () => {
             try {
-                const response = await request.get('db/data-service.json');
+                const response = await request.get('/services');
 
-                setArrService(response.data);
+                setArrService(response);
             } catch (error) {
                 console.log(error);
             }
@@ -106,9 +110,9 @@ function ProductDetailPage() {
         // API Category
         const fetchApiCategory = async () => {
             try {
-                const response = await request.get('db/data-category.json');
+                const response = await request.get('/categories');
 
-                setArrCategory(response.data);
+                setArrCategory(response);
             } catch (error) {
                 console.log(error);
             }
@@ -169,6 +173,19 @@ function ProductDetailPage() {
         return timeLeft;
     };
 
+    // Product Wish
+    const handleProductWish = async () => {
+        try {
+            objProduct.favorite = !objProduct.favorite;
+            let product = objProduct;
+
+            await request.put(`/products/${param.id}`, product);
+        } catch (error) {
+            // Xử lý lỗi nếu có
+            console.error('Lỗi khi cập nhật giá trị:', error);
+        }
+    };
+
     return (
         <>
             <Breadcrumb className={cx('row container-app')}>
@@ -219,7 +236,7 @@ function ProductDetailPage() {
                 </div>
                 <div className={cx('col-lg-8 col-md-12 col-12', 'detail-info')}>
                     <div className={cx('row')}>
-                        <div className={cx('col-lg-7 col-md-7 col-12 mb-3')}>
+                        <div className={cx('col-lg-7 col-md-7 col-12 mb-3 position-relative')}>
                             <h1 className={cx('title-product')}>{objProduct.name_product}</h1>
                             <div className={cx('flex-vd')}>
                                 <div className={cx('vendor')}>
@@ -306,6 +323,12 @@ function ProductDetailPage() {
                                         </button>
                                         <button type="button" className={cx('buy-now')}>
                                             Mua ngay<em>Thanh toán online hoặc ship COD</em>
+                                        </button>
+                                    </div>
+                                    <div className={cx('product-wish')}>
+                                        <button onClick={handleProductWish}>
+                                            {!objProduct.favorite && <Icons.WishListIcon className={cx('text-dark')} />}
+                                            {objProduct.favorite && <Icons.WishListActiveIcon />}
                                         </button>
                                     </div>
                                 </div>

@@ -47,20 +47,6 @@
                 position: relative;
                 display: flex;
                 margin-bottom: 10px;
-
-                span {
-                    font-size: 1.4rem;
-                    cursor: pointer;
-                    color: var(--text-color);
-                    font-family: var(--font-base);
-                    font-weight: 400;
-
-                    label {
-                        display: inline-block;
-                        line-height: 15px;
-                        position: relative;
-                    }
-                }
             }
         }
     }

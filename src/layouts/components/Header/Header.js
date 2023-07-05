@@ -24,8 +24,8 @@ function Header() {
     useEffect(() => {
         const fetchApiMarquee = async () => {
             try {
-                const response = await request.get('db/data-marquee.json');
-                return setMarquees(response.data);
+                const response = await request.get('/marquees');
+                return setMarquees(response);
             } catch (error) {
                 console.log(error);
             }
@@ -34,8 +34,8 @@ function Header() {
         fetchApiMarquee();
         const fetchApi = async () => {
             try {
-                const response = await request.get('db/data-navigation.json');
-                return setNavigation(response.data);
+                const response = await request.get('/navigates');
+                return setNavigation(response);
             } catch (error) {
                 console.log(error);
             }

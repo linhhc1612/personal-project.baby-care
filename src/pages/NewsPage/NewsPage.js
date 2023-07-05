@@ -22,8 +22,8 @@ function NewsPage() {
         // API Navigation
         const fetchApiNav = async () => {
             try {
-                const response = await request.get('db/data-navigation.json');
-                return setNavigation(response.data);
+                const response = await request.get('/navigates');
+                return setNavigation(response);
             } catch (error) {
                 console.log(error);
             }
@@ -34,11 +34,10 @@ function NewsPage() {
         // API Blog
         const fetchApiBlog = async () => {
             try {
-                const response = await request.get('db/data-blog.json');
-                const data = response.data;
+                const response = await request.get('/blogs');
 
-                setArrBlogSmall(data.slice(0, 4));
-                setArrBlogAll(data);
+                setArrBlogSmall(response.slice(0, 4));
+                setArrBlogAll(response);
             } catch (error) {
                 console.log(error);
             }

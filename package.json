@@ -16,6 +16,7 @@
         "axios": "^1.4.0",
         "bootstrap": "^5.3.0",
         "classnames": "^2.3.2",
+        "json-server": "^0.17.3",
         "normalize.css": "^8.0.1",
         "react": "^17.0.2",
         "react-bootstrap": "^2.7.4",
@@ -28,12 +29,13 @@
     },
     "devDependencies": {
         "babel-plugin-module-resolver": "^5.0.0",
+        "concurrently": "^8.2.0",
         "customize-cra": "^1.0.0",
         "react-app-rewired": "^2.2.1",
         "sass": "^1.51.0"
     },
     "scripts": {
-        "start": "react-app-rewired start",
+        "start": "concurrently \"react-app-rewired start\" \"json-server --watch db.json --port 3030\"",
         "build": "react-app-rewired build",
         "test": "react-app-rewired test",
         "eject": "react-app-rewired eject"
