@@ -42,9 +42,9 @@ function HomePage() {
         // API Product
         const fetchApiProduct = async () => {
             try {
-                const response = await request.get('db/data-product.json');
+                const response = await request.get('/products');
 
-                return setArrProduct(response.data);
+                return setArrProduct(response);
             } catch (error) {
                 console.log(error);
             }
@@ -54,9 +54,9 @@ function HomePage() {
         // API Category
         const fetchApiCategory = async () => {
             try {
-                const response = await request.get('db/data-category.json');
+                const response = await request.get('/categories');
 
-                setArrCategory(response.data);
+                setArrCategory(response);
             } catch (error) {
                 console.log(error);
             }
@@ -66,10 +66,9 @@ function HomePage() {
         // API Blog
         const fetchApiBlog = async () => {
             try {
-                const response = await request.get('db/data-blog.json');
-                const data = response.data;
+                const response = await request.get('/blogs');
 
-                setArrBlog(data.slice(0, 2));
+                setArrBlog(response.slice(0, 2));
             } catch (error) {
                 console.log(error);
             }
@@ -79,9 +78,9 @@ function HomePage() {
         // API Service
         const fetchApiService = async () => {
             try {
-                const response = await request.get('db/data-service.json');
+                const response = await request.get('/services');
 
-                setArrService(response.data);
+                setArrService(response);
             } catch (error) {
                 console.log(error);
             }

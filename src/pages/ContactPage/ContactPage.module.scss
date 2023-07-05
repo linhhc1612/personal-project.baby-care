@@ -1,0 +1,35 @@
+.item-contact {
+    display: block;
+    margin-bottom: 10px;
+    background: #f7f7f7;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    float: left;
+
+    .img {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 40px;
+        background: var(--main-color);
+        color: #fff;
+        text-align: center;
+        float: left;
+    }
+
+    .content {
+        width: calc(100% - 40px);
+        float: left;
+        padding-left: 10px;
+        font-size: 1.4rem;
+        font-weight: bold;
+
+        p {
+            font-size: 1.4rem;
+            font-weight: 400;
+            display: block;
+            margin-bottom: 0;
+        }
+    }
+}

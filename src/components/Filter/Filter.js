@@ -25,18 +25,14 @@ function Filter({ data, onValueChange, isChecked }) {
                     <ul>
                         {data.children.map((result) => (
                             <li key={result.id}>
-                                <span>
-                                    <label>
-                                        <Form>
-                                            <Form.Check
-                                                type="switch"
-                                                id={result.children_name}
-                                                label={result.children_name}
-                                                onChange={handleChange}
-                                            />
-                                        </Form>
-                                    </label>
-                                </span>
+                                <Form>
+                                    <Form.Check
+                                        type="switch"
+                                        id={result.children_name}
+                                        label={result.children_name}
+                                        onChange={handleChange}
+                                    />
+                                </Form>
                             </li>
                         ))}
                     </ul>

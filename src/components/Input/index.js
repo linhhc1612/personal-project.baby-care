@@ -1,1 +1,1 @@
-export { default } from './Input.module.scss';
+export { default } from './Input';

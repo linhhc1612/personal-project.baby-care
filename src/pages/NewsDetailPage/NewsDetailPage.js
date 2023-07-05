@@ -8,8 +8,8 @@ import configs from '~/configs';
 import styles from './NewsDetailPage.module.scss';
 import { MenuItem } from '~/components/MenuCanvas';
 import { BlogSmall } from '~/components/Blog';
-import Input from '~/components/Input/Input';
-import Button from '~/components/Button/Button';
+import Input from '~/components/Input';
+import Button from '~/components/Button';
 
 const cx = classNames.bind(styles);
 
@@ -32,8 +32,8 @@ function NewsDetailPage() {
         // API Navigation
         const fetchApiNav = async () => {
             try {
-                const response = await request.get('db/data-navigation.json');
-                return setNavigation(response.data);
+                const response = await request.get('/navigates');
+                return setNavigation(response);
             } catch (error) {
                 console.log(error);
             }
@@ -44,11 +44,10 @@ function NewsDetailPage() {
         // API Blog
         const fetchApiBlog = async () => {
             try {
-                const response = await request.get('db/data-blog.json');
-                const data = response.data;
+                const response = await request.get('/blogs');
                 const newData = [];
 
-                response.data.forEach((data) => {
+                response.forEach((data) => {
                     if (data.id === param.id) {
                         newData.push(data);
                         newData.forEach((data) => {
@@ -62,7 +61,7 @@ function NewsDetailPage() {
                     }
                 });
 
-                setArrBlogSmall(data.slice(0, 4));
+                setArrBlogSmall(response.slice(0, 4));
             } catch (error) {
                 console.log(error);
             }

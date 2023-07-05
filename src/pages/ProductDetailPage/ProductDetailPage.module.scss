@@ -286,6 +286,35 @@
                     }
                 }
             }
+
+            .product-wish {
+                margin-top: 5px;
+                display: inherit;
+                position: absolute;
+                top: -8px;
+                right: 0;
+
+                button {
+                    height: 40px;
+                    line-height: 40px;
+                    border: none;
+                    border-radius: 6px;
+                    padding: 0;
+                    width: 40px;
+                    box-shadow: none;
+                    font-family: var(--font-base);
+                    font-size: 14px;
+                    color: #fff;
+                    transition: all ease 0.3s;
+                    justify-content: center;
+                    display: inline-flex;
+                    align-items: center;
+                    font-weight: 400;
+                    text-decoration: none;
+                    margin: 0 3px;
+                    background-color: transparent;
+                }
+            }
         }
 
         .social-media {

@@ -14,12 +14,12 @@ function Input({
     rows,
     pattern,
     required = true,
-    className,
+    classnames,
     onChange,
     ...passProps
 }) {
     let Comp = 'input';
-    const classes = cx('', { [className]: className });
+    const classes = cx('form-custom', { [classnames]: classnames });
     const props = {
         id,
         name,
@@ -29,7 +29,7 @@ function Input({
         rows,
         pattern,
         required,
-        className,
+        classnames,
         onChange,
         ...passProps,
     };
@@ -51,7 +51,7 @@ Input.propTypes = {
     placeholder: PropTypes.string,
     rows: PropTypes.any,
     pattern: PropTypes.any,
-    classNames: PropTypes.string,
+    classnames: PropTypes.string,
     required: PropTypes.bool,
 };
 
