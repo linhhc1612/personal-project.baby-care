@@ -478,7 +478,6 @@ function ProductDetailPage() {
                                 )}
                             </Swiper>
                         </div>
-                        <div className={cx('col-12')}></div>
                     </div>
                 </div>
             </div>

@@ -100,7 +100,7 @@ function FavoritePage() {
                     <h2 className={cx('title-module')}>{param.value}</h2>
 
                     <div className={cx('row')}>
-                        {!currentItems && <span>Không có sản phẩm nào được yêu thích</span>}
+                        {currentItems.length <= 0 && <span>Không có sản phẩm nào được yêu thích</span>}
 
                         {currentItems.map((result) => (
                             <div key={result.id} className={cx('col-6 col-md-3')}>

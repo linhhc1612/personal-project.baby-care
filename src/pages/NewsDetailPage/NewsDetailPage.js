@@ -8,8 +8,8 @@ import configs from '~/configs';
 import styles from './NewsDetailPage.module.scss';
 import { MenuItem } from '~/components/MenuCanvas';
 import { BlogSmall } from '~/components/Blog';
-import Input from '~/components/Input/Input';
-import Button from '~/components/Button/Button';
+import Input from '~/components/Input';
+import Button from '~/components/Button';
 
 const cx = classNames.bind(styles);
 
