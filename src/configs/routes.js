@@ -9,10 +9,9 @@ const routes = {
     cartPage: '/cart-page/:value',
     loginPage: '/login-page/:value',
     signUpPage: '/sign-up-page/:value',
-    forgotPage: '/forgot-page/:value',
     productDetailPage: '/product-detail-page/:id/:name',
     newsDetailPage: '/news-detail-page/:id/:name',
-    searchPage: '/search-page/:value',
+    searchPage: '/search-page/:value/:key',
 };
 
 export default routes;

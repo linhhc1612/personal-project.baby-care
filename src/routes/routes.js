@@ -13,7 +13,6 @@ import WardrobePage from '~/pages/WardrobePage';
 import CartPage from '~/pages/CartPage';
 import LoginPage from '~/pages/LoginPage';
 import SignUpPage from '~/pages/SignUpPage';
-import ForgotPage from '~/pages/ForgotPage';
 import ProductDetailPage from '~/pages/ProductDetailPage';
 import NewsDetailPage from '~/pages/NewsDetailPage';
 import SearchPage from '~/pages/SearchPage';
@@ -30,7 +29,6 @@ const publicRoutes = [
     { path: config.routes.cartPage, component: CartPage, layout: DefaultLayout },
     { path: config.routes.loginPage, component: LoginPage, layout: DefaultLayout },
     { path: config.routes.signUpPage, component: SignUpPage, layout: DefaultLayout },
-    { path: config.routes.forgotPage, component: ForgotPage, layout: DefaultLayout },
     { path: config.routes.productDetailPage, component: ProductDetailPage, layout: DefaultLayout },
     { path: config.routes.newsDetailPage, component: NewsDetailPage, layout: DefaultLayout },
     { path: config.routes.searchPage, component: SearchPage, layout: DefaultLayout },

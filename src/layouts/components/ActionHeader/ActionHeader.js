@@ -50,7 +50,7 @@ function ActionHeader() {
                         className={cx('input-form-search')}
                     />
                     <Link
-                        to={searchValue ? configs.routes.searchPage : ''}
+                        to={searchValue ? `/search-page/Tìm kiếm/${searchValue}` : ''}
                         style={searchValue ? {} : { pointerEvents: 'none' }}
                     >
                         <Icons.SearchIcon className={cx('text-main', 'icon')} />
