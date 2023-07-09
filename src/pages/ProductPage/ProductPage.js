@@ -64,19 +64,6 @@ function ProductPage() {
         const fetchApiProduct = async () => {
             try {
                 const response = await request.get('/products');
-                // const newData = [];
-                //
-
-                // response.map((data) => {
-                //     if (data.category === key) {
-                //         newData.push(data);
-                //         setArrProduct(newData);
-                //     }
-
-                //     if (key === 'all') {
-                //         setArrProduct(response);
-                //     }
-                // });
 
                 setArrProduct(response);
             } catch (error) {

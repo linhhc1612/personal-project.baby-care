@@ -20,6 +20,7 @@ function Header() {
     const [show, setShow] = useState(false);
     const [navigation, setNavigation] = useState([]);
     const [clickNav, setClickNav] = useState('');
+    const [userLogin, setUserLogin] = useState({ email: '', username: '', avt: '' });
 
     useEffect(() => {
         const fetchApiMarquee = async () => {
@@ -42,6 +43,11 @@ function Header() {
         };
 
         fetchApi();
+
+        const storedUserData = localStorage.getItem('userLogin');
+        if (storedUserData) {
+            setUserLogin(JSON.parse(storedUserData));
+        }
     }, []);
 
     const handleClose = () => setShow(false);
@@ -91,12 +97,33 @@ function Header() {
                                 </span>{' '}
                                 Cửa hàng
                             </Link>
-                            <Link to={'/login-page' + `/Đăng nhập tài khoản`} className={cx('ps-4 pe-4 border-start')}>
-                                Đăng nhập
-                            </Link>
-                            <Link to={'/sign-up-page' + `/Đăng ký tài khoản`} className={cx('ps-4 border-start')}>
-                                Đăng ký
-                            </Link>
+                            {userLogin.username === '' && (
+                                <>
+                                    <Link
+                                        to={'/login-page' + `/Đăng nhập tài khoản`}
+                                        className={cx('ps-4 pe-4 border-start')}
+                                    >
+                                        Đăng nhập
+                                    </Link>
+                                    <Link
+                                        to={'/sign-up-page' + `/Đăng ký tài khoản`}
+                                        className={cx('ps-4 border-start')}
+                                    >
+                                        Đăng ký
+                                    </Link>
+                                </>
+                            )}
+
+                            {userLogin.username !== '' && (
+                                <>
+                                    <span>{userLogin.username}</span>
+                                    <img
+                                        src={userLogin.avt !== '' ? userLogin.avt : images.defaultUser}
+                                        alt={userLogin.username}
+                                        className={cx('img-user')}
+                                    />
+                                </>
+                            )}
                         </div>
                     </div>
                 </div>

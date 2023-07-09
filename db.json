@@ -1,2095 +1,2111 @@
 {
-  "marquees": [
-    {
-      "id": 1,
-      "title": "Thời trang bé gái tuổi Teen và những điều ba mẹ cần biết"
-    },
-    {
-      "id": 2,
-      "title": "Có nên mua quần áo trẻ em trên sàn online?"
-    },
-    {
-      "id": 3,
-      "title": "Gợi ý chọn trang phục cho bé gái tuổi mới lớn"
-    }
-  ],
-  "navigates": [
-    {
-      "id": 1,
-      "title": "Trang chủ",
-      "key": ""
-    },
-    {
-      "id": 2,
-      "title": "Sản phẩm",
-      "key": "product-page",
-      "children": [
-        {
-          "id": 1,
-          "title": "Sản phẩm nổi bật",
-          "key": "@outstanding"
-        },
-        {
-          "id": 2,
-          "title": "Sản phẩm khuyến mãi",
-          "key": "@promotion"
-        },
-        {
-          "id": 3,
-          "title": "Túi xách",
-          "key": "@hand-bag"
-        },
-        {
-          "id": 4,
-          "title": "Mũ, nón",
-          "key": "@hat"
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "title": "Tin tức",
-      "key": "news-page"
-    },
-    {
-      "id": 4,
-      "title": "Sản phẩm yêu thích",
-      "key": "favorite-page"
-    },
-    {
-      "id": 5,
-      "title": "Liên hệ",
-      "key": "contact-page"
-    },
-    {
-      "id": 6,
-      "title": "Hệ thống cửa hàng",
-      "key": "store-page"
-    },
-    {
-      "id": 7,
-      "title": "Tủ đồ của bé",
-      "key": "wardrobe-page",
-      "children": [
-        {
-          "id": 1,
-          "title": "Đầm bé gái",
-          "key": "@dress"
-        },
-        {
-          "id": 2,
-          "title": "Bộ bé gái",
-          "key": "@set-girl"
-        },
-        {
-          "id": 3,
-          "title": "Áo bé gái",
-          "key": "@shirt-girl"
-        },
-        {
-          "id": 4,
-          "title": "Bộ bé trai",
-          "key": "@set-boy"
-        },
-        {
-          "id": 5,
-          "title": "Quần bé trai",
-          "key": "@trousers-boy"
-        },
-        {
-          "id": 6,
-          "title": "Áo bé trai",
-          "key": "@shirt-boy"
-        },
-        {
-          "id": 7,
-          "title": "Quần bé gái",
-          "key": "@trousers-girl"
-        },
-        {
-          "id": 8,
-          "title": "Giầy dép",
-          "key": "@shoes"
-        }
-      ]
-    }
-  ],
-  "products": [
-    {
-      "id": "pid-1",
-      "name_product": "Bồ đồ bé trai in hình xe cẩu",
-      "image_product": "https://bizweb.dktcdn.net/100/459/160/products/c57efdb033e91bbf4bc459b715a81972-jpeg.jpg?v=1657182141843",
-      "price_product": 90000,
-      "status": "in-cart",
-      "qty_in_cart": 3,
-      "sold": 300,
-      "length_sale": 90,
-      "sale": 6,
-      "quantity": 100,
-      "favorite": true,
-      "flash": true,
-      "create_at": "2023-07-01",
-      "trade_mark": "Regland",
-      "information": [
-        {
-          "content": "Chất liệu: cotton tici mềm mịn, thấm hút mồ hôi, thoáng mát cho bé"
-        },
-        {
-          "content": "Hình in sử dụng công nghệ in chuyển nhiệt không bong tróc, không bếp dính, không phai màu và an toàn cho da của bé."
-        }
-      ],
-      "information_detail": [
-        {
-          "content": "Áo cotton thấm mồ hôi tốt"
-        },
-        {
-          "content": "Chú ý: Màu sắc có thể hơi khác với thực tế do màn hình và độ sáng khác nhau"
-        },
-        {
-          "content": "Hình in sử dụng công nghệ in chuyển nhiệt thân thiện với môi trường, an toàn với da bé"
-        },
-        {
-          "content": "Hướng dẫn chọn size:"
-        },
-        {
-          "content": "Số 1: 8 - 11 kg;"
-        },
-        {
-          "content": "Số 2: 12 - 14 kg;"
-        },
-        {
-          "content": "Số 3: 14 - 16kg;"
-        },
-        {
-          "content": "Số 4: 16 - 18kg;"
-        },
-        {
-          "content": "Số 5: 18 - 20kg;"
-        },
-        {
-          "content": "BẢO QUẢN SẢN PHẨM"
-        },
-        {
-          "content": "Không giặt với nước nóng."
-        },
-        {
-          "content": "Không dùng thuốc tẩy, hóa chất."
-        },
-        {
-          "content": "Không giặt chung với quần áo sẫm màu."
-        }
-      ],
-      "instruct": [
-        {
-          "content": ""
-        }
-      ],
-      "news_more": [
-        {
-          "name": "Thời trang bé gái tuổi Teen và những điều ba mẹ cần biết",
-          "image": "https://bizweb.dktcdn.net/100/459/160/articles/ao-choang-cho-be12.jpg?v=1657188531777"
-        }
-      ],
-      "category": "outstanding",
-      "wardrobe": "",
-      "album": [
-        {
-          "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/c57efdb033e91bbf4bc459b715a81972-jpeg.jpg?v=1657182141843",
-          "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/c57efdb033e91bbf4bc459b715a81972-jpeg.jpg?v=1657182141843"
-        },
-        {
-          "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/9c85284acb50a032f513c85b8f236f14-jpeg.jpg?v=1657182141843",
-          "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/9c85284acb50a032f513c85b8f236f14-jpeg.jpg?v=1657182141843"
-        },
-        {
-          "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/fbf885b042f51c66735fcd2f43bc52b6-jpeg.jpg?v=1657182141843",
-          "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/fbf885b042f51c66735fcd2f43bc52b6-jpeg.jpg?v=1657182141843"
-        }
-      ]
-    },
-    {
-      "id": "pid-2",
-      "name_product": "Bồ đồ bé trai chất liệu mát lạnh",
-      "image_product": "https://bizweb.dktcdn.net/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073000",
-      "price_product": 90000,
-      "status": "normal",
-      "qty_in_cart": 0,
-      "sold": 300,
-      "length_sale": 90,
-      "sale": 6,
-      "quantity": 100,
-      "favorite": false,
-      "flash": true,
-      "create_at": "2023-07-01",
-      "trade_mark": "Regland",
-      "information": [
-        {
-          "content": "Chất liệu: cotton tici mềm mịn, thấm hút mồ hôi, thoáng mát cho bé"
-        },
-        {
-          "content": "Hình in sử dụng công nghệ in chuyển nhiệt không bong tróc, không bếp dính, không phai màu và an toàn cho da của bé."
-        }
-      ],
-      "information_detail": [
-        {
-          "content": "Áo cotton thấm mồ hôi tốt"
-        },
-        {
-          "content": "Chú ý: Màu sắc có thể hơi khác với thực tế do màn hình và độ sáng khác nhau"
-        },
-        {
-          "content": "Hình in sử dụng công nghệ in chuyển nhiệt thân thiện với môi trường, an toàn với da bé"
-        },
-        {
-          "content": "Hướng dẫn chọn size:"
-        },
-        {
-          "content": "Số 1: 8 - 11 kg;"
-        },
-        {
-          "content": "Số 2: 12 - 14 kg;"
-        },
-        {
-          "content": "Số 3: 14 - 16kg;"
-        },
-        {
-          "content": "Số 4: 16 - 18kg;"
-        },
-        {
-          "content": "Số 5: 18 - 20kg;"
-        },
-        {
-          "content": "BẢO QUẢN SẢN PHẨM"
-        },
-        {
-          "content": "Không giặt với nước nóng."
-        },
-        {
-          "content": "Không dùng thuốc tẩy, hóa chất."
-        },
-        {
-          "content": "Không giặt chung với quần áo sẫm màu."
-        }
-      ],
-      "instruct": [
-        {
-          "content": ""
-        }
-      ],
-      "news_more": [
-        {
-          "name": "Thời trang bé gái tuổi Teen và những điều ba mẹ cần biết",
-          "image": "https://bizweb.dktcdn.net/100/459/160/articles/ao-choang-cho-be12.jpg?v=1657188531777"
-        }
-      ],
-      "category": "outstanding",
-      "wardrobe": "",
-      "album": [
-        {
-          "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997",
-          "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997"
-        },
-        {
-          "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457",
-          "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457"
-        },
-        {
-          "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727",
-          "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727"
-        }
-      ]
-    },
-    {
-      "id": "pid-3",
-      "name_product": "Áo dài tay Ragland cho bé trai và bé gái",
-      "image_product": "https://bizweb.dktcdn.net/100/459/160/products/2e5d44ef397d418c1b904128374e4861-jpeg.jpg?v=1657181943000",
-      "price_product": 90000,
-      "status": "normal",
-      "qty_in_cart": 0,
-      "sold": 300,
-      "length_sale": 90,
-      "sale": 6,
-      "quantity": 100,
-      "favorite": false,
-      "flash": true,
-      "create_at": "2023-07-01",
-      "trade_mark": "Regland",
-      "information": [
-        {
-          "content": "Chất liệu: cotton tici mềm mịn, thấm hút mồ hôi, thoáng mát cho bé"
-        },
-        {
-          "content": "Hình in sử dụng công nghệ in chuyển nhiệt không bong tróc, không bếp dính, không phai màu và an toàn cho da của bé."
-        }
-      ],
-      "information_detail": [
-        {
-          "content": "Áo cotton thấm mồ hôi tốt"
-        },
-        {
-          "content": "Chú ý: Màu sắc có thể hơi khác với thực tế do màn hình và độ sáng khác nhau"
-        },
-        {
-          "content": "Hình in sử dụng công nghệ in chuyển nhiệt thân thiện với môi trường, an toàn với da bé"
-        },
-        {
-          "content": "Hướng dẫn chọn size:"
-        },
-        {
-          "content": "Số 1: 8 - 11 kg;"
-        },
-        {
-          "content": "Số 2: 12 - 14 kg;"
-        },
-        {
-          "content": "Số 3: 14 - 16kg;"
-        },
-        {
-          "content": "Số 4: 16 - 18kg;"
-        },
-        {
-          "content": "Số 5: 18 - 20kg;"
-        },
-        {
-          "content": "BẢO QUẢN SẢN PHẨM"
-        },
-        {
-          "content": "Không giặt với nước nóng."
-        },
-        {
-          "content": "Không dùng thuốc tẩy, hóa chất."
-        },
-        {
-          "content": "Không giặt chung với quần áo sẫm màu."
-        }
-      ],
-      "instruct": [
-        {
-          "content": ""
-        }
-      ],
-      "news_more": [
-        {
-          "name": "Thời trang bé gái tuổi Teen và những điều ba mẹ cần biết",
-          "image": "https://bizweb.dktcdn.net/100/459/160/articles/ao-choang-cho-be12.jpg?v=1657188531777"
-        }
-      ],
-      "category": "outstanding",
-      "wardrobe": "",
-      "album": [
-        {
-          "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997",
-          "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997"
-        },
-        {
-          "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457",
-          "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457"
-        },
-        {
-          "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727",
-          "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727"
-        }
-      ]
-    },
-    {
-      "id": "pid-4",
-      "name_product": "Áo thun bé gái cotton hình con voi",
-      "image_product": "https://bizweb.dktcdn.net/100/459/160/products/8224f1f46b79a6bd203f60e9eac93f8d-jpeg.jpg?v=1657181802817",
-      "price_product": 80000,
-      "status": "normal",
-      "qty_in_cart": 0,
-      "sold": 300,
-      "length_sale": 90,
-      "sale": 44,
-      "quantity": 100,
-      "favorite": false,
-      "flash": true,
-      "create_at": "2023-07-01",
-      "trade_mark": "Regland",
-      "information": [
-        {
-          "content": "Chất liệu: cotton tici mềm mịn, thấm hút mồ hôi, thoáng mát cho bé"
-        },
-        {
-          "content": "Hình in sử dụng công nghệ in chuyển nhiệt không bong tróc, không bếp dính, không phai màu và an toàn cho da của bé."
-        }
-      ],
-      "information_detail": [
-        {
-          "content": "Áo cotton thấm mồ hôi tốt"
-        },
-        {
-          "content": "Chú ý: Màu sắc có thể hơi khác với thực tế do màn hình và độ sáng khác nhau"
-        },
-        {
-          "content": "Hình in sử dụng công nghệ in chuyển nhiệt thân thiện với môi trường, an toàn với da bé"
-        },
-        {
-          "content": "Hướng dẫn chọn size:"
-        },
-        {
-          "content": "Số 1: 8 - 11 kg;"
-        },
-        {
-          "content": "Số 2: 12 - 14 kg;"
-        },
-        {
-          "content": "Số 3: 14 - 16kg;"
-        },
-        {
-          "content": "Số 4: 16 - 18kg;"
-        },
-        {
-          "content": "Số 5: 18 - 20kg;"
-        },
-        {
-          "content": "BẢO QUẢN SẢN PHẨM"
-        },
-        {
-          "content": "Không giặt với nước nóng."
-        },
-        {
-          "content": "Không dùng thuốc tẩy, hóa chất."
-        },
-        {
-          "content": "Không giặt chung với quần áo sẫm màu."
-        }
-      ],
-      "instruct": [
-        {
-          "content": ""
-        }
-      ],
-      "news_more": [
-        {
-          "name": "Thời trang bé gái tuổi Teen và những điều ba mẹ cần biết",
-          "image": "https://bizweb.dktcdn.net/100/459/160/articles/ao-choang-cho-be12.jpg?v=1657188531777"
-        }
-      ],
-      "category": "outstanding",
-      "wardrobe": "",
-      "album": [
-        {
-          "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997",
-          "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997"
-        },
-        {
-          "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457",
-          "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457"
-        },
-        {
-          "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727",
-          "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727"
-        }
-      ]
-    },
-    {
-      "id": "pid-5",
-      "name_product": "Áo thun cộc tay in hình hoạt hình đáng yêu",
-      "image_product": "https://bizweb.dktcdn.net/100/459/160/products/2f77c20b2d84631c4b09ef7110581d17-jpeg.jpg?v=1657181534657",
-      "price_product": 90000,
-      "status": "normal",
-      "qty_in_cart": 0,
-      "sold": 300,
-      "length_sale": 90,
-      "sale": 28,
-      "quantity": 100,
-      "favorite": false,
-      "flash": true,
-      "create_at": "2023-07-01",
-      "trade_mark": "Regland",
-      "information": [
-        {
-          "content": "Chất liệu: cotton tici mềm mịn, thấm hút mồ hôi, thoáng mát cho bé"
-        },
-        {
-          "content": "Hình in sử dụng công nghệ in chuyển nhiệt không bong tróc, không bếp dính, không phai màu và an toàn cho da của bé."
-        }
-      ],
-      "information_detail": [
-        {
-          "content": "Áo cotton thấm mồ hôi tốt"
-        },
-        {
-          "content": "Chú ý: Màu sắc có thể hơi khác với thực tế do màn hình và độ sáng khác nhau"
-        },
-        {
-          "content": "Hình in sử dụng công nghệ in chuyển nhiệt thân thiện với môi trường, an toàn với da bé"
-        },
-        {
-          "content": "Hướng dẫn chọn size:"
-        },
-        {
-          "content": "Số 1: 8 - 11 kg;"
-        },
-        {
-          "content": "Số 2: 12 - 14 kg;"
-        },
-        {
-          "content": "Số 3: 14 - 16kg;"
-        },
-        {
-          "content": "Số 4: 16 - 18kg;"
-        },
-        {
-          "content": "Số 5: 18 - 20kg;"
-        },
-        {
-          "content": "BẢO QUẢN SẢN PHẨM"
-        },
-        {
-          "content": "Không giặt với nước nóng."
-        },
-        {
-          "content": "Không dùng thuốc tẩy, hóa chất."
-        },
-        {
-          "content": "Không giặt chung với quần áo sẫm màu."
-        }
-      ],
-      "instruct": [
-        {
-          "content": ""
-        }
-      ],
-      "news_more": [
-        {
-          "name": "Thời trang bé gái tuổi Teen và những điều ba mẹ cần biết",
-          "image": "https://bizweb.dktcdn.net/100/459/160/articles/ao-choang-cho-be12.jpg?v=1657188531777"
-        }
-      ],
-      "category": "outstanding",
-      "wardrobe": "",
-      "album": [
-        {
-          "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997",
-          "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997"
-        },
-        {
-          "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457",
-          "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457"
-        },
-        {
-          "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727",
-          "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727"
-        }
-      ]
-    },
-    {
-      "id": "pid-6",
-      "name_product": "Áo thun bé gái, hươu, mèo, gấu",
-      "image_product": "https://bizweb.dktcdn.net/100/459/160/products/5014993937a5931fe1bd208c55dc8610-jpeg.jpg?v=1657181370953",
-      "price_product": 90000,
-      "status": "normal",
-      "qty_in_cart": 0,
-      "sold": 300,
-      "length_sale": 90,
-      "sale": 28,
-      "quantity": 100,
-      "favorite": false,
-      "flash": true,
-      "create_at": "2023-07-01",
-      "trade_mark": "Regland",
-      "information": [
-        {
-          "content": "Chất liệu: cotton tici mềm mịn, thấm hút mồ hôi, thoáng mát cho bé"
-        },
-        {
-          "content": "Hình in sử dụng công nghệ in chuyển nhiệt không bong tróc, không bếp dính, không phai màu và an toàn cho da của bé."
-        }
-      ],
-      "information_detail": [
-        {
-          "content": "Áo cotton thấm mồ hôi tốt"
-        },
-        {
-          "content": "Chú ý: Màu sắc có thể hơi khác với thực tế do màn hình và độ sáng khác nhau"
-        },
-        {
-          "content": "Hình in sử dụng công nghệ in chuyển nhiệt thân thiện với môi trường, an toàn với da bé"
-        },
-        {
-          "content": "Hướng dẫn chọn size:"
-        },
-        {
-          "content": "Số 1: 8 - 11 kg;"
-        },
-        {
-          "content": "Số 2: 12 - 14 kg;"
-        },
-        {
-          "content": "Số 3: 14 - 16kg;"
-        },
-        {
-          "content": "Số 4: 16 - 18kg;"
-        },
-        {
-          "content": "Số 5: 18 - 20kg;"
-        },
-        {
-          "content": "BẢO QUẢN SẢN PHẨM"
-        },
-        {
-          "content": "Không giặt với nước nóng."
-        },
-        {
-          "content": "Không dùng thuốc tẩy, hóa chất."
-        },
-        {
-          "content": "Không giặt chung với quần áo sẫm màu."
-        }
-      ],
-      "instruct": [
-        {
-          "content": ""
-        }
-      ],
-      "news_more": [
-        {
-          "name": "Thời trang bé gái tuổi Teen và những điều ba mẹ cần biết",
-          "image": "https://bizweb.dktcdn.net/100/459/160/articles/ao-choang-cho-be12.jpg?v=1657188531777"
-        }
-      ],
-      "category": "promotion",
-      "wardrobe": "",
-      "album": [
-        {
-          "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997",
-          "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997"
-        },
-        {
-          "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457",
-          "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457"
-        },
-        {
-          "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727",
-          "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727"
-        }
-      ]
-    },
-    {
-      "id": "pid-7",
-      "name_product": "DMQ276 Quần đùi Dokma",
-      "image_product": "https://bizweb.dktcdn.net/100/459/160/products/af2e57b873e72da4f87e9d50fd92ba4e-jpeg.jpg?v=1657181237600",
-      "price_product": 120000,
-      "status": "normal",
-      "qty_in_cart": 0,
-      "sold": 300,
-      "length_sale": 90,
-      "sale": 4,
-      "quantity": 100,
-      "favorite": false,
-      "flash": true,
-      "create_at": "2023-07-01",
-      "trade_mark": "Regland",
-      "information": [
-        {
-          "content": "Chất liệu: cotton tici mềm mịn, thấm hút mồ hôi, thoáng mát cho bé"
-        },
-        {
-          "content": "Hình in sử dụng công nghệ in chuyển nhiệt không bong tróc, không bếp dính, không phai màu và an toàn cho da của bé."
-        }
-      ],
-      "information_detail": [
-        {
-          "content": "Áo cotton thấm mồ hôi tốt"
-        },
-        {
-          "content": "Chú ý: Màu sắc có thể hơi khác với thực tế do màn hình và độ sáng khác nhau"
-        },
-        {
-          "content": "Hình in sử dụng công nghệ in chuyển nhiệt thân thiện với môi trường, an toàn với da bé"
-        },
-        {
-          "content": "Hướng dẫn chọn size:"
-        },
-        {
-          "content": "Số 1: 8 - 11 kg;"
-        },
-        {
-          "content": "Số 2: 12 - 14 kg;"
-        },
-        {
-          "content": "Số 3: 14 - 16kg;"
-        },
-        {
-          "content": "Số 4: 16 - 18kg;"
-        },
-        {
-          "content": "Số 5: 18 - 20kg;"
-        },
-        {
-          "content": "BẢO QUẢN SẢN PHẨM"
-        },
-        {
-          "content": "Không giặt với nước nóng."
-        },
-        {
-          "content": "Không dùng thuốc tẩy, hóa chất."
-        },
-        {
-          "content": "Không giặt chung với quần áo sẫm màu."
-        }
-      ],
-      "instruct": [
-        {
-          "content": ""
-        }
-      ],
-      "news_more": [
-        {
-          "name": "Thời trang bé gái tuổi Teen và những điều ba mẹ cần biết",
-          "image": "https://bizweb.dktcdn.net/100/459/160/articles/ao-choang-cho-be12.jpg?v=1657188531777"
-        }
-      ],
-      "category": "promotion",
-      "wardrobe": "",
-      "album": [
-        {
-          "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997",
-          "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997"
-        },
-        {
-          "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457",
-          "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457"
-        },
-        {
-          "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727",
-          "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727"
-        }
-      ]
-    },
-    {
-      "id": "pid-8",
-      "name_product": "Váy đuôi cá cổ hàn quốc cực đẹp cho bé",
-      "image_product": "https://bizweb.dktcdn.net/100/459/160/products/231d285e1b36928c8a4917ba5028560d-jpeg.jpg?v=1657178946107",
-      "price_product": 50000,
-      "status": "normal",
-      "qty_in_cart": 0,
-      "sold": 900,
-      "length_sale": 90,
-      "sale": 24,
-      "quantity": 99,
-      "favorite": false,
-      "flash": false,
-      "create_at": "2023-07-01",
-      "trade_mark": "Regland",
-      "information": [
-        {
-          "content": "Chất liệu: cotton tici mềm mịn, thấm hút mồ hôi, thoáng mát cho bé"
-        },
-        {
-          "content": "Hình in sử dụng công nghệ in chuyển nhiệt không bong tróc, không bếp dính, không phai màu và an toàn cho da của bé."
-        }
-      ],
-      "information_detail": [
-        {
-          "content": "Áo cotton thấm mồ hôi tốt"
-        },
-        {
-          "content": "Chú ý: Màu sắc có thể hơi khác với thực tế do màn hình và độ sáng khác nhau"
-        },
-        {
-          "content": "Hình in sử dụng công nghệ in chuyển nhiệt thân thiện với môi trường, an toàn với da bé"
-        },
-        {
-          "content": "Hướng dẫn chọn size:"
-        },
-        {
-          "content": "Số 1: 8 - 11 kg;"
-        },
-        {
-          "content": "Số 2: 12 - 14 kg;"
-        },
-        {
-          "content": "Số 3: 14 - 16kg;"
-        },
-        {
-          "content": "Số 4: 16 - 18kg;"
-        },
-        {
-          "content": "Số 5: 18 - 20kg;"
-        },
-        {
-          "content": "BẢO QUẢN SẢN PHẨM"
-        },
-        {
-          "content": "Không giặt với nước nóng."
-        },
-        {
-          "content": "Không dùng thuốc tẩy, hóa chất."
-        },
-        {
-          "content": "Không giặt chung với quần áo sẫm màu."
-        }
-      ],
-      "instruct": [
-        {
-          "content": ""
-        }
-      ],
-      "news_more": [
-        {
-          "name": "Thời trang bé gái tuổi Teen và những điều ba mẹ cần biết",
-          "image": "https://bizweb.dktcdn.net/100/459/160/articles/ao-choang-cho-be12.jpg?v=1657188531777"
-        }
-      ],
-      "category": "promotion",
-      "wardrobe": "",
-      "album": [
-        {
-          "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997",
-          "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997"
-        },
-        {
-          "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457",
-          "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457"
-        },
-        {
-          "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727",
-          "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727"
-        }
-      ]
-    },
-    {
-      "id": "pid-9",
-      "name_product": "Áo thun ba lỗ hình thú chất cotton bé yêu",
-      "image_product": "https://bizweb.dktcdn.net/100/459/160/products/4b9bc93b9d876513de13b0abc0a73ca9-jpeg.jpg?v=1657178616570",
-      "price_product": 55000,
-      "status": "normal",
-      "qty_in_cart": 0,
-      "sold": 900,
-      "length_sale": 90,
-      "sale": 0,
-      "quantity": 100,
-      "favorite": false,
-      "flash": false,
-      "create_at": "2023-07-01",
-      "trade_mark": "Regland",
-      "information": [
-        {
-          "content": "Chất liệu: cotton tici mềm mịn, thấm hút mồ hôi, thoáng mát cho bé"
-        },
-        {
-          "content": "Hình in sử dụng công nghệ in chuyển nhiệt không bong tróc, không bếp dính, không phai màu và an toàn cho da của bé."
-        }
-      ],
-      "information_detail": [
-        {
-          "content": "Áo cotton thấm mồ hôi tốt"
-        },
-        {
-          "content": "Chú ý: Màu sắc có thể hơi khác với thực tế do màn hình và độ sáng khác nhau"
-        },
-        {
-          "content": "Hình in sử dụng công nghệ in chuyển nhiệt thân thiện với môi trường, an toàn với da bé"
-        },
-        {
-          "content": "Hướng dẫn chọn size:"
-        },
-        {
-          "content": "Số 1: 8 - 11 kg;"
-        },
-        {
-          "content": "Số 2: 12 - 14 kg;"
-        },
-        {
-          "content": "Số 3: 14 - 16kg;"
-        },
-        {
-          "content": "Số 4: 16 - 18kg;"
-        },
-        {
-          "content": "Số 5: 18 - 20kg;"
-        },
-        {
-          "content": "BẢO QUẢN SẢN PHẨM"
-        },
-        {
-          "content": "Không giặt với nước nóng."
-        },
-        {
-          "content": "Không dùng thuốc tẩy, hóa chất."
-        },
-        {
-          "content": "Không giặt chung với quần áo sẫm màu."
-        }
-      ],
-      "instruct": [
-        {
-          "content": ""
-        }
-      ],
-      "news_more": [
-        {
-          "name": "Thời trang bé gái tuổi Teen và những điều ba mẹ cần biết",
-          "image": "https://bizweb.dktcdn.net/100/459/160/articles/ao-choang-cho-be12.jpg?v=1657188531777"
-        }
-      ],
-      "category": "promotion",
-      "wardrobe": "",
-      "album": [
-        {
-          "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997",
-          "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997"
-        },
-        {
-          "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457",
-          "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457"
-        },
-        {
-          "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727",
-          "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727"
-        }
-      ]
-    },
-    {
-      "id": "pid-10",
-      "name_product": "Áo thun dễ thương in hình khủng long chạy xe",
-      "image_product": "https://bizweb.dktcdn.net/100/459/160/products/3c97e39656588c318e41b77e13b33ce1-jpeg.jpg?v=1657178341633",
-      "price_product": 50000,
-      "status": "normal",
-      "qty_in_cart": 0,
-      "sold": 900,
-      "length_sale": 90,
-      "sale": 44,
-      "quantity": 100,
-      "favorite": false,
-      "flash": false,
-      "create_at": "2023-07-01",
-      "trade_mark": "Regland",
-      "information": [
-        {
-          "content": "Chất liệu: cotton tici mềm mịn, thấm hút mồ hôi, thoáng mát cho bé"
-        },
-        {
-          "content": "Hình in sử dụng công nghệ in chuyển nhiệt không bong tróc, không bếp dính, không phai màu và an toàn cho da của bé."
-        }
-      ],
-      "information_detail": [
-        {
-          "content": "Áo cotton thấm mồ hôi tốt"
-        },
-        {
-          "content": "Chú ý: Màu sắc có thể hơi khác với thực tế do màn hình và độ sáng khác nhau"
-        },
-        {
-          "content": "Hình in sử dụng công nghệ in chuyển nhiệt thân thiện với môi trường, an toàn với da bé"
-        },
-        {
-          "content": "Hướng dẫn chọn size:"
-        },
-        {
-          "content": "Số 1: 8 - 11 kg;"
-        },
-        {
-          "content": "Số 2: 12 - 14 kg;"
-        },
-        {
-          "content": "Số 3: 14 - 16kg;"
-        },
-        {
-          "content": "Số 4: 16 - 18kg;"
-        },
-        {
-          "content": "Số 5: 18 - 20kg;"
-        },
-        {
-          "content": "BẢO QUẢN SẢN PHẨM"
-        },
-        {
-          "content": "Không giặt với nước nóng."
-        },
-        {
-          "content": "Không dùng thuốc tẩy, hóa chất."
-        },
-        {
-          "content": "Không giặt chung với quần áo sẫm màu."
-        }
-      ],
-      "instruct": [
-        {
-          "content": ""
-        }
-      ],
-      "news_more": [
-        {
-          "name": "Thời trang bé gái tuổi Teen và những điều ba mẹ cần biết",
-          "image": "https://bizweb.dktcdn.net/100/459/160/articles/ao-choang-cho-be12.jpg?v=1657188531777"
-        }
-      ],
-      "category": "promotion",
-      "wardrobe": "",
-      "album": [
-        {
-          "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997",
-          "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997"
-        },
-        {
-          "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457",
-          "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457"
-        },
-        {
-          "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727",
-          "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727"
-        }
-      ]
-    },
-    {
-      "id": "pid-11",
-      "name_product": "Áo thun cotton xịn siêu dễ thương Puggy",
-      "image_product": "https://bizweb.dktcdn.net/100/459/160/products/901b2285710b4306df86b3f592e6d065-jpeg.jpg?v=1657178237060",
-      "price_product": 50000,
-      "status": "normal",
-      "qty_in_cart": 0,
-      "sold": 900,
-      "length_sale": 90,
-      "sale": 44,
-      "quantity": 99,
-      "favorite": false,
-      "flash": false,
-      "create_at": "2023-07-01",
-      "trade_mark": "Regland",
-      "information": [
-        {
-          "content": "Chất liệu: cotton tici mềm mịn, thấm hút mồ hôi, thoáng mát cho bé"
-        },
-        {
-          "content": "Hình in sử dụng công nghệ in chuyển nhiệt không bong tróc, không bếp dính, không phai màu và an toàn cho da của bé."
-        }
-      ],
-      "information_detail": [
-        {
-          "content": "Áo cotton thấm mồ hôi tốt"
-        },
-        {
-          "content": "Chú ý: Màu sắc có thể hơi khác với thực tế do màn hình và độ sáng khác nhau"
-        },
-        {
-          "content": "Hình in sử dụng công nghệ in chuyển nhiệt thân thiện với môi trường, an toàn với da bé"
-        },
-        {
-          "content": "Hướng dẫn chọn size:"
-        },
-        {
-          "content": "Số 1: 8 - 11 kg;"
-        },
-        {
-          "content": "Số 2: 12 - 14 kg;"
-        },
-        {
-          "content": "Số 3: 14 - 16kg;"
-        },
-        {
-          "content": "Số 4: 16 - 18kg;"
-        },
-        {
-          "content": "Số 5: 18 - 20kg;"
-        },
-        {
-          "content": "BẢO QUẢN SẢN PHẨM"
-        },
-        {
-          "content": "Không giặt với nước nóng."
-        },
-        {
-          "content": "Không dùng thuốc tẩy, hóa chất."
-        },
-        {
-          "content": "Không giặt chung với quần áo sẫm màu."
-        }
-      ],
-      "instruct": [
-        {
-          "content": ""
-        }
-      ],
-      "news_more": [
-        {
-          "name": "Thời trang bé gái tuổi Teen và những điều ba mẹ cần biết",
-          "image": "https://bizweb.dktcdn.net/100/459/160/articles/ao-choang-cho-be12.jpg?v=1657188531777"
-        }
-      ],
-      "category": "outstanding",
-      "wardrobe": "",
-      "album": [
-        {
-          "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997",
-          "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997"
-        },
-        {
-          "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457",
-          "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457"
-        },
-        {
-          "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727",
-          "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727"
-        }
-      ]
-    },
-    {
-      "id": "pid-12",
-      "name_product": "Áo thun dày dặn mịn mát cho bé",
-      "image_product": "https://bizweb.dktcdn.net/100/459/160/products/3f4c61dd2571dcd7ad8c02a5af94a0ea-jpeg.jpg?v=1657178123317",
-      "price_product": 50000,
-      "status": "normal",
-      "qty_in_cart": 0,
-      "sold": 900,
-      "length_sale": 90,
-      "sale": 24,
-      "quantity": 99,
-      "favorite": false,
-      "flash": false,
-      "create_at": "2023-07-01",
-      "trade_mark": "Regland",
-      "information": [
-        {
-          "content": "Chất liệu: cotton tici mềm mịn, thấm hút mồ hôi, thoáng mát cho bé"
-        },
-        {
-          "content": "Hình in sử dụng công nghệ in chuyển nhiệt không bong tróc, không bếp dính, không phai màu và an toàn cho da của bé."
-        }
-      ],
-      "information_detail": [
-        {
-          "content": "Áo cotton thấm mồ hôi tốt"
-        },
-        {
-          "content": "Chú ý: Màu sắc có thể hơi khác với thực tế do màn hình và độ sáng khác nhau"
-        },
-        {
-          "content": "Hình in sử dụng công nghệ in chuyển nhiệt thân thiện với môi trường, an toàn với da bé"
-        },
-        {
-          "content": "Hướng dẫn chọn size:"
-        },
-        {
-          "content": "Số 1: 8 - 11 kg;"
-        },
-        {
-          "content": "Số 2: 12 - 14 kg;"
-        },
-        {
-          "content": "Số 3: 14 - 16kg;"
-        },
-        {
-          "content": "Số 4: 16 - 18kg;"
-        },
-        {
-          "content": "Số 5: 18 - 20kg;"
-        },
-        {
-          "content": "BẢO QUẢN SẢN PHẨM"
-        },
-        {
-          "content": "Không giặt với nước nóng."
-        },
-        {
-          "content": "Không dùng thuốc tẩy, hóa chất."
-        },
-        {
-          "content": "Không giặt chung với quần áo sẫm màu."
-        }
-      ],
-      "instruct": [
-        {
-          "content": ""
-        }
-      ],
-      "news_more": [
-        {
-          "name": "Thời trang bé gái tuổi Teen và những điều ba mẹ cần biết",
-          "image": "https://bizweb.dktcdn.net/100/459/160/articles/ao-choang-cho-be12.jpg?v=1657188531777"
-        }
-      ],
-      "category": "outstanding",
-      "wardrobe": "",
-      "album": [
-        {
-          "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997",
-          "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997"
-        },
-        {
-          "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457",
-          "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457"
-        },
-        {
-          "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727",
-          "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727"
-        }
-      ]
-    },
-    {
-      "id": "pid-13",
-      "name_product": "Áo thun cotton dày dặn cho bé trai bé gái họa tiết chữ",
-      "image_product": "https://bizweb.dktcdn.net/100/459/160/products/1d66c081c00bd8f4f0133ab4b9ef4834-jpeg.jpg?v=1657177916673",
-      "price_product": 50000,
-      "status": "normal",
-      "qty_in_cart": 0,
-      "sold": 300,
-      "length_sale": 90,
-      "sale": 24,
-      "quantity": 99,
-      "favorite": false,
-      "flash": false,
-      "create_at": "2023-06-28",
-      "trade_mark": "Regland",
-      "information": [
-        {
-          "content": "Chất liệu: cotton tici mềm mịn, thấm hút mồ hôi, thoáng mát cho bé"
-        },
-        {
-          "content": "Hình in sử dụng công nghệ in chuyển nhiệt không bong tróc, không bếp dính, không phai màu và an toàn cho da của bé."
-        }
-      ],
-      "information_detail": [
-        {
-          "content": "Áo cotton thấm mồ hôi tốt"
-        },
-        {
-          "content": "Chú ý: Màu sắc có thể hơi khác với thực tế do màn hình và độ sáng khác nhau"
-        },
-        {
-          "content": "Hình in sử dụng công nghệ in chuyển nhiệt thân thiện với môi trường, an toàn với da bé"
-        },
-        {
-          "content": "Hướng dẫn chọn size:"
-        },
-        {
-          "content": "Số 1: 8 - 11 kg;"
-        },
-        {
-          "content": "Số 2: 12 - 14 kg;"
-        },
-        {
-          "content": "Số 3: 14 - 16kg;"
-        },
-        {
-          "content": "Số 4: 16 - 18kg;"
-        },
-        {
-          "content": "Số 5: 18 - 20kg;"
-        },
-        {
-          "content": "BẢO QUẢN SẢN PHẨM"
-        },
-        {
-          "content": "Không giặt với nước nóng."
-        },
-        {
-          "content": "Không dùng thuốc tẩy, hóa chất."
-        },
-        {
-          "content": "Không giặt chung với quần áo sẫm màu."
-        }
-      ],
-      "instruct": [
-        {
-          "content": ""
-        }
-      ],
-      "news_more": [
-        {
-          "name": "Thời trang bé gái tuổi Teen và những điều ba mẹ cần biết",
-          "image": "https://bizweb.dktcdn.net/100/459/160/articles/ao-choang-cho-be12.jpg?v=1657188531777"
-        }
-      ],
-      "category": "outstanding",
-      "wardrobe": "",
-      "album": [
-        {
-          "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997",
-          "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997"
-        },
-        {
-          "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457",
-          "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457"
-        },
-        {
-          "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727",
-          "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727"
-        }
-      ]
-    },
-    {
-      "id": "pid-14",
-      "name_product": "Áo thun bé trai, bé gái chất liệu mềm mịn thoàng mát",
-      "image_product": "https://bizweb.dktcdn.net/100/459/160/products/5fca4fe069d4e8da1df47bcf217ed6bb-jpeg.jpg?v=1657177817000",
-      "price_product": 50000,
-      "status": "normal",
-      "qty_in_cart": 0,
-      "sold": 300,
-      "length_sale": 90,
-      "sale": 24,
-      "quantity": 99,
-      "favorite": false,
-      "flash": false,
-      "create_at": "2023-06-28",
-      "trade_mark": "Regland",
-      "information": [
-        {
-          "content": "Chất liệu: cotton tici mềm mịn, thấm hút mồ hôi, thoáng mát cho bé"
-        },
-        {
-          "content": "Hình in sử dụng công nghệ in chuyển nhiệt không bong tróc, không bếp dính, không phai màu và an toàn cho da của bé."
-        }
-      ],
-      "information_detail": [
-        {
-          "content": "Áo cotton thấm mồ hôi tốt"
-        },
-        {
-          "content": "Chú ý: Màu sắc có thể hơi khác với thực tế do màn hình và độ sáng khác nhau"
-        },
-        {
-          "content": "Hình in sử dụng công nghệ in chuyển nhiệt thân thiện với môi trường, an toàn với da bé"
-        },
-        {
-          "content": "Hướng dẫn chọn size:"
-        },
-        {
-          "content": "Số 1: 8 - 11 kg;"
-        },
-        {
-          "content": "Số 2: 12 - 14 kg;"
-        },
-        {
-          "content": "Số 3: 14 - 16kg;"
-        },
-        {
-          "content": "Số 4: 16 - 18kg;"
-        },
-        {
-          "content": "Số 5: 18 - 20kg;"
-        },
-        {
-          "content": "BẢO QUẢN SẢN PHẨM"
-        },
-        {
-          "content": "Không giặt với nước nóng."
-        },
-        {
-          "content": "Không dùng thuốc tẩy, hóa chất."
-        },
-        {
-          "content": "Không giặt chung với quần áo sẫm màu."
-        }
-      ],
-      "instruct": [
-        {
-          "content": ""
-        }
-      ],
-      "news_more": [
-        {
-          "name": "Thời trang bé gái tuổi Teen và những điều ba mẹ cần biết",
-          "image": "https://bizweb.dktcdn.net/100/459/160/articles/ao-choang-cho-be12.jpg?v=1657188531777"
-        }
-      ],
-      "category": "outstanding",
-      "wardrobe": "",
-      "album": [
-        {
-          "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997",
-          "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997"
-        },
-        {
-          "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457",
-          "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457"
-        },
-        {
-          "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727",
-          "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727"
-        }
-      ]
-    },
-    {
-      "id": "pid-15",
-      "name_product": "Áo thun cho bé in hình khủng long tím cute",
-      "image_product": "https://bizweb.dktcdn.net/100/459/160/products/1a0a13e2301bb3a55b0ffca2e38110ab-jpeg.jpg?v=1657177710023",
-      "price_product": 50000,
-      "status": "normal",
-      "qty_in_cart": 0,
-      "sold": 300,
-      "length_sale": 90,
-      "sale": 24,
-      "quantity": 99,
-      "favorite": false,
-      "flash": false,
-      "create_at": "2023-06-28",
-      "trade_mark": "Regland",
-      "information": [
-        {
-          "content": "Chất liệu: cotton tici mềm mịn, thấm hút mồ hôi, thoáng mát cho bé"
-        },
-        {
-          "content": "Hình in sử dụng công nghệ in chuyển nhiệt không bong tróc, không bếp dính, không phai màu và an toàn cho da của bé."
-        }
-      ],
-      "information_detail": [
-        {
-          "content": "Áo cotton thấm mồ hôi tốt"
-        },
-        {
-          "content": "Chú ý: Màu sắc có thể hơi khác với thực tế do màn hình và độ sáng khác nhau"
-        },
-        {
-          "content": "Hình in sử dụng công nghệ in chuyển nhiệt thân thiện với môi trường, an toàn với da bé"
-        },
-        {
-          "content": "Hướng dẫn chọn size:"
-        },
-        {
-          "content": "Số 1: 8 - 11 kg;"
-        },
-        {
-          "content": "Số 2: 12 - 14 kg;"
-        },
-        {
-          "content": "Số 3: 14 - 16kg;"
-        },
-        {
-          "content": "Số 4: 16 - 18kg;"
-        },
-        {
-          "content": "Số 5: 18 - 20kg;"
-        },
-        {
-          "content": "BẢO QUẢN SẢN PHẨM"
-        },
-        {
-          "content": "Không giặt với nước nóng."
-        },
-        {
-          "content": "Không dùng thuốc tẩy, hóa chất."
-        },
-        {
-          "content": "Không giặt chung với quần áo sẫm màu."
-        }
-      ],
-      "instruct": [
-        {
-          "content": ""
-        }
-      ],
-      "news_more": [
-        {
-          "name": "Thời trang bé gái tuổi Teen và những điều ba mẹ cần biết",
-          "image": "https://bizweb.dktcdn.net/100/459/160/articles/ao-choang-cho-be12.jpg?v=1657188531777"
-        }
-      ],
-      "category": "outstanding",
-      "wardrobe": "",
-      "album": [
-        {
-          "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997",
-          "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997"
-        },
-        {
-          "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457",
-          "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457"
-        },
-        {
-          "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727",
-          "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727"
-        }
-      ]
-    },
-    {
-      "id": "pid-16",
-      "name_product": "Áo thun ngắn tay in hình bò sữa mixe",
-      "image_product": "https://bizweb.dktcdn.net/100/459/160/products/5d49254c8e13e7b30c47ea542799228e-jpeg.jpg?v=1657177586453",
-      "price_product": 50000,
-      "status": "normal",
-      "qty_in_cart": 0,
-      "sold": 300,
-      "length_sale": 90,
-      "sale": 24,
-      "quantity": 99,
-      "favorite": false,
-      "flash": false,
-      "create_at": "2023-06-28",
-      "trade_mark": "Regland",
-      "information": [
-        {
-          "content": "Chất liệu: cotton tici mềm mịn, thấm hút mồ hôi, thoáng mát cho bé"
-        },
-        {
-          "content": "Hình in sử dụng công nghệ in chuyển nhiệt không bong tróc, không bếp dính, không phai màu và an toàn cho da của bé."
-        }
-      ],
-      "information_detail": [
-        {
-          "content": "Áo cotton thấm mồ hôi tốt"
-        },
-        {
-          "content": "Chú ý: Màu sắc có thể hơi khác với thực tế do màn hình và độ sáng khác nhau"
-        },
-        {
-          "content": "Hình in sử dụng công nghệ in chuyển nhiệt thân thiện với môi trường, an toàn với da bé"
-        },
-        {
-          "content": "Hướng dẫn chọn size:"
-        },
-        {
-          "content": "Số 1: 8 - 11 kg;"
-        },
-        {
-          "content": "Số 2: 12 - 14 kg;"
-        },
-        {
-          "content": "Số 3: 14 - 16kg;"
-        },
-        {
-          "content": "Số 4: 16 - 18kg;"
-        },
-        {
-          "content": "Số 5: 18 - 20kg;"
-        },
-        {
-          "content": "BẢO QUẢN SẢN PHẨM"
-        },
-        {
-          "content": "Không giặt với nước nóng."
-        },
-        {
-          "content": "Không dùng thuốc tẩy, hóa chất."
-        },
-        {
-          "content": "Không giặt chung với quần áo sẫm màu."
-        }
-      ],
-      "instruct": [
-        {
-          "content": ""
-        }
-      ],
-      "news_more": [
-        {
-          "name": "Thời trang bé gái tuổi Teen và những điều ba mẹ cần biết",
-          "image": "https://bizweb.dktcdn.net/100/459/160/articles/ao-choang-cho-be12.jpg?v=1657188531777"
-        }
-      ],
-      "category": "outstanding",
-      "wardrobe": "",
-      "album": [
-        {
-          "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997",
-          "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997"
-        },
-        {
-          "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457",
-          "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457"
-        },
-        {
-          "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727",
-          "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727"
-        }
-      ]
-    },
-    {
-      "id": "pid-17",
-      "name_product": "Áo thun cotton dày dặn cho bé trai",
-      "image_product": "https://bizweb.dktcdn.net/100/459/160/products/e6293224b32da9b056a4f349642bc41c-jpeg.jpg?v=1657177402117",
-      "price_product": 50000,
-      "status": "normal",
-      "qty_in_cart": 0,
-      "sold": 300,
-      "length_sale": 90,
-      "sale": 24,
-      "quantity": 99,
-      "favorite": false,
-      "flash": false,
-      "create_at": "2023-06-28",
-      "trade_mark": "Regland",
-      "information": [
-        {
-          "content": "Chất liệu: cotton tici mềm mịn, thấm hút mồ hôi, thoáng mát cho bé"
-        },
-        {
-          "content": "Hình in sử dụng công nghệ in chuyển nhiệt không bong tróc, không bếp dính, không phai màu và an toàn cho da của bé."
-        }
-      ],
-      "information_detail": [
-        {
-          "content": "Áo cotton thấm mồ hôi tốt"
-        },
-        {
-          "content": "Chú ý: Màu sắc có thể hơi khác với thực tế do màn hình và độ sáng khác nhau"
-        },
-        {
-          "content": "Hình in sử dụng công nghệ in chuyển nhiệt thân thiện với môi trường, an toàn với da bé"
-        },
-        {
-          "content": "Hướng dẫn chọn size:"
-        },
-        {
-          "content": "Số 1: 8 - 11 kg;"
-        },
-        {
-          "content": "Số 2: 12 - 14 kg;"
-        },
-        {
-          "content": "Số 3: 14 - 16kg;"
-        },
-        {
-          "content": "Số 4: 16 - 18kg;"
-        },
-        {
-          "content": "Số 5: 18 - 20kg;"
-        },
-        {
-          "content": "BẢO QUẢN SẢN PHẨM"
-        },
-        {
-          "content": "Không giặt với nước nóng."
-        },
-        {
-          "content": "Không dùng thuốc tẩy, hóa chất."
-        },
-        {
-          "content": "Không giặt chung với quần áo sẫm màu."
-        }
-      ],
-      "instruct": [
-        {
-          "content": ""
-        }
-      ],
-      "news_more": [
-        {
-          "name": "Thời trang bé gái tuổi Teen và những điều ba mẹ cần biết",
-          "image": "https://bizweb.dktcdn.net/100/459/160/articles/ao-choang-cho-be12.jpg?v=1657188531777"
-        }
-      ],
-      "category": "outstanding",
-      "wardrobe": "",
-      "album": [
-        {
-          "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997",
-          "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997"
-        },
-        {
-          "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457",
-          "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457"
-        },
-        {
-          "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727",
-          "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727"
-        }
-      ]
-    }
-  ],
-  "blogs": [
-    {
-      "id": "b_1",
-      "title": "Thời trang bé gái tuổi Teen và những điều ba mẹ cần biết",
-      "image": "https://bizweb.dktcdn.net/100/459/160/articles/ao-choang-cho-be12.jpg?v=1657188531777",
-      "create_at": "07/07/2022",
-      "author": "Phan Thị Thảo",
-      "content": [
-        {
-          "transform": "span",
-          "type": "p",
-          "description": "Nuôi dạy một bé gái tuổi teen không phải việc đơn giản. Không chỉ tâm sinh lý, thời trang bé gái tuổi Teen cũng là vấn đề đáng bàn luận. Trong bài viết này, hãy cùng Bé Cưng Shop tìm hiểu về quần áo thun ba lỗ hình thú chất cotton bé yêu bé gái tuổi Teen. Những thông tin này sẽ giúp ba mẹ lựa chọn quần áo cho con yêu đúng đắn hơn đấy. "
-        },
-        {
-          "transform": "span",
-          "type": "p",
-          "description": "1. Xu hướng lựa chọn quần áo bé gái tuổi teen ra sao?"
-        },
-        {
-          "transform": "span",
-          "type": "p",
-          "description": "Thời trang bé gái tuổi teen rất đa dạng. Đặc biệt, xu hướng lựa chọn đồ của các em cũng thường xuyên thay đổi. Mỗi năm, cha mẹ có thể thấy cách ăn mặc, lựa chọn đồ đạc của các bé hoàn toàn khác so với trước đó."
-        },
-        {
-          "transform": "span",
-          "type": "p",
-          "description": "Với mỗi bé, phong cách lựa chọn quần áo cũng có sự khác biệt. Có em yêu thích sự nhí nhảnh, năng động, Có bé lại thích những bộ quần áo nữ tính, điệu đà. Nhưng dù là gì, cha mẹ cũng cần nắm bắt được mong muốn của các bé để hiểu và chăm sóc các em tốt hơn."
-        },
-        {
-          "transform": "span",
-          "type": "p",
-          "description": "2. Thời trang bé gái - mong muốn của các bé là gì?"
-        },
-        {
-          "transform": "span",
-          "type": "p",
-          "description": "Trong độ tuổi teen, tính cách của các em đang dần hình thành. Sẽ rất bình thường nếu lúc này các bé không có tính cách cũng như sở thích bồ đồ bé trai in hình xe cẩu rõ rệt. Bạn đừng ngạc nhiên nếu thấy mỗi ngày sở thích khi lựa chọn trang phục của các em lại khác nhau."
-        },
-        {
-          "transform": "span",
-          "type": "p",
-          "description": "3. Cha mẹ cần làm gì khi lựa chọn quần áo bé gái cho con?"
-        },
-        {
-          "transform": "span",
-          "type": "p",
-          "description": "Đừng bao giờ áp đặt bé phải mặc gì. Đó chính là nguyên tắc đầu tiên cha mẹ cần ghi nhớ ghi lựa chọn đồ cho bé. Không chỉ riêng quần áo, nguyên tắc này phù hợp với mọi yếu tố khác xoay quanh cuộc sống của các em."
-        },
-        {
-          "transform": "span",
-          "type": "p",
-          "description": "Ở độ tuổi teen, các bé rất ương bướng và không thích nghe theo sự áp đặt của cha mẹ. Vậy nên, càng cố gắng áp đặt thì phụ huynh càng khiến các bé rời xa mình hơn. Các em sẽ tìm mọi cách để được mặc những bộ đồ áo thun ngắn tay in hình bò sữa mixe mà ba mẹ đang cấm cản mình."
-        }
-      ],
-      "description": "Thời trang bé gái tuổi teen hiện rất đa dạng. nhưng làm sao để chọn cho con những sản phẩm phù hợp? Đọc ngay bài viết này của Bé Cưng Shop nhé."
-    },
-    {
-      "id": "b_2",
-      "title": "Có nên mua quần áo trẻ em trên sàn online?",
-      "image": "https://bizweb.dktcdn.net/100/459/160/articles/ao-choang-canh-doi-cho-be-8.jpg?v=1657187722780",
-      "create_at": "07/07/2022",
-      "author": "Phan Thị Thảo",
-      "content": [
-        {
-          "transform": "span",
-          "type": "p",
-          "description": "Có nên mua quần áo trẻ em trên sàn online?"
-        },
-        {
-          "transform": "span",
-          "type": "p",
-          "description": "Ngày nay, việc mua quần áo trẻ em đã dễ dàng hơn bao giờ hết, không phải chỉ vì sự xuất hiện của rất nhiều thương hiệu quần áo trẻ em mà còn vì sự xuất hiện của các trang thương mại điện tử và website bán hàng trực tuyến. Việc này giúp các cha mẹ có thể mua quần áo cho con em mình ngay cả khi ngồi tại nhà của mình mà chẳng tốn nhiều thời gian, công sức đến tận các shop lựa chọn. "
-        },
-        {
-          "transform": "span",
-          "type": "p",
-          "description": "Nhưng cũng có không ít những người băn khoăn rằng có nên mua quần áo trẻ em online hay không, mua quần áo trẻ em online ở đâu chất lượng,...Do đó, hôm nay Bé Cưng Shop sẽ chia sẻ một vài thông tin nhằm giúp quý khách giải đáp thắc mắc về vấn đề này."
-        },
-        {
-          "transform": "span",
-          "type": "h3",
-          "description": "Lợi ích của việc mua quần áo trẻ em trên sàn online"
-        },
-        {
-          "transform": "span",
-          "type": "p",
-          "description": "Không thể phủ nhận việc mua hàng online có rất nhiều ưu điểm và thuận tiện cho người tiêu dùng. Gần đây, việc mua quần áo trẻ em trên các website đang được nhiều cha mẹ lựa chọn. Vì cuộc sống hàng ngày thời hiện đại khiến cha mẹ thường phải bận bịu việc công ty, cơ quan, việc nhà, áo thun bé gái, hươu, mèo, gấu... Hình thức mua hàng trên mạng ra đời giúp quý phụ huynh có thể mua hàng và nhận hàng tại nhà mà chẳng cần tốn thời gian lựa chọn.  Quỹ thời gian bị hạn chế nên việc ra tận cửa hàng mua sắm khá bất tiện với nhiều người."
-        },
-        {
-          "transform": "span",
-          "type": "p",
-          "description": "Cùng với sự xuất hiện của rất nhiều trang thương mại điện tử nổi tiếng với mặt hàng quần áo trẻ em áo thun bé gái cotton hình con voi, đầm bé gái như: Tiki, Shopee, Lazada, Sendo,… Và những website bán hàng với giao diện đẹp, thanh toán dễ dàng giúp các cha mẹ có thể tham khảo mẫu mã rồi đặt mua hàng chỉ với vài cú click chuột. "
-        },
-        {
-          "transform": "span",
-          "type": "p",
-          "description": "Đặc biệt, các website thương mại điện tử còn hay đưa ra những chương trình ưu đãi, khuyến mãi, giảm giá, giúp các bậc phụ huynh của chúng ta có thể mua được hàng với giá rẻ nhất. Các chương trình khuyến mãi áo thun bé trai, bé gái chất liệu mềm mịn thoàng mát này thường áp dụng vào các ngày đặc biệt hoặc vào khung giờ vàng nào đó. Hoặc các dịp lễ, tết, ngày đặc biệt, sinh nhật shop,...Ngoài các trang thương mại điện tử thì nhiều shop thời trang trẻ em lớn và uy tín cũng xây dựng những website chuyên cung cấp các mặt hàng thời trang trẻ em giá tốt, hợp xu hướng."
-        },
-        {
-          "transform": "span",
-          "type": "p",
-          "description": "Thay vì mua sắm truyền thống bạn cần đến tận cửa hàng để biết giá và đi nhiều cửa hàng khác nhau để so sánh giá. Thì khi mua sắm online nếu muốn biết chính xác về giá sản phẩm quần áo trẻ em cần mua, bạn chỉ cần vài click chuột lướt qua một số website là đã có thể nắm được mức giá tốt nhất cho món đồ của mình rất nhanh chóng và tiện lợi."
-        },
-        {
-          "transform": "span",
-          "type": "p",
-          "description": "Với hình thức mua sắm online này dù cha mẹ ở bất cứ khi nào, bất cứ nơi đâu, dù 1 giờ trưa hay 12 giờ khuya vẫn có thể lướt website và đặt hàng, không phải phụ thuộc vào giờ mở cửa của các shop thời trang. Thậm chí, nếu bận quá, các cha mẹ có thể vừa ngồi làm tại văn phòng vừa đặt hàng giao tận nơi. Vô cùng tiện lợi. Vì thế mà xu hướng mua sắm online nói chung và mua quần áo trẻ em online nói riêng bùng phát mạnh mẽ thời gian gần đây."
-        }
-      ],
-      "description": "Ngày nay, việc mua quần áo trẻ em đã dễ dàng hơn bao giờ hết. Cha mẹ có thể mua quần áo cho con em mình ngay cả khi ngồi tại nhà của mình mà chẳng tốn nhiều thời gian, công sức đến tận các shop lựa chọn."
-    },
-    {
-      "id": "b_3",
-      "title": "Gợi ý chọn trang phục cho bé gái tuổi mới lớn",
-      "image": "https://bizweb.dktcdn.net/100/459/160/articles/diem-qua-7-thuong-hieu-do-tre-em-ma-me-rat-nen-sam-cho-be-yeu-202206040734481525.jpg?v=1657187057557",
-      "create_at": "07/07/2022",
-      "author": "Phan Thị Thảo",
-      "content": [
-        {
-          "transform": "span",
-          "type": "p",
-          "description": "Tuổi trẻ con là tuổi của sắc màu tươi mới, mùa của sự vui chơi thoả thích nhưng không thể tránh được thời tiết oi bức. Vì vậy các mom đã chuẩn bị trang phục gì cho bé mùa hè chưa ? Đặc biệt là với thời tiết cực kỳ khó chịu tại Sài Gòn, thì việc lựa chọn Quần áo trẻ em cho bé là điều cực kỳ quan trọng nếu như các mom không lưu ý việc này thì sẽ ảnh hưởng rất nhiều đến sức khoẻ và làn da của bé. Vậy thì làm sao để lựa chọn trang phục mùa hè cho bé gái tuổi mới lớn ? Hãy cùng Becungshop khám phá vài mẹo nhỏ sau đây nhé. "
-        },
-        {
-          "transform": "b",
-          "type": "p",
-          "description": "1. Ưu tiên đến chất liệu. "
-        },
-        {
-          "transform": "span",
-          "type": "p",
-          "description": "Bây giờ có rất nhiều chất liệu trên thị trường nhưng không phải chất liệu nào cũng phù hợp với trẻ em. Hiểu được những nỗi lo âu của bố mẹ, Becungshop chúng tôi luôn lựa chọn và sản xuất ra những sản phẩm rất tinh tế và phù hợp đến tay các mom. Loại vải mà Becungshop ưu tiên nhiều nhất chính là loại cotton co giãn. "
-        },
-        {
-          "transform": "span",
-          "type": "p",
-          "description": "Cotton: chính là loại vải sử dụng rất nhiều trong các bộ sưu tập của Becungshop, và được nhiều các nhãn hàng thời trang khác ưa chuộng bởi vì đặc tính thấm hút mồ hôi tuyệt vời của nó. Bởi vì cotton được dệt từ các sợi vải thiên nhiên và nhiều nhất là bông có khả năng co giãn cho bé nên bé rất thoải mái khi có thể vừa mặc vừa vui chơi thoải thích. "
-        },
-        {
-          "transform": "b",
-          "type": "p",
-          "description": "2. Form dáng sao cho hợp lý. "
-        },
-        {
-          "transform": "span",
-          "type": "p",
-          "description": "Sau những giờ học căng thẳng thì thời gian còn lại là lúc để các bé được tự do giải trí, nên lựa chọn các form dáng quần áo các phụ huynh cũng phải đặc biệt lưu tâm."
-        },
-        {
-          "transform": "span",
-          "type": "p",
-          "description": "- Thứ nhất: Các mom nên chọn những kiểu dáng thoải mái, rộng rãi không bó sát người bé, đặc biệt là phần cổ và nách bởi vì hai phần này rất nhạy cảm và thường dễ đổ mồ hôi cho bé."
-        },
-        {
-          "transform": "span",
-          "type": "p",
-          "description": "- Thứ hai: Đừng nên lựa chọn những bộ quần áo rườm rà, ren lưới phức tạp khi sinh hoạt vui chời thường ngày vì sẽ dẫn đến tình trạng khó chịu cho con. "
-        },
-        {
-          "transform": "span",
-          "type": "p",
-          "description": "- Tiếp theo là các bé thường rất thích được đi chơi nên là việc lựa chọn trang phục nếu tốn quá nhiều thời gian của trẻ, trẻ sẽ cảm thấy cáu gắt và khó chịu, chính vì thế mà Becungshop ưu tiên ba mẹ nên chọn cho con trang phục theo set, theo bộ để bé có thể mặc vào nhanh chóng và việc đó cũng sẽ không mất quá nhiều thời gian của quý phụ huynh."
-        },
-        {
-          "transform": "b",
-          "type": "p",
-          "description": "3. Màu sắc. "
-        },
-        {
-          "transform": "span",
-          "type": "p",
-          "description": "Màu sắc cũng không kém phần quan trọng trong việc phối quần áo trẻ em cho bé gái tuổi mới lớn. Bởi trẻ con luôn yêu thích những màu sắc nổi bật, chính vì thế những thiết kế giày lưới thể thao cho bé trai hoặc áo thun dễ thương in hình khủng long chạy xe của Becungshop luôn chọn những màu sắc để phù hợp với độ tuổi tràn đầy năng lượng của bé. Sau đây là một vài gợi ý của Becungshop giành cho phụ huynh kham khảo nhé:"
-        },
-        {
-          "transform": "b",
-          "type": "p",
-          "description": "Những thiết kế nổi bật và đang được bán chạy nhất tại Becungshop."
-        },
-        {
-          "transform": "span",
-          "type": "p",
-          "description": "Set váy đuôi cá cổ hàn quốc cực đẹp cho bé này là một sự lựa chọn tuyệt vời giành cho các bé yêu , với hoạ tiết vân bò đang rất là trendy khắp Châu Á được ưa chọn rất nhiều trong việc thiết kế phụ kiện, quần áo và trong nội thất. Phong cách cực kỳ dễ thương, áo crop-top form dáng dài kết hợp với quần jogger nên bé có thể dễ dàng mặc được ở các dịp sinh hoạt khác nhau. "
-        }
-      ],
-      "description": "Bé gái tuổi mới lớn luôn thích tự lựa chọn những trang phục cho mình tuy nhiên phụ huynh chúng ta cũng cần phải nắm bắt một vài mẹo nhỏ để lựa chọn phù hợp cho con. "
-    },
-    {
-      "id": "b_4",
-      "title": "Chọn đồ trẻ em mặc ở nhà cần lưu ý những gì?",
-      "image": "https://bizweb.dktcdn.net/100/459/160/articles/freesize-2-800x450.png?v=1657187190470",
-      "create_at": "07/07/2022",
-      "author": "Phan Thị Thảo",
-      "content": [
-        {
-          "transform": "span",
-          "type": "h3",
-          "description": "Một trong những trang phục đặt tiêu chí thoải mái và an toàn lên hàng đầu đó chính là đồ bộ mặc nhà cho bé sản phẩm nổi bật nhất 2022, vì bé giành thời gian ở nhà nhiều hơn và mọi sinh hoạt của bé cùng nhiều nhất là tại nhà, nên các mom cần phải lựa chọn những trang phục mặc nhà sao cho thoải mái nhất cho trẻ. Becungshop sẽ gợi ý vài tips nhỏ để các mom cùng kham khảo nhé. "
-        },
-        {
-          "transform": "span",
-          "type": "h3",
-          "description": "1. Chất liệu: "
-        },
-        {
-          "transform": "span",
-          "type": "p",
-          "description": "Chất liệu sản phẩm là lựa chọn hàng đầu khi mua sản phẩm quần áo mặc nhà cho bé. Lựa chọn hàng chất lượng kém có thể gây cho bé dị ứng, ngứa ngáy, khó chịu hoặc xấu hơn nữa có thể gặp các căn bệnh ngoài da. Mẹ nên chọn đồ mặc nhà cho bé gái và bé trai với các chất liệu thông thoáng, mát mẻ và áo thun ba lỗ hình thú chất cotton bé yêu có tính co giãn tốt như thun hoặc cotton để bé dễ dàng hoạt động và sinh hoạt hơn."
-        },
-        {
-          "transform": "span",
-          "type": "h3",
-          "description": "2. Chọn đúng size của bé: "
-        },
-        {
-          "transform": "span",
-          "type": "h3",
-          "description": "Việc lựa chọn size đồ mặc nhà cho bé là vô cùng quan trọng, có rất nhiều mom chưa có kin nghiệm trong việc chọn size đồ mặc nhà cho bé nên dẫn đến tình trạng quá chật hay quá rộng. Điều này gây bất tiện cho bé trong thời gian sinh hoạt tại nhà. Chọn một set trang phục phù hợp cho bé là rất quan trọng để bé có thể tự do vui chơi sinh hoạt thoải mái tại nhà. Nếu trang phục qúa nhỏ, bé sẽ không thể vui chơi hết mình, còn nếu một bộ quần áo quá rộng sẽ xảy ra tình trạng không vừa vặn khiến bé không thể vui chơi một cách tự tin và hết mình.  Chọn một bộ trang phục vừa vặn với kích cỡ thích hợp với cân nặng và chiều cao của bé sẽ giúp bé thoải mái và dễ dàng trong mọi hoạt động."
-        },
-        {
-          "transform": "span",
-          "type": "h3",
-          "description": "3. Kiểu dáng của trang phục."
-        },
-        {
-          "transform": "span",
-          "type": "p",
-          "description": "Các mom nên chọn cho bé môt bộ trang phục thiết kế không rườm rà để bé có thể thoải mái vui chơi. Khác với những loại trang phục dạo phố hay dự tiệc, giày lưới thể thao cho bé trai chú trọng đến tính chất thoải mái hơn thay vì thiết kế sản phẩm. Mom đừng chọn một bộ mặc nhà với rườm rà nhiều chi tiết hay quá nhiều phụ kiện đính trên quần áo. Như thế sẽ rất bất tiện cho cả mẹ lẫn bé, khiến bé cảm thấy khó chịu. Tuy nhiên với kiểu dáng đơn giản nhưng lại có những hình in hoạ tiết cực kỳ dễ thương, bé có thể mặc mà vẫn thích thú. "
-        }
-      ],
-      "description": "Chọn đồ mặc nhà cần lưu ý những gì cho bé, các mom cùng bécungshop kham khảo bài viết dưới đây nhé,"
-    }
-  ],
-  "categories": [
-    {
-      "id": "cid-1",
-      "image_small": "https://bizweb.dktcdn.net/thumb/thumb/100/459/160/collections/dam-be-gai-80.png?v=1657182649087",
-      "image_large": "https://bizweb.dktcdn.net/thumb/compact/100/459/160/collections/dam-be-gai-80.png?v=1657182649087",
-      "title": "Đầm bé gái",
-      "size": "large",
-      "new": true
-    },
-    {
-      "id": "cid-2",
-      "image_small": "https://bizweb.dktcdn.net/thumb/thumb/100/459/160/collections/bo-be-gai-80.png?v=1657182638380",
-      "image_large": "https://bizweb.dktcdn.net/thumb/compact/100/459/160/collections/bo-be-gai-80.png?v=1657182638380",
-      "title": "Bộ bé gái",
-      "size": "large",
-      "new": true
-    },
-    {
-      "id": "cid-3",
-      "image_small": "https://bizweb.dktcdn.net/thumb/thumb/100/459/160/collections/ao-be-gai-80.png?v=1657182670947",
-      "image_large": "https://bizweb.dktcdn.net/thumb/compact/100/459/160/collections/ao-be-gai-80.png?v=1657182670947",
-      "title": "Áo bé gái",
-      "size": "large",
-      "new": true
-    },
-    {
-      "id": "cid-4",
-      "image_small": "https://bizweb.dktcdn.net/thumb/thumb/100/459/160/collections/bo-be-trai-80.png?v=1657182685220",
-      "image_large": "https://bizweb.dktcdn.net/thumb/compact/100/459/160/collections/bo-be-trai-80.png?v=1657182685220",
-      "title": "Bộ bé trai",
-      "size": "large",
-      "new": true
-    },
-    {
-      "id": "cid-5",
-      "image_small": "https://bizweb.dktcdn.net/thumb/thumb/100/459/160/collections/quan-be-trai-80.png?v=1657182701517",
-      "image_large": "https://bizweb.dktcdn.net/thumb/compact/100/459/160/collections/quan-be-trai-80.png?v=1657182701517",
-      "title": "Quần bé trai",
-      "size": "large",
-      "new": true
-    },
-    {
-      "id": "cid-6",
-      "image_small": "",
-      "image_large": "https://bizweb.dktcdn.net/thumb/compact/100/459/160/collections/ao-be-trai-80.png?v=1657182718667",
-      "title": "Áo bé trai",
-      "size": "large",
-      "new": false
-    },
-    {
-      "id": "cid-7",
-      "image_small": "",
-      "image_large": "https://bizweb.dktcdn.net/thumb/compact/100/459/160/collections/quan-be-gai-80.png?v=1657182733363",
-      "title": "Quần bé gái",
-      "size": "large",
-      "new": false
-    },
-    {
-      "id": "cid-8",
-      "image_small": "",
-      "image_large": "https://bizweb.dktcdn.net/thumb/compact/100/459/160/collections/giay-be-gai-80.png?v=1657184995837",
-      "title": "Giày dép",
-      "size": "large",
-      "new": false
-    }
-  ],
-  "filters": [
-    {
-      "id": "f_1",
-      "name_filter": "Thương hiệu",
-      "children": [
-        {
-          "id": 1,
-          "children_name": "Dolce"
-        },
-        {
-          "id": 2,
-          "children_name": "Golden Piz"
-        },
-        {
-          "id": 3,
-          "children_name": "Nuke"
-        },
-        {
-          "id": 4,
-          "children_name": "Việt Nam"
-        },
-        {
-          "id": 5,
-          "children_name": "Zara"
-        }
-      ]
-    },
-    {
-      "id": "f_2",
-      "name_filter": "Theo mức giá",
-      "children": [
-        {
-          "id": 1,
-          "children_name": "Dưới 100.000đ"
-        },
-        {
-          "id": 2,
-          "children_name": "Từ 100.000đ đến 200.000đ"
-        },
-        {
-          "id": 3,
-          "children_name": "Từ 200.000đ đến 400.000đ"
-        },
-        {
-          "id": 4,
-          "children_name": "Từ 400.000đ đến 600.000đ"
-        },
-        {
-          "id": 5,
-          "children_name": "Từ 600.000đ đến 800.000đ"
-        },
-        {
-          "id": 6,
-          "children_name": "Từ 800.000đ đến 1 triệu"
-        },
-        {
-          "id": 7,
-          "children_name": "Từ 1 đến 2 triệu"
-        },
-        {
-          "id": 8,
-          "children_name": "Trên 2 triệu"
-        }
-      ]
-    },
-    {
-      "id": "f_3",
-      "name_filter": "Tìm theo loại",
-      "children": [
-        {
-          "id": 1,
-          "children_name": "Giày da"
-        },
-        {
-          "id": 2,
-          "children_name": "Giày vải"
-        },
-        {
-          "id": 3,
-          "children_name": "Vải bông"
-        },
-        {
-          "id": 4,
-          "children_name": "Vải thun"
-        }
-      ]
-    }
-  ],
-  "services": [
-    {
-      "id": "s_1",
-      "image": "https://bizweb.dktcdn.net/100/459/160/themes/867807/assets/ico_sv1.png?1684485482688",
-      "title": "Hỗ trợ 24/7",
-      "description": "Nhân viên online hỗ trợ"
-    },
-    {
-      "id": "s_2",
-      "image": "https://bizweb.dktcdn.net/100/459/160/themes/867807/assets/ico_sv2.png?1684485482688",
-      "title": "Tiết kiệm",
-      "description": "Mua nhiều ưu đãi hơn"
-    },
-    {
-      "id": "s_3",
-      "image": "https://bizweb.dktcdn.net/100/459/160/themes/867807/assets/ico_sv3.png?1684485482688",
-      "title": "Quà tặng",
-      "description": "Tri ân khách hàng cũ"
-    },
-    {
-      "id": "s_4",
-      "image": "https://bizweb.dktcdn.net/100/459/160/themes/867807/assets/ico_sv4.png?1684485482688",
-      "title": "Vận chuyển",
-      "description": "Siêu nhanh, toàn thế giới"
-    }
-  ]
+    "marquees": [
+        {
+            "id": 1,
+            "title": "Thời trang bé gái tuổi Teen và những điều ba mẹ cần biết"
+        },
+        {
+            "id": 2,
+            "title": "Có nên mua quần áo trẻ em trên sàn online?"
+        },
+        {
+            "id": 3,
+            "title": "Gợi ý chọn trang phục cho bé gái tuổi mới lớn"
+        }
+    ],
+    "navigates": [
+        {
+            "id": 1,
+            "title": "Trang chủ",
+            "key": ""
+        },
+        {
+            "id": 2,
+            "title": "Sản phẩm",
+            "key": "product-page",
+            "children": [
+                {
+                    "id": 1,
+                    "title": "Sản phẩm nổi bật",
+                    "key": "@outstanding"
+                },
+                {
+                    "id": 2,
+                    "title": "Sản phẩm khuyến mãi",
+                    "key": "@promotion"
+                },
+                {
+                    "id": 3,
+                    "title": "Túi xách",
+                    "key": "@hand-bag"
+                },
+                {
+                    "id": 4,
+                    "title": "Mũ, nón",
+                    "key": "@hat"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Tin tức",
+            "key": "news-page"
+        },
+        {
+            "id": 4,
+            "title": "Sản phẩm yêu thích",
+            "key": "favorite-page"
+        },
+        {
+            "id": 5,
+            "title": "Liên hệ",
+            "key": "contact-page"
+        },
+        {
+            "id": 6,
+            "title": "Hệ thống cửa hàng",
+            "key": "store-page"
+        },
+        {
+            "id": 7,
+            "title": "Tủ đồ của bé",
+            "key": "wardrobe-page",
+            "children": [
+                {
+                    "id": 1,
+                    "title": "Đầm bé gái",
+                    "key": "@dress"
+                },
+                {
+                    "id": 2,
+                    "title": "Bộ bé gái",
+                    "key": "@set-girl"
+                },
+                {
+                    "id": 3,
+                    "title": "Áo bé gái",
+                    "key": "@shirt-girl"
+                },
+                {
+                    "id": 4,
+                    "title": "Bộ bé trai",
+                    "key": "@set-boy"
+                },
+                {
+                    "id": 5,
+                    "title": "Quần bé trai",
+                    "key": "@trousers-boy"
+                },
+                {
+                    "id": 6,
+                    "title": "Áo bé trai",
+                    "key": "@shirt-boy"
+                },
+                {
+                    "id": 7,
+                    "title": "Quần bé gái",
+                    "key": "@trousers-girl"
+                },
+                {
+                    "id": 8,
+                    "title": "Giầy dép",
+                    "key": "@shoes"
+                }
+            ]
+        }
+    ],
+    "products": [
+        {
+            "id": "pid-1",
+            "name_product": "Bồ đồ bé trai in hình xe cẩu",
+            "image_product": "https://bizweb.dktcdn.net/100/459/160/products/c57efdb033e91bbf4bc459b715a81972-jpeg.jpg?v=1657182141843",
+            "price_product": 90000,
+            "status": "in-cart",
+            "qty_in_cart": 3,
+            "sold": 300,
+            "length_sale": 90,
+            "sale": 6,
+            "quantity": 100,
+            "favorite": true,
+            "flash": true,
+            "create_at": "2023-07-01",
+            "trade_mark": "Regland",
+            "information": [
+                {
+                    "content": "Chất liệu: cotton tici mềm mịn, thấm hút mồ hôi, thoáng mát cho bé"
+                },
+                {
+                    "content": "Hình in sử dụng công nghệ in chuyển nhiệt không bong tróc, không bếp dính, không phai màu và an toàn cho da của bé."
+                }
+            ],
+            "information_detail": [
+                {
+                    "content": "Áo cotton thấm mồ hôi tốt"
+                },
+                {
+                    "content": "Chú ý: Màu sắc có thể hơi khác với thực tế do màn hình và độ sáng khác nhau"
+                },
+                {
+                    "content": "Hình in sử dụng công nghệ in chuyển nhiệt thân thiện với môi trường, an toàn với da bé"
+                },
+                {
+                    "content": "Hướng dẫn chọn size:"
+                },
+                {
+                    "content": "Số 1: 8 - 11 kg;"
+                },
+                {
+                    "content": "Số 2: 12 - 14 kg;"
+                },
+                {
+                    "content": "Số 3: 14 - 16kg;"
+                },
+                {
+                    "content": "Số 4: 16 - 18kg;"
+                },
+                {
+                    "content": "Số 5: 18 - 20kg;"
+                },
+                {
+                    "content": "BẢO QUẢN SẢN PHẨM"
+                },
+                {
+                    "content": "Không giặt với nước nóng."
+                },
+                {
+                    "content": "Không dùng thuốc tẩy, hóa chất."
+                },
+                {
+                    "content": "Không giặt chung với quần áo sẫm màu."
+                }
+            ],
+            "instruct": [
+                {
+                    "content": ""
+                }
+            ],
+            "news_more": [
+                {
+                    "name": "Thời trang bé gái tuổi Teen và những điều ba mẹ cần biết",
+                    "image": "https://bizweb.dktcdn.net/100/459/160/articles/ao-choang-cho-be12.jpg?v=1657188531777"
+                }
+            ],
+            "category": "outstanding",
+            "wardrobe": "",
+            "album": [
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/c57efdb033e91bbf4bc459b715a81972-jpeg.jpg?v=1657182141843",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/c57efdb033e91bbf4bc459b715a81972-jpeg.jpg?v=1657182141843"
+                },
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/9c85284acb50a032f513c85b8f236f14-jpeg.jpg?v=1657182141843",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/9c85284acb50a032f513c85b8f236f14-jpeg.jpg?v=1657182141843"
+                },
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/fbf885b042f51c66735fcd2f43bc52b6-jpeg.jpg?v=1657182141843",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/fbf885b042f51c66735fcd2f43bc52b6-jpeg.jpg?v=1657182141843"
+                }
+            ]
+        },
+        {
+            "id": "pid-2",
+            "name_product": "Bồ đồ bé trai chất liệu mát lạnh",
+            "image_product": "https://bizweb.dktcdn.net/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073000",
+            "price_product": 90000,
+            "status": "normal",
+            "qty_in_cart": 0,
+            "sold": 300,
+            "length_sale": 90,
+            "sale": 6,
+            "quantity": 100,
+            "favorite": false,
+            "flash": true,
+            "create_at": "2023-07-01",
+            "trade_mark": "Regland",
+            "information": [
+                {
+                    "content": "Chất liệu: cotton tici mềm mịn, thấm hút mồ hôi, thoáng mát cho bé"
+                },
+                {
+                    "content": "Hình in sử dụng công nghệ in chuyển nhiệt không bong tróc, không bếp dính, không phai màu và an toàn cho da của bé."
+                }
+            ],
+            "information_detail": [
+                {
+                    "content": "Áo cotton thấm mồ hôi tốt"
+                },
+                {
+                    "content": "Chú ý: Màu sắc có thể hơi khác với thực tế do màn hình và độ sáng khác nhau"
+                },
+                {
+                    "content": "Hình in sử dụng công nghệ in chuyển nhiệt thân thiện với môi trường, an toàn với da bé"
+                },
+                {
+                    "content": "Hướng dẫn chọn size:"
+                },
+                {
+                    "content": "Số 1: 8 - 11 kg;"
+                },
+                {
+                    "content": "Số 2: 12 - 14 kg;"
+                },
+                {
+                    "content": "Số 3: 14 - 16kg;"
+                },
+                {
+                    "content": "Số 4: 16 - 18kg;"
+                },
+                {
+                    "content": "Số 5: 18 - 20kg;"
+                },
+                {
+                    "content": "BẢO QUẢN SẢN PHẨM"
+                },
+                {
+                    "content": "Không giặt với nước nóng."
+                },
+                {
+                    "content": "Không dùng thuốc tẩy, hóa chất."
+                },
+                {
+                    "content": "Không giặt chung với quần áo sẫm màu."
+                }
+            ],
+            "instruct": [
+                {
+                    "content": ""
+                }
+            ],
+            "news_more": [
+                {
+                    "name": "Thời trang bé gái tuổi Teen và những điều ba mẹ cần biết",
+                    "image": "https://bizweb.dktcdn.net/100/459/160/articles/ao-choang-cho-be12.jpg?v=1657188531777"
+                }
+            ],
+            "category": "outstanding",
+            "wardrobe": "",
+            "album": [
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997"
+                },
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457"
+                },
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727"
+                }
+            ]
+        },
+        {
+            "id": "pid-3",
+            "name_product": "Áo dài tay Ragland cho bé trai và bé gái",
+            "image_product": "https://bizweb.dktcdn.net/100/459/160/products/2e5d44ef397d418c1b904128374e4861-jpeg.jpg?v=1657181943000",
+            "price_product": 90000,
+            "status": "normal",
+            "qty_in_cart": 0,
+            "sold": 300,
+            "length_sale": 90,
+            "sale": 6,
+            "quantity": 100,
+            "favorite": false,
+            "flash": true,
+            "create_at": "2023-07-01",
+            "trade_mark": "Regland",
+            "information": [
+                {
+                    "content": "Chất liệu: cotton tici mềm mịn, thấm hút mồ hôi, thoáng mát cho bé"
+                },
+                {
+                    "content": "Hình in sử dụng công nghệ in chuyển nhiệt không bong tróc, không bếp dính, không phai màu và an toàn cho da của bé."
+                }
+            ],
+            "information_detail": [
+                {
+                    "content": "Áo cotton thấm mồ hôi tốt"
+                },
+                {
+                    "content": "Chú ý: Màu sắc có thể hơi khác với thực tế do màn hình và độ sáng khác nhau"
+                },
+                {
+                    "content": "Hình in sử dụng công nghệ in chuyển nhiệt thân thiện với môi trường, an toàn với da bé"
+                },
+                {
+                    "content": "Hướng dẫn chọn size:"
+                },
+                {
+                    "content": "Số 1: 8 - 11 kg;"
+                },
+                {
+                    "content": "Số 2: 12 - 14 kg;"
+                },
+                {
+                    "content": "Số 3: 14 - 16kg;"
+                },
+                {
+                    "content": "Số 4: 16 - 18kg;"
+                },
+                {
+                    "content": "Số 5: 18 - 20kg;"
+                },
+                {
+                    "content": "BẢO QUẢN SẢN PHẨM"
+                },
+                {
+                    "content": "Không giặt với nước nóng."
+                },
+                {
+                    "content": "Không dùng thuốc tẩy, hóa chất."
+                },
+                {
+                    "content": "Không giặt chung với quần áo sẫm màu."
+                }
+            ],
+            "instruct": [
+                {
+                    "content": ""
+                }
+            ],
+            "news_more": [
+                {
+                    "name": "Thời trang bé gái tuổi Teen và những điều ba mẹ cần biết",
+                    "image": "https://bizweb.dktcdn.net/100/459/160/articles/ao-choang-cho-be12.jpg?v=1657188531777"
+                }
+            ],
+            "category": "outstanding",
+            "wardrobe": "",
+            "album": [
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997"
+                },
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457"
+                },
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727"
+                }
+            ]
+        },
+        {
+            "id": "pid-4",
+            "name_product": "Áo thun bé gái cotton hình con voi",
+            "image_product": "https://bizweb.dktcdn.net/100/459/160/products/8224f1f46b79a6bd203f60e9eac93f8d-jpeg.jpg?v=1657181802817",
+            "price_product": 80000,
+            "status": "in-cart",
+            "qty_in_cart": 1,
+            "sold": 300,
+            "length_sale": 90,
+            "sale": 44,
+            "quantity": 100,
+            "favorite": false,
+            "flash": true,
+            "create_at": "2023-07-01",
+            "trade_mark": "Regland",
+            "information": [
+                {
+                    "content": "Chất liệu: cotton tici mềm mịn, thấm hút mồ hôi, thoáng mát cho bé"
+                },
+                {
+                    "content": "Hình in sử dụng công nghệ in chuyển nhiệt không bong tróc, không bếp dính, không phai màu và an toàn cho da của bé."
+                }
+            ],
+            "information_detail": [
+                {
+                    "content": "Áo cotton thấm mồ hôi tốt"
+                },
+                {
+                    "content": "Chú ý: Màu sắc có thể hơi khác với thực tế do màn hình và độ sáng khác nhau"
+                },
+                {
+                    "content": "Hình in sử dụng công nghệ in chuyển nhiệt thân thiện với môi trường, an toàn với da bé"
+                },
+                {
+                    "content": "Hướng dẫn chọn size:"
+                },
+                {
+                    "content": "Số 1: 8 - 11 kg;"
+                },
+                {
+                    "content": "Số 2: 12 - 14 kg;"
+                },
+                {
+                    "content": "Số 3: 14 - 16kg;"
+                },
+                {
+                    "content": "Số 4: 16 - 18kg;"
+                },
+                {
+                    "content": "Số 5: 18 - 20kg;"
+                },
+                {
+                    "content": "BẢO QUẢN SẢN PHẨM"
+                },
+                {
+                    "content": "Không giặt với nước nóng."
+                },
+                {
+                    "content": "Không dùng thuốc tẩy, hóa chất."
+                },
+                {
+                    "content": "Không giặt chung với quần áo sẫm màu."
+                }
+            ],
+            "instruct": [
+                {
+                    "content": ""
+                }
+            ],
+            "news_more": [
+                {
+                    "name": "Thời trang bé gái tuổi Teen và những điều ba mẹ cần biết",
+                    "image": "https://bizweb.dktcdn.net/100/459/160/articles/ao-choang-cho-be12.jpg?v=1657188531777"
+                }
+            ],
+            "category": "outstanding",
+            "wardrobe": "",
+            "album": [
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997"
+                },
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457"
+                },
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727"
+                }
+            ]
+        },
+        {
+            "id": "pid-5",
+            "name_product": "Áo thun cộc tay in hình hoạt hình đáng yêu",
+            "image_product": "https://bizweb.dktcdn.net/100/459/160/products/2f77c20b2d84631c4b09ef7110581d17-jpeg.jpg?v=1657181534657",
+            "price_product": 90000,
+            "status": "normal",
+            "qty_in_cart": 0,
+            "sold": 300,
+            "length_sale": 90,
+            "sale": 28,
+            "quantity": 100,
+            "favorite": false,
+            "flash": true,
+            "create_at": "2023-07-01",
+            "trade_mark": "Regland",
+            "information": [
+                {
+                    "content": "Chất liệu: cotton tici mềm mịn, thấm hút mồ hôi, thoáng mát cho bé"
+                },
+                {
+                    "content": "Hình in sử dụng công nghệ in chuyển nhiệt không bong tróc, không bếp dính, không phai màu và an toàn cho da của bé."
+                }
+            ],
+            "information_detail": [
+                {
+                    "content": "Áo cotton thấm mồ hôi tốt"
+                },
+                {
+                    "content": "Chú ý: Màu sắc có thể hơi khác với thực tế do màn hình và độ sáng khác nhau"
+                },
+                {
+                    "content": "Hình in sử dụng công nghệ in chuyển nhiệt thân thiện với môi trường, an toàn với da bé"
+                },
+                {
+                    "content": "Hướng dẫn chọn size:"
+                },
+                {
+                    "content": "Số 1: 8 - 11 kg;"
+                },
+                {
+                    "content": "Số 2: 12 - 14 kg;"
+                },
+                {
+                    "content": "Số 3: 14 - 16kg;"
+                },
+                {
+                    "content": "Số 4: 16 - 18kg;"
+                },
+                {
+                    "content": "Số 5: 18 - 20kg;"
+                },
+                {
+                    "content": "BẢO QUẢN SẢN PHẨM"
+                },
+                {
+                    "content": "Không giặt với nước nóng."
+                },
+                {
+                    "content": "Không dùng thuốc tẩy, hóa chất."
+                },
+                {
+                    "content": "Không giặt chung với quần áo sẫm màu."
+                }
+            ],
+            "instruct": [
+                {
+                    "content": ""
+                }
+            ],
+            "news_more": [
+                {
+                    "name": "Thời trang bé gái tuổi Teen và những điều ba mẹ cần biết",
+                    "image": "https://bizweb.dktcdn.net/100/459/160/articles/ao-choang-cho-be12.jpg?v=1657188531777"
+                }
+            ],
+            "category": "outstanding",
+            "wardrobe": "",
+            "album": [
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997"
+                },
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457"
+                },
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727"
+                }
+            ]
+        },
+        {
+            "id": "pid-6",
+            "name_product": "Áo thun bé gái, hươu, mèo, gấu",
+            "image_product": "https://bizweb.dktcdn.net/100/459/160/products/5014993937a5931fe1bd208c55dc8610-jpeg.jpg?v=1657181370953",
+            "price_product": 90000,
+            "status": "normal",
+            "qty_in_cart": 0,
+            "sold": 300,
+            "length_sale": 90,
+            "sale": 28,
+            "quantity": 100,
+            "favorite": false,
+            "flash": true,
+            "create_at": "2023-07-01",
+            "trade_mark": "Regland",
+            "information": [
+                {
+                    "content": "Chất liệu: cotton tici mềm mịn, thấm hút mồ hôi, thoáng mát cho bé"
+                },
+                {
+                    "content": "Hình in sử dụng công nghệ in chuyển nhiệt không bong tróc, không bếp dính, không phai màu và an toàn cho da của bé."
+                }
+            ],
+            "information_detail": [
+                {
+                    "content": "Áo cotton thấm mồ hôi tốt"
+                },
+                {
+                    "content": "Chú ý: Màu sắc có thể hơi khác với thực tế do màn hình và độ sáng khác nhau"
+                },
+                {
+                    "content": "Hình in sử dụng công nghệ in chuyển nhiệt thân thiện với môi trường, an toàn với da bé"
+                },
+                {
+                    "content": "Hướng dẫn chọn size:"
+                },
+                {
+                    "content": "Số 1: 8 - 11 kg;"
+                },
+                {
+                    "content": "Số 2: 12 - 14 kg;"
+                },
+                {
+                    "content": "Số 3: 14 - 16kg;"
+                },
+                {
+                    "content": "Số 4: 16 - 18kg;"
+                },
+                {
+                    "content": "Số 5: 18 - 20kg;"
+                },
+                {
+                    "content": "BẢO QUẢN SẢN PHẨM"
+                },
+                {
+                    "content": "Không giặt với nước nóng."
+                },
+                {
+                    "content": "Không dùng thuốc tẩy, hóa chất."
+                },
+                {
+                    "content": "Không giặt chung với quần áo sẫm màu."
+                }
+            ],
+            "instruct": [
+                {
+                    "content": ""
+                }
+            ],
+            "news_more": [
+                {
+                    "name": "Thời trang bé gái tuổi Teen và những điều ba mẹ cần biết",
+                    "image": "https://bizweb.dktcdn.net/100/459/160/articles/ao-choang-cho-be12.jpg?v=1657188531777"
+                }
+            ],
+            "category": "promotion",
+            "wardrobe": "",
+            "album": [
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997"
+                },
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457"
+                },
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727"
+                }
+            ]
+        },
+        {
+            "id": "pid-7",
+            "name_product": "DMQ276 Quần đùi Dokma",
+            "image_product": "https://bizweb.dktcdn.net/100/459/160/products/af2e57b873e72da4f87e9d50fd92ba4e-jpeg.jpg?v=1657181237600",
+            "price_product": 120000,
+            "status": "normal",
+            "qty_in_cart": 0,
+            "sold": 300,
+            "length_sale": 90,
+            "sale": 4,
+            "quantity": 100,
+            "favorite": false,
+            "flash": true,
+            "create_at": "2023-07-01",
+            "trade_mark": "Regland",
+            "information": [
+                {
+                    "content": "Chất liệu: cotton tici mềm mịn, thấm hút mồ hôi, thoáng mát cho bé"
+                },
+                {
+                    "content": "Hình in sử dụng công nghệ in chuyển nhiệt không bong tróc, không bếp dính, không phai màu và an toàn cho da của bé."
+                }
+            ],
+            "information_detail": [
+                {
+                    "content": "Áo cotton thấm mồ hôi tốt"
+                },
+                {
+                    "content": "Chú ý: Màu sắc có thể hơi khác với thực tế do màn hình và độ sáng khác nhau"
+                },
+                {
+                    "content": "Hình in sử dụng công nghệ in chuyển nhiệt thân thiện với môi trường, an toàn với da bé"
+                },
+                {
+                    "content": "Hướng dẫn chọn size:"
+                },
+                {
+                    "content": "Số 1: 8 - 11 kg;"
+                },
+                {
+                    "content": "Số 2: 12 - 14 kg;"
+                },
+                {
+                    "content": "Số 3: 14 - 16kg;"
+                },
+                {
+                    "content": "Số 4: 16 - 18kg;"
+                },
+                {
+                    "content": "Số 5: 18 - 20kg;"
+                },
+                {
+                    "content": "BẢO QUẢN SẢN PHẨM"
+                },
+                {
+                    "content": "Không giặt với nước nóng."
+                },
+                {
+                    "content": "Không dùng thuốc tẩy, hóa chất."
+                },
+                {
+                    "content": "Không giặt chung với quần áo sẫm màu."
+                }
+            ],
+            "instruct": [
+                {
+                    "content": ""
+                }
+            ],
+            "news_more": [
+                {
+                    "name": "Thời trang bé gái tuổi Teen và những điều ba mẹ cần biết",
+                    "image": "https://bizweb.dktcdn.net/100/459/160/articles/ao-choang-cho-be12.jpg?v=1657188531777"
+                }
+            ],
+            "category": "promotion",
+            "wardrobe": "",
+            "album": [
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997"
+                },
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457"
+                },
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727"
+                }
+            ]
+        },
+        {
+            "id": "pid-8",
+            "name_product": "Váy đuôi cá cổ hàn quốc cực đẹp cho bé",
+            "image_product": "https://bizweb.dktcdn.net/100/459/160/products/231d285e1b36928c8a4917ba5028560d-jpeg.jpg?v=1657178946107",
+            "price_product": 50000,
+            "status": "normal",
+            "qty_in_cart": 0,
+            "sold": 900,
+            "length_sale": 90,
+            "sale": 24,
+            "quantity": 99,
+            "favorite": false,
+            "flash": false,
+            "create_at": "2023-07-01",
+            "trade_mark": "Regland",
+            "information": [
+                {
+                    "content": "Chất liệu: cotton tici mềm mịn, thấm hút mồ hôi, thoáng mát cho bé"
+                },
+                {
+                    "content": "Hình in sử dụng công nghệ in chuyển nhiệt không bong tróc, không bếp dính, không phai màu và an toàn cho da của bé."
+                }
+            ],
+            "information_detail": [
+                {
+                    "content": "Áo cotton thấm mồ hôi tốt"
+                },
+                {
+                    "content": "Chú ý: Màu sắc có thể hơi khác với thực tế do màn hình và độ sáng khác nhau"
+                },
+                {
+                    "content": "Hình in sử dụng công nghệ in chuyển nhiệt thân thiện với môi trường, an toàn với da bé"
+                },
+                {
+                    "content": "Hướng dẫn chọn size:"
+                },
+                {
+                    "content": "Số 1: 8 - 11 kg;"
+                },
+                {
+                    "content": "Số 2: 12 - 14 kg;"
+                },
+                {
+                    "content": "Số 3: 14 - 16kg;"
+                },
+                {
+                    "content": "Số 4: 16 - 18kg;"
+                },
+                {
+                    "content": "Số 5: 18 - 20kg;"
+                },
+                {
+                    "content": "BẢO QUẢN SẢN PHẨM"
+                },
+                {
+                    "content": "Không giặt với nước nóng."
+                },
+                {
+                    "content": "Không dùng thuốc tẩy, hóa chất."
+                },
+                {
+                    "content": "Không giặt chung với quần áo sẫm màu."
+                }
+            ],
+            "instruct": [
+                {
+                    "content": ""
+                }
+            ],
+            "news_more": [
+                {
+                    "name": "Thời trang bé gái tuổi Teen và những điều ba mẹ cần biết",
+                    "image": "https://bizweb.dktcdn.net/100/459/160/articles/ao-choang-cho-be12.jpg?v=1657188531777"
+                }
+            ],
+            "category": "promotion",
+            "wardrobe": "",
+            "album": [
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997"
+                },
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457"
+                },
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727"
+                }
+            ]
+        },
+        {
+            "id": "pid-9",
+            "name_product": "Áo thun ba lỗ hình thú chất cotton bé yêu",
+            "image_product": "https://bizweb.dktcdn.net/100/459/160/products/4b9bc93b9d876513de13b0abc0a73ca9-jpeg.jpg?v=1657178616570",
+            "price_product": 55000,
+            "status": "normal",
+            "qty_in_cart": 0,
+            "sold": 900,
+            "length_sale": 90,
+            "sale": 0,
+            "quantity": 100,
+            "favorite": false,
+            "flash": false,
+            "create_at": "2023-07-01",
+            "trade_mark": "Regland",
+            "information": [
+                {
+                    "content": "Chất liệu: cotton tici mềm mịn, thấm hút mồ hôi, thoáng mát cho bé"
+                },
+                {
+                    "content": "Hình in sử dụng công nghệ in chuyển nhiệt không bong tróc, không bếp dính, không phai màu và an toàn cho da của bé."
+                }
+            ],
+            "information_detail": [
+                {
+                    "content": "Áo cotton thấm mồ hôi tốt"
+                },
+                {
+                    "content": "Chú ý: Màu sắc có thể hơi khác với thực tế do màn hình và độ sáng khác nhau"
+                },
+                {
+                    "content": "Hình in sử dụng công nghệ in chuyển nhiệt thân thiện với môi trường, an toàn với da bé"
+                },
+                {
+                    "content": "Hướng dẫn chọn size:"
+                },
+                {
+                    "content": "Số 1: 8 - 11 kg;"
+                },
+                {
+                    "content": "Số 2: 12 - 14 kg;"
+                },
+                {
+                    "content": "Số 3: 14 - 16kg;"
+                },
+                {
+                    "content": "Số 4: 16 - 18kg;"
+                },
+                {
+                    "content": "Số 5: 18 - 20kg;"
+                },
+                {
+                    "content": "BẢO QUẢN SẢN PHẨM"
+                },
+                {
+                    "content": "Không giặt với nước nóng."
+                },
+                {
+                    "content": "Không dùng thuốc tẩy, hóa chất."
+                },
+                {
+                    "content": "Không giặt chung với quần áo sẫm màu."
+                }
+            ],
+            "instruct": [
+                {
+                    "content": ""
+                }
+            ],
+            "news_more": [
+                {
+                    "name": "Thời trang bé gái tuổi Teen và những điều ba mẹ cần biết",
+                    "image": "https://bizweb.dktcdn.net/100/459/160/articles/ao-choang-cho-be12.jpg?v=1657188531777"
+                }
+            ],
+            "category": "promotion",
+            "wardrobe": "",
+            "album": [
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997"
+                },
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457"
+                },
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727"
+                }
+            ]
+        },
+        {
+            "id": "pid-10",
+            "name_product": "Áo thun dễ thương in hình khủng long chạy xe",
+            "image_product": "https://bizweb.dktcdn.net/100/459/160/products/3c97e39656588c318e41b77e13b33ce1-jpeg.jpg?v=1657178341633",
+            "price_product": 50000,
+            "status": "normal",
+            "qty_in_cart": 0,
+            "sold": 900,
+            "length_sale": 90,
+            "sale": 44,
+            "quantity": 100,
+            "favorite": false,
+            "flash": false,
+            "create_at": "2023-07-01",
+            "trade_mark": "Regland",
+            "information": [
+                {
+                    "content": "Chất liệu: cotton tici mềm mịn, thấm hút mồ hôi, thoáng mát cho bé"
+                },
+                {
+                    "content": "Hình in sử dụng công nghệ in chuyển nhiệt không bong tróc, không bếp dính, không phai màu và an toàn cho da của bé."
+                }
+            ],
+            "information_detail": [
+                {
+                    "content": "Áo cotton thấm mồ hôi tốt"
+                },
+                {
+                    "content": "Chú ý: Màu sắc có thể hơi khác với thực tế do màn hình và độ sáng khác nhau"
+                },
+                {
+                    "content": "Hình in sử dụng công nghệ in chuyển nhiệt thân thiện với môi trường, an toàn với da bé"
+                },
+                {
+                    "content": "Hướng dẫn chọn size:"
+                },
+                {
+                    "content": "Số 1: 8 - 11 kg;"
+                },
+                {
+                    "content": "Số 2: 12 - 14 kg;"
+                },
+                {
+                    "content": "Số 3: 14 - 16kg;"
+                },
+                {
+                    "content": "Số 4: 16 - 18kg;"
+                },
+                {
+                    "content": "Số 5: 18 - 20kg;"
+                },
+                {
+                    "content": "BẢO QUẢN SẢN PHẨM"
+                },
+                {
+                    "content": "Không giặt với nước nóng."
+                },
+                {
+                    "content": "Không dùng thuốc tẩy, hóa chất."
+                },
+                {
+                    "content": "Không giặt chung với quần áo sẫm màu."
+                }
+            ],
+            "instruct": [
+                {
+                    "content": ""
+                }
+            ],
+            "news_more": [
+                {
+                    "name": "Thời trang bé gái tuổi Teen và những điều ba mẹ cần biết",
+                    "image": "https://bizweb.dktcdn.net/100/459/160/articles/ao-choang-cho-be12.jpg?v=1657188531777"
+                }
+            ],
+            "category": "promotion",
+            "wardrobe": "",
+            "album": [
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997"
+                },
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457"
+                },
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727"
+                }
+            ]
+        },
+        {
+            "id": "pid-11",
+            "name_product": "Áo thun cotton xịn siêu dễ thương Puggy",
+            "image_product": "https://bizweb.dktcdn.net/100/459/160/products/901b2285710b4306df86b3f592e6d065-jpeg.jpg?v=1657178237060",
+            "price_product": 50000,
+            "status": "normal",
+            "qty_in_cart": 0,
+            "sold": 900,
+            "length_sale": 90,
+            "sale": 44,
+            "quantity": 99,
+            "favorite": false,
+            "flash": false,
+            "create_at": "2023-07-01",
+            "trade_mark": "Regland",
+            "information": [
+                {
+                    "content": "Chất liệu: cotton tici mềm mịn, thấm hút mồ hôi, thoáng mát cho bé"
+                },
+                {
+                    "content": "Hình in sử dụng công nghệ in chuyển nhiệt không bong tróc, không bếp dính, không phai màu và an toàn cho da của bé."
+                }
+            ],
+            "information_detail": [
+                {
+                    "content": "Áo cotton thấm mồ hôi tốt"
+                },
+                {
+                    "content": "Chú ý: Màu sắc có thể hơi khác với thực tế do màn hình và độ sáng khác nhau"
+                },
+                {
+                    "content": "Hình in sử dụng công nghệ in chuyển nhiệt thân thiện với môi trường, an toàn với da bé"
+                },
+                {
+                    "content": "Hướng dẫn chọn size:"
+                },
+                {
+                    "content": "Số 1: 8 - 11 kg;"
+                },
+                {
+                    "content": "Số 2: 12 - 14 kg;"
+                },
+                {
+                    "content": "Số 3: 14 - 16kg;"
+                },
+                {
+                    "content": "Số 4: 16 - 18kg;"
+                },
+                {
+                    "content": "Số 5: 18 - 20kg;"
+                },
+                {
+                    "content": "BẢO QUẢN SẢN PHẨM"
+                },
+                {
+                    "content": "Không giặt với nước nóng."
+                },
+                {
+                    "content": "Không dùng thuốc tẩy, hóa chất."
+                },
+                {
+                    "content": "Không giặt chung với quần áo sẫm màu."
+                }
+            ],
+            "instruct": [
+                {
+                    "content": ""
+                }
+            ],
+            "news_more": [
+                {
+                    "name": "Thời trang bé gái tuổi Teen và những điều ba mẹ cần biết",
+                    "image": "https://bizweb.dktcdn.net/100/459/160/articles/ao-choang-cho-be12.jpg?v=1657188531777"
+                }
+            ],
+            "category": "outstanding",
+            "wardrobe": "",
+            "album": [
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997"
+                },
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457"
+                },
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727"
+                }
+            ]
+        },
+        {
+            "id": "pid-12",
+            "name_product": "Áo thun dày dặn mịn mát cho bé",
+            "image_product": "https://bizweb.dktcdn.net/100/459/160/products/3f4c61dd2571dcd7ad8c02a5af94a0ea-jpeg.jpg?v=1657178123317",
+            "price_product": 50000,
+            "status": "normal",
+            "qty_in_cart": 0,
+            "sold": 900,
+            "length_sale": 90,
+            "sale": 24,
+            "quantity": 99,
+            "favorite": false,
+            "flash": false,
+            "create_at": "2023-07-01",
+            "trade_mark": "Regland",
+            "information": [
+                {
+                    "content": "Chất liệu: cotton tici mềm mịn, thấm hút mồ hôi, thoáng mát cho bé"
+                },
+                {
+                    "content": "Hình in sử dụng công nghệ in chuyển nhiệt không bong tróc, không bếp dính, không phai màu và an toàn cho da của bé."
+                }
+            ],
+            "information_detail": [
+                {
+                    "content": "Áo cotton thấm mồ hôi tốt"
+                },
+                {
+                    "content": "Chú ý: Màu sắc có thể hơi khác với thực tế do màn hình và độ sáng khác nhau"
+                },
+                {
+                    "content": "Hình in sử dụng công nghệ in chuyển nhiệt thân thiện với môi trường, an toàn với da bé"
+                },
+                {
+                    "content": "Hướng dẫn chọn size:"
+                },
+                {
+                    "content": "Số 1: 8 - 11 kg;"
+                },
+                {
+                    "content": "Số 2: 12 - 14 kg;"
+                },
+                {
+                    "content": "Số 3: 14 - 16kg;"
+                },
+                {
+                    "content": "Số 4: 16 - 18kg;"
+                },
+                {
+                    "content": "Số 5: 18 - 20kg;"
+                },
+                {
+                    "content": "BẢO QUẢN SẢN PHẨM"
+                },
+                {
+                    "content": "Không giặt với nước nóng."
+                },
+                {
+                    "content": "Không dùng thuốc tẩy, hóa chất."
+                },
+                {
+                    "content": "Không giặt chung với quần áo sẫm màu."
+                }
+            ],
+            "instruct": [
+                {
+                    "content": ""
+                }
+            ],
+            "news_more": [
+                {
+                    "name": "Thời trang bé gái tuổi Teen và những điều ba mẹ cần biết",
+                    "image": "https://bizweb.dktcdn.net/100/459/160/articles/ao-choang-cho-be12.jpg?v=1657188531777"
+                }
+            ],
+            "category": "outstanding",
+            "wardrobe": "",
+            "album": [
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997"
+                },
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457"
+                },
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727"
+                }
+            ]
+        },
+        {
+            "id": "pid-13",
+            "name_product": "Áo thun cotton dày dặn cho bé trai bé gái họa tiết chữ",
+            "image_product": "https://bizweb.dktcdn.net/100/459/160/products/1d66c081c00bd8f4f0133ab4b9ef4834-jpeg.jpg?v=1657177916673",
+            "price_product": 50000,
+            "status": "normal",
+            "qty_in_cart": 0,
+            "sold": 300,
+            "length_sale": 90,
+            "sale": 24,
+            "quantity": 99,
+            "favorite": false,
+            "flash": false,
+            "create_at": "2023-06-28",
+            "trade_mark": "Regland",
+            "information": [
+                {
+                    "content": "Chất liệu: cotton tici mềm mịn, thấm hút mồ hôi, thoáng mát cho bé"
+                },
+                {
+                    "content": "Hình in sử dụng công nghệ in chuyển nhiệt không bong tróc, không bếp dính, không phai màu và an toàn cho da của bé."
+                }
+            ],
+            "information_detail": [
+                {
+                    "content": "Áo cotton thấm mồ hôi tốt"
+                },
+                {
+                    "content": "Chú ý: Màu sắc có thể hơi khác với thực tế do màn hình và độ sáng khác nhau"
+                },
+                {
+                    "content": "Hình in sử dụng công nghệ in chuyển nhiệt thân thiện với môi trường, an toàn với da bé"
+                },
+                {
+                    "content": "Hướng dẫn chọn size:"
+                },
+                {
+                    "content": "Số 1: 8 - 11 kg;"
+                },
+                {
+                    "content": "Số 2: 12 - 14 kg;"
+                },
+                {
+                    "content": "Số 3: 14 - 16kg;"
+                },
+                {
+                    "content": "Số 4: 16 - 18kg;"
+                },
+                {
+                    "content": "Số 5: 18 - 20kg;"
+                },
+                {
+                    "content": "BẢO QUẢN SẢN PHẨM"
+                },
+                {
+                    "content": "Không giặt với nước nóng."
+                },
+                {
+                    "content": "Không dùng thuốc tẩy, hóa chất."
+                },
+                {
+                    "content": "Không giặt chung với quần áo sẫm màu."
+                }
+            ],
+            "instruct": [
+                {
+                    "content": ""
+                }
+            ],
+            "news_more": [
+                {
+                    "name": "Thời trang bé gái tuổi Teen và những điều ba mẹ cần biết",
+                    "image": "https://bizweb.dktcdn.net/100/459/160/articles/ao-choang-cho-be12.jpg?v=1657188531777"
+                }
+            ],
+            "category": "outstanding",
+            "wardrobe": "",
+            "album": [
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997"
+                },
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457"
+                },
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727"
+                }
+            ]
+        },
+        {
+            "id": "pid-14",
+            "name_product": "Áo thun bé trai, bé gái chất liệu mềm mịn thoàng mát",
+            "image_product": "https://bizweb.dktcdn.net/100/459/160/products/5fca4fe069d4e8da1df47bcf217ed6bb-jpeg.jpg?v=1657177817000",
+            "price_product": 50000,
+            "status": "normal",
+            "qty_in_cart": 0,
+            "sold": 300,
+            "length_sale": 90,
+            "sale": 24,
+            "quantity": 99,
+            "favorite": false,
+            "flash": false,
+            "create_at": "2023-06-28",
+            "trade_mark": "Regland",
+            "information": [
+                {
+                    "content": "Chất liệu: cotton tici mềm mịn, thấm hút mồ hôi, thoáng mát cho bé"
+                },
+                {
+                    "content": "Hình in sử dụng công nghệ in chuyển nhiệt không bong tróc, không bếp dính, không phai màu và an toàn cho da của bé."
+                }
+            ],
+            "information_detail": [
+                {
+                    "content": "Áo cotton thấm mồ hôi tốt"
+                },
+                {
+                    "content": "Chú ý: Màu sắc có thể hơi khác với thực tế do màn hình và độ sáng khác nhau"
+                },
+                {
+                    "content": "Hình in sử dụng công nghệ in chuyển nhiệt thân thiện với môi trường, an toàn với da bé"
+                },
+                {
+                    "content": "Hướng dẫn chọn size:"
+                },
+                {
+                    "content": "Số 1: 8 - 11 kg;"
+                },
+                {
+                    "content": "Số 2: 12 - 14 kg;"
+                },
+                {
+                    "content": "Số 3: 14 - 16kg;"
+                },
+                {
+                    "content": "Số 4: 16 - 18kg;"
+                },
+                {
+                    "content": "Số 5: 18 - 20kg;"
+                },
+                {
+                    "content": "BẢO QUẢN SẢN PHẨM"
+                },
+                {
+                    "content": "Không giặt với nước nóng."
+                },
+                {
+                    "content": "Không dùng thuốc tẩy, hóa chất."
+                },
+                {
+                    "content": "Không giặt chung với quần áo sẫm màu."
+                }
+            ],
+            "instruct": [
+                {
+                    "content": ""
+                }
+            ],
+            "news_more": [
+                {
+                    "name": "Thời trang bé gái tuổi Teen và những điều ba mẹ cần biết",
+                    "image": "https://bizweb.dktcdn.net/100/459/160/articles/ao-choang-cho-be12.jpg?v=1657188531777"
+                }
+            ],
+            "category": "outstanding",
+            "wardrobe": "",
+            "album": [
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997"
+                },
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457"
+                },
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727"
+                }
+            ]
+        },
+        {
+            "id": "pid-15",
+            "name_product": "Áo thun cho bé in hình khủng long tím cute",
+            "image_product": "https://bizweb.dktcdn.net/100/459/160/products/1a0a13e2301bb3a55b0ffca2e38110ab-jpeg.jpg?v=1657177710023",
+            "price_product": 50000,
+            "status": "normal",
+            "qty_in_cart": 0,
+            "sold": 300,
+            "length_sale": 90,
+            "sale": 24,
+            "quantity": 99,
+            "favorite": false,
+            "flash": false,
+            "create_at": "2023-06-28",
+            "trade_mark": "Regland",
+            "information": [
+                {
+                    "content": "Chất liệu: cotton tici mềm mịn, thấm hút mồ hôi, thoáng mát cho bé"
+                },
+                {
+                    "content": "Hình in sử dụng công nghệ in chuyển nhiệt không bong tróc, không bếp dính, không phai màu và an toàn cho da của bé."
+                }
+            ],
+            "information_detail": [
+                {
+                    "content": "Áo cotton thấm mồ hôi tốt"
+                },
+                {
+                    "content": "Chú ý: Màu sắc có thể hơi khác với thực tế do màn hình và độ sáng khác nhau"
+                },
+                {
+                    "content": "Hình in sử dụng công nghệ in chuyển nhiệt thân thiện với môi trường, an toàn với da bé"
+                },
+                {
+                    "content": "Hướng dẫn chọn size:"
+                },
+                {
+                    "content": "Số 1: 8 - 11 kg;"
+                },
+                {
+                    "content": "Số 2: 12 - 14 kg;"
+                },
+                {
+                    "content": "Số 3: 14 - 16kg;"
+                },
+                {
+                    "content": "Số 4: 16 - 18kg;"
+                },
+                {
+                    "content": "Số 5: 18 - 20kg;"
+                },
+                {
+                    "content": "BẢO QUẢN SẢN PHẨM"
+                },
+                {
+                    "content": "Không giặt với nước nóng."
+                },
+                {
+                    "content": "Không dùng thuốc tẩy, hóa chất."
+                },
+                {
+                    "content": "Không giặt chung với quần áo sẫm màu."
+                }
+            ],
+            "instruct": [
+                {
+                    "content": ""
+                }
+            ],
+            "news_more": [
+                {
+                    "name": "Thời trang bé gái tuổi Teen và những điều ba mẹ cần biết",
+                    "image": "https://bizweb.dktcdn.net/100/459/160/articles/ao-choang-cho-be12.jpg?v=1657188531777"
+                }
+            ],
+            "category": "outstanding",
+            "wardrobe": "",
+            "album": [
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997"
+                },
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457"
+                },
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727"
+                }
+            ]
+        },
+        {
+            "id": "pid-16",
+            "name_product": "Áo thun ngắn tay in hình bò sữa mixe",
+            "image_product": "https://bizweb.dktcdn.net/100/459/160/products/5d49254c8e13e7b30c47ea542799228e-jpeg.jpg?v=1657177586453",
+            "price_product": 50000,
+            "status": "normal",
+            "qty_in_cart": 0,
+            "sold": 300,
+            "length_sale": 90,
+            "sale": 24,
+            "quantity": 99,
+            "favorite": false,
+            "flash": false,
+            "create_at": "2023-06-28",
+            "trade_mark": "Regland",
+            "information": [
+                {
+                    "content": "Chất liệu: cotton tici mềm mịn, thấm hút mồ hôi, thoáng mát cho bé"
+                },
+                {
+                    "content": "Hình in sử dụng công nghệ in chuyển nhiệt không bong tróc, không bếp dính, không phai màu và an toàn cho da của bé."
+                }
+            ],
+            "information_detail": [
+                {
+                    "content": "Áo cotton thấm mồ hôi tốt"
+                },
+                {
+                    "content": "Chú ý: Màu sắc có thể hơi khác với thực tế do màn hình và độ sáng khác nhau"
+                },
+                {
+                    "content": "Hình in sử dụng công nghệ in chuyển nhiệt thân thiện với môi trường, an toàn với da bé"
+                },
+                {
+                    "content": "Hướng dẫn chọn size:"
+                },
+                {
+                    "content": "Số 1: 8 - 11 kg;"
+                },
+                {
+                    "content": "Số 2: 12 - 14 kg;"
+                },
+                {
+                    "content": "Số 3: 14 - 16kg;"
+                },
+                {
+                    "content": "Số 4: 16 - 18kg;"
+                },
+                {
+                    "content": "Số 5: 18 - 20kg;"
+                },
+                {
+                    "content": "BẢO QUẢN SẢN PHẨM"
+                },
+                {
+                    "content": "Không giặt với nước nóng."
+                },
+                {
+                    "content": "Không dùng thuốc tẩy, hóa chất."
+                },
+                {
+                    "content": "Không giặt chung với quần áo sẫm màu."
+                }
+            ],
+            "instruct": [
+                {
+                    "content": ""
+                }
+            ],
+            "news_more": [
+                {
+                    "name": "Thời trang bé gái tuổi Teen và những điều ba mẹ cần biết",
+                    "image": "https://bizweb.dktcdn.net/100/459/160/articles/ao-choang-cho-be12.jpg?v=1657188531777"
+                }
+            ],
+            "category": "outstanding",
+            "wardrobe": "",
+            "album": [
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997"
+                },
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457"
+                },
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727"
+                }
+            ]
+        },
+        {
+            "id": "pid-17",
+            "name_product": "Áo thun cotton dày dặn cho bé trai",
+            "image_product": "https://bizweb.dktcdn.net/100/459/160/products/e6293224b32da9b056a4f349642bc41c-jpeg.jpg?v=1657177402117",
+            "price_product": 50000,
+            "status": "normal",
+            "qty_in_cart": 0,
+            "sold": 300,
+            "length_sale": 90,
+            "sale": 24,
+            "quantity": 99,
+            "favorite": false,
+            "flash": false,
+            "create_at": "2023-06-28",
+            "trade_mark": "Regland",
+            "information": [
+                {
+                    "content": "Chất liệu: cotton tici mềm mịn, thấm hút mồ hôi, thoáng mát cho bé"
+                },
+                {
+                    "content": "Hình in sử dụng công nghệ in chuyển nhiệt không bong tróc, không bếp dính, không phai màu và an toàn cho da của bé."
+                }
+            ],
+            "information_detail": [
+                {
+                    "content": "Áo cotton thấm mồ hôi tốt"
+                },
+                {
+                    "content": "Chú ý: Màu sắc có thể hơi khác với thực tế do màn hình và độ sáng khác nhau"
+                },
+                {
+                    "content": "Hình in sử dụng công nghệ in chuyển nhiệt thân thiện với môi trường, an toàn với da bé"
+                },
+                {
+                    "content": "Hướng dẫn chọn size:"
+                },
+                {
+                    "content": "Số 1: 8 - 11 kg;"
+                },
+                {
+                    "content": "Số 2: 12 - 14 kg;"
+                },
+                {
+                    "content": "Số 3: 14 - 16kg;"
+                },
+                {
+                    "content": "Số 4: 16 - 18kg;"
+                },
+                {
+                    "content": "Số 5: 18 - 20kg;"
+                },
+                {
+                    "content": "BẢO QUẢN SẢN PHẨM"
+                },
+                {
+                    "content": "Không giặt với nước nóng."
+                },
+                {
+                    "content": "Không dùng thuốc tẩy, hóa chất."
+                },
+                {
+                    "content": "Không giặt chung với quần áo sẫm màu."
+                }
+            ],
+            "instruct": [
+                {
+                    "content": ""
+                }
+            ],
+            "news_more": [
+                {
+                    "name": "Thời trang bé gái tuổi Teen và những điều ba mẹ cần biết",
+                    "image": "https://bizweb.dktcdn.net/100/459/160/articles/ao-choang-cho-be12.jpg?v=1657188531777"
+                }
+            ],
+            "category": "outstanding",
+            "wardrobe": "",
+            "album": [
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/0d92ce00d460cbbb13642782c50b3711-jpeg.jpg?v=1657182073997"
+                },
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/ab8fba95101e4c363e4c5baaff1d54ae-jpeg.jpg?v=1657182074457"
+                },
+                {
+                    "image_large": "https://bizweb.dktcdn.net/thumb/large/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727",
+                    "image_small": "https://bizweb.dktcdn.net/thumb/medium/100/459/160/products/bca63c0141f607e6bb583ea2794423c8-jpeg.jpg?v=1657182074727"
+                }
+            ]
+        }
+    ],
+    "blogs": [
+        {
+            "id": "b_1",
+            "title": "Thời trang bé gái tuổi Teen và những điều ba mẹ cần biết",
+            "image": "https://bizweb.dktcdn.net/100/459/160/articles/ao-choang-cho-be12.jpg?v=1657188531777",
+            "create_at": "07/07/2022",
+            "author": "Phan Thị Thảo",
+            "content": [
+                {
+                    "transform": "span",
+                    "type": "p",
+                    "description": "Nuôi dạy một bé gái tuổi teen không phải việc đơn giản. Không chỉ tâm sinh lý, thời trang bé gái tuổi Teen cũng là vấn đề đáng bàn luận. Trong bài viết này, hãy cùng Bé Cưng Shop tìm hiểu về quần áo thun ba lỗ hình thú chất cotton bé yêu bé gái tuổi Teen. Những thông tin này sẽ giúp ba mẹ lựa chọn quần áo cho con yêu đúng đắn hơn đấy. "
+                },
+                {
+                    "transform": "span",
+                    "type": "p",
+                    "description": "1. Xu hướng lựa chọn quần áo bé gái tuổi teen ra sao?"
+                },
+                {
+                    "transform": "span",
+                    "type": "p",
+                    "description": "Thời trang bé gái tuổi teen rất đa dạng. Đặc biệt, xu hướng lựa chọn đồ của các em cũng thường xuyên thay đổi. Mỗi năm, cha mẹ có thể thấy cách ăn mặc, lựa chọn đồ đạc của các bé hoàn toàn khác so với trước đó."
+                },
+                {
+                    "transform": "span",
+                    "type": "p",
+                    "description": "Với mỗi bé, phong cách lựa chọn quần áo cũng có sự khác biệt. Có em yêu thích sự nhí nhảnh, năng động, Có bé lại thích những bộ quần áo nữ tính, điệu đà. Nhưng dù là gì, cha mẹ cũng cần nắm bắt được mong muốn của các bé để hiểu và chăm sóc các em tốt hơn."
+                },
+                {
+                    "transform": "span",
+                    "type": "p",
+                    "description": "2. Thời trang bé gái - mong muốn của các bé là gì?"
+                },
+                {
+                    "transform": "span",
+                    "type": "p",
+                    "description": "Trong độ tuổi teen, tính cách của các em đang dần hình thành. Sẽ rất bình thường nếu lúc này các bé không có tính cách cũng như sở thích bồ đồ bé trai in hình xe cẩu rõ rệt. Bạn đừng ngạc nhiên nếu thấy mỗi ngày sở thích khi lựa chọn trang phục của các em lại khác nhau."
+                },
+                {
+                    "transform": "span",
+                    "type": "p",
+                    "description": "3. Cha mẹ cần làm gì khi lựa chọn quần áo bé gái cho con?"
+                },
+                {
+                    "transform": "span",
+                    "type": "p",
+                    "description": "Đừng bao giờ áp đặt bé phải mặc gì. Đó chính là nguyên tắc đầu tiên cha mẹ cần ghi nhớ ghi lựa chọn đồ cho bé. Không chỉ riêng quần áo, nguyên tắc này phù hợp với mọi yếu tố khác xoay quanh cuộc sống của các em."
+                },
+                {
+                    "transform": "span",
+                    "type": "p",
+                    "description": "Ở độ tuổi teen, các bé rất ương bướng và không thích nghe theo sự áp đặt của cha mẹ. Vậy nên, càng cố gắng áp đặt thì phụ huynh càng khiến các bé rời xa mình hơn. Các em sẽ tìm mọi cách để được mặc những bộ đồ áo thun ngắn tay in hình bò sữa mixe mà ba mẹ đang cấm cản mình."
+                }
+            ],
+            "description": "Thời trang bé gái tuổi teen hiện rất đa dạng. nhưng làm sao để chọn cho con những sản phẩm phù hợp? Đọc ngay bài viết này của Bé Cưng Shop nhé."
+        },
+        {
+            "id": "b_2",
+            "title": "Có nên mua quần áo trẻ em trên sàn online?",
+            "image": "https://bizweb.dktcdn.net/100/459/160/articles/ao-choang-canh-doi-cho-be-8.jpg?v=1657187722780",
+            "create_at": "07/07/2022",
+            "author": "Phan Thị Thảo",
+            "content": [
+                {
+                    "transform": "span",
+                    "type": "p",
+                    "description": "Có nên mua quần áo trẻ em trên sàn online?"
+                },
+                {
+                    "transform": "span",
+                    "type": "p",
+                    "description": "Ngày nay, việc mua quần áo trẻ em đã dễ dàng hơn bao giờ hết, không phải chỉ vì sự xuất hiện của rất nhiều thương hiệu quần áo trẻ em mà còn vì sự xuất hiện của các trang thương mại điện tử và website bán hàng trực tuyến. Việc này giúp các cha mẹ có thể mua quần áo cho con em mình ngay cả khi ngồi tại nhà của mình mà chẳng tốn nhiều thời gian, công sức đến tận các shop lựa chọn. "
+                },
+                {
+                    "transform": "span",
+                    "type": "p",
+                    "description": "Nhưng cũng có không ít những người băn khoăn rằng có nên mua quần áo trẻ em online hay không, mua quần áo trẻ em online ở đâu chất lượng,...Do đó, hôm nay Bé Cưng Shop sẽ chia sẻ một vài thông tin nhằm giúp quý khách giải đáp thắc mắc về vấn đề này."
+                },
+                {
+                    "transform": "span",
+                    "type": "h3",
+                    "description": "Lợi ích của việc mua quần áo trẻ em trên sàn online"
+                },
+                {
+                    "transform": "span",
+                    "type": "p",
+                    "description": "Không thể phủ nhận việc mua hàng online có rất nhiều ưu điểm và thuận tiện cho người tiêu dùng. Gần đây, việc mua quần áo trẻ em trên các website đang được nhiều cha mẹ lựa chọn. Vì cuộc sống hàng ngày thời hiện đại khiến cha mẹ thường phải bận bịu việc công ty, cơ quan, việc nhà, áo thun bé gái, hươu, mèo, gấu... Hình thức mua hàng trên mạng ra đời giúp quý phụ huynh có thể mua hàng và nhận hàng tại nhà mà chẳng cần tốn thời gian lựa chọn.  Quỹ thời gian bị hạn chế nên việc ra tận cửa hàng mua sắm khá bất tiện với nhiều người."
+                },
+                {
+                    "transform": "span",
+                    "type": "p",
+                    "description": "Cùng với sự xuất hiện của rất nhiều trang thương mại điện tử nổi tiếng với mặt hàng quần áo trẻ em áo thun bé gái cotton hình con voi, đầm bé gái như: Tiki, Shopee, Lazada, Sendo,… Và những website bán hàng với giao diện đẹp, thanh toán dễ dàng giúp các cha mẹ có thể tham khảo mẫu mã rồi đặt mua hàng chỉ với vài cú click chuột. "
+                },
+                {
+                    "transform": "span",
+                    "type": "p",
+                    "description": "Đặc biệt, các website thương mại điện tử còn hay đưa ra những chương trình ưu đãi, khuyến mãi, giảm giá, giúp các bậc phụ huynh của chúng ta có thể mua được hàng với giá rẻ nhất. Các chương trình khuyến mãi áo thun bé trai, bé gái chất liệu mềm mịn thoàng mát này thường áp dụng vào các ngày đặc biệt hoặc vào khung giờ vàng nào đó. Hoặc các dịp lễ, tết, ngày đặc biệt, sinh nhật shop,...Ngoài các trang thương mại điện tử thì nhiều shop thời trang trẻ em lớn và uy tín cũng xây dựng những website chuyên cung cấp các mặt hàng thời trang trẻ em giá tốt, hợp xu hướng."
+                },
+                {
+                    "transform": "span",
+                    "type": "p",
+                    "description": "Thay vì mua sắm truyền thống bạn cần đến tận cửa hàng để biết giá và đi nhiều cửa hàng khác nhau để so sánh giá. Thì khi mua sắm online nếu muốn biết chính xác về giá sản phẩm quần áo trẻ em cần mua, bạn chỉ cần vài click chuột lướt qua một số website là đã có thể nắm được mức giá tốt nhất cho món đồ của mình rất nhanh chóng và tiện lợi."
+                },
+                {
+                    "transform": "span",
+                    "type": "p",
+                    "description": "Với hình thức mua sắm online này dù cha mẹ ở bất cứ khi nào, bất cứ nơi đâu, dù 1 giờ trưa hay 12 giờ khuya vẫn có thể lướt website và đặt hàng, không phải phụ thuộc vào giờ mở cửa của các shop thời trang. Thậm chí, nếu bận quá, các cha mẹ có thể vừa ngồi làm tại văn phòng vừa đặt hàng giao tận nơi. Vô cùng tiện lợi. Vì thế mà xu hướng mua sắm online nói chung và mua quần áo trẻ em online nói riêng bùng phát mạnh mẽ thời gian gần đây."
+                }
+            ],
+            "description": "Ngày nay, việc mua quần áo trẻ em đã dễ dàng hơn bao giờ hết. Cha mẹ có thể mua quần áo cho con em mình ngay cả khi ngồi tại nhà của mình mà chẳng tốn nhiều thời gian, công sức đến tận các shop lựa chọn."
+        },
+        {
+            "id": "b_3",
+            "title": "Gợi ý chọn trang phục cho bé gái tuổi mới lớn",
+            "image": "https://bizweb.dktcdn.net/100/459/160/articles/diem-qua-7-thuong-hieu-do-tre-em-ma-me-rat-nen-sam-cho-be-yeu-202206040734481525.jpg?v=1657187057557",
+            "create_at": "07/07/2022",
+            "author": "Phan Thị Thảo",
+            "content": [
+                {
+                    "transform": "span",
+                    "type": "p",
+                    "description": "Tuổi trẻ con là tuổi của sắc màu tươi mới, mùa của sự vui chơi thoả thích nhưng không thể tránh được thời tiết oi bức. Vì vậy các mom đã chuẩn bị trang phục gì cho bé mùa hè chưa ? Đặc biệt là với thời tiết cực kỳ khó chịu tại Sài Gòn, thì việc lựa chọn Quần áo trẻ em cho bé là điều cực kỳ quan trọng nếu như các mom không lưu ý việc này thì sẽ ảnh hưởng rất nhiều đến sức khoẻ và làn da của bé. Vậy thì làm sao để lựa chọn trang phục mùa hè cho bé gái tuổi mới lớn ? Hãy cùng Becungshop khám phá vài mẹo nhỏ sau đây nhé. "
+                },
+                {
+                    "transform": "b",
+                    "type": "p",
+                    "description": "1. Ưu tiên đến chất liệu. "
+                },
+                {
+                    "transform": "span",
+                    "type": "p",
+                    "description": "Bây giờ có rất nhiều chất liệu trên thị trường nhưng không phải chất liệu nào cũng phù hợp với trẻ em. Hiểu được những nỗi lo âu của bố mẹ, Becungshop chúng tôi luôn lựa chọn và sản xuất ra những sản phẩm rất tinh tế và phù hợp đến tay các mom. Loại vải mà Becungshop ưu tiên nhiều nhất chính là loại cotton co giãn. "
+                },
+                {
+                    "transform": "span",
+                    "type": "p",
+                    "description": "Cotton: chính là loại vải sử dụng rất nhiều trong các bộ sưu tập của Becungshop, và được nhiều các nhãn hàng thời trang khác ưa chuộng bởi vì đặc tính thấm hút mồ hôi tuyệt vời của nó. Bởi vì cotton được dệt từ các sợi vải thiên nhiên và nhiều nhất là bông có khả năng co giãn cho bé nên bé rất thoải mái khi có thể vừa mặc vừa vui chơi thoải thích. "
+                },
+                {
+                    "transform": "b",
+                    "type": "p",
+                    "description": "2. Form dáng sao cho hợp lý. "
+                },
+                {
+                    "transform": "span",
+                    "type": "p",
+                    "description": "Sau những giờ học căng thẳng thì thời gian còn lại là lúc để các bé được tự do giải trí, nên lựa chọn các form dáng quần áo các phụ huynh cũng phải đặc biệt lưu tâm."
+                },
+                {
+                    "transform": "span",
+                    "type": "p",
+                    "description": "- Thứ nhất: Các mom nên chọn những kiểu dáng thoải mái, rộng rãi không bó sát người bé, đặc biệt là phần cổ và nách bởi vì hai phần này rất nhạy cảm và thường dễ đổ mồ hôi cho bé."
+                },
+                {
+                    "transform": "span",
+                    "type": "p",
+                    "description": "- Thứ hai: Đừng nên lựa chọn những bộ quần áo rườm rà, ren lưới phức tạp khi sinh hoạt vui chời thường ngày vì sẽ dẫn đến tình trạng khó chịu cho con. "
+                },
+                {
+                    "transform": "span",
+                    "type": "p",
+                    "description": "- Tiếp theo là các bé thường rất thích được đi chơi nên là việc lựa chọn trang phục nếu tốn quá nhiều thời gian của trẻ, trẻ sẽ cảm thấy cáu gắt và khó chịu, chính vì thế mà Becungshop ưu tiên ba mẹ nên chọn cho con trang phục theo set, theo bộ để bé có thể mặc vào nhanh chóng và việc đó cũng sẽ không mất quá nhiều thời gian của quý phụ huynh."
+                },
+                {
+                    "transform": "b",
+                    "type": "p",
+                    "description": "3. Màu sắc. "
+                },
+                {
+                    "transform": "span",
+                    "type": "p",
+                    "description": "Màu sắc cũng không kém phần quan trọng trong việc phối quần áo trẻ em cho bé gái tuổi mới lớn. Bởi trẻ con luôn yêu thích những màu sắc nổi bật, chính vì thế những thiết kế giày lưới thể thao cho bé trai hoặc áo thun dễ thương in hình khủng long chạy xe của Becungshop luôn chọn những màu sắc để phù hợp với độ tuổi tràn đầy năng lượng của bé. Sau đây là một vài gợi ý của Becungshop giành cho phụ huynh kham khảo nhé:"
+                },
+                {
+                    "transform": "b",
+                    "type": "p",
+                    "description": "Những thiết kế nổi bật và đang được bán chạy nhất tại Becungshop."
+                },
+                {
+                    "transform": "span",
+                    "type": "p",
+                    "description": "Set váy đuôi cá cổ hàn quốc cực đẹp cho bé này là một sự lựa chọn tuyệt vời giành cho các bé yêu , với hoạ tiết vân bò đang rất là trendy khắp Châu Á được ưa chọn rất nhiều trong việc thiết kế phụ kiện, quần áo và trong nội thất. Phong cách cực kỳ dễ thương, áo crop-top form dáng dài kết hợp với quần jogger nên bé có thể dễ dàng mặc được ở các dịp sinh hoạt khác nhau. "
+                }
+            ],
+            "description": "Bé gái tuổi mới lớn luôn thích tự lựa chọn những trang phục cho mình tuy nhiên phụ huynh chúng ta cũng cần phải nắm bắt một vài mẹo nhỏ để lựa chọn phù hợp cho con. "
+        },
+        {
+            "id": "b_4",
+            "title": "Chọn đồ trẻ em mặc ở nhà cần lưu ý những gì?",
+            "image": "https://bizweb.dktcdn.net/100/459/160/articles/freesize-2-800x450.png?v=1657187190470",
+            "create_at": "07/07/2022",
+            "author": "Phan Thị Thảo",
+            "content": [
+                {
+                    "transform": "span",
+                    "type": "h3",
+                    "description": "Một trong những trang phục đặt tiêu chí thoải mái và an toàn lên hàng đầu đó chính là đồ bộ mặc nhà cho bé sản phẩm nổi bật nhất 2022, vì bé giành thời gian ở nhà nhiều hơn và mọi sinh hoạt của bé cùng nhiều nhất là tại nhà, nên các mom cần phải lựa chọn những trang phục mặc nhà sao cho thoải mái nhất cho trẻ. Becungshop sẽ gợi ý vài tips nhỏ để các mom cùng kham khảo nhé. "
+                },
+                {
+                    "transform": "span",
+                    "type": "h3",
+                    "description": "1. Chất liệu: "
+                },
+                {
+                    "transform": "span",
+                    "type": "p",
+                    "description": "Chất liệu sản phẩm là lựa chọn hàng đầu khi mua sản phẩm quần áo mặc nhà cho bé. Lựa chọn hàng chất lượng kém có thể gây cho bé dị ứng, ngứa ngáy, khó chịu hoặc xấu hơn nữa có thể gặp các căn bệnh ngoài da. Mẹ nên chọn đồ mặc nhà cho bé gái và bé trai với các chất liệu thông thoáng, mát mẻ và áo thun ba lỗ hình thú chất cotton bé yêu có tính co giãn tốt như thun hoặc cotton để bé dễ dàng hoạt động và sinh hoạt hơn."
+                },
+                {
+                    "transform": "span",
+                    "type": "h3",
+                    "description": "2. Chọn đúng size của bé: "
+                },
+                {
+                    "transform": "span",
+                    "type": "h3",
+                    "description": "Việc lựa chọn size đồ mặc nhà cho bé là vô cùng quan trọng, có rất nhiều mom chưa có kin nghiệm trong việc chọn size đồ mặc nhà cho bé nên dẫn đến tình trạng quá chật hay quá rộng. Điều này gây bất tiện cho bé trong thời gian sinh hoạt tại nhà. Chọn một set trang phục phù hợp cho bé là rất quan trọng để bé có thể tự do vui chơi sinh hoạt thoải mái tại nhà. Nếu trang phục qúa nhỏ, bé sẽ không thể vui chơi hết mình, còn nếu một bộ quần áo quá rộng sẽ xảy ra tình trạng không vừa vặn khiến bé không thể vui chơi một cách tự tin và hết mình.  Chọn một bộ trang phục vừa vặn với kích cỡ thích hợp với cân nặng và chiều cao của bé sẽ giúp bé thoải mái và dễ dàng trong mọi hoạt động."
+                },
+                {
+                    "transform": "span",
+                    "type": "h3",
+                    "description": "3. Kiểu dáng của trang phục."
+                },
+                {
+                    "transform": "span",
+                    "type": "p",
+                    "description": "Các mom nên chọn cho bé môt bộ trang phục thiết kế không rườm rà để bé có thể thoải mái vui chơi. Khác với những loại trang phục dạo phố hay dự tiệc, giày lưới thể thao cho bé trai chú trọng đến tính chất thoải mái hơn thay vì thiết kế sản phẩm. Mom đừng chọn một bộ mặc nhà với rườm rà nhiều chi tiết hay quá nhiều phụ kiện đính trên quần áo. Như thế sẽ rất bất tiện cho cả mẹ lẫn bé, khiến bé cảm thấy khó chịu. Tuy nhiên với kiểu dáng đơn giản nhưng lại có những hình in hoạ tiết cực kỳ dễ thương, bé có thể mặc mà vẫn thích thú. "
+                }
+            ],
+            "description": "Chọn đồ mặc nhà cần lưu ý những gì cho bé, các mom cùng bécungshop kham khảo bài viết dưới đây nhé,"
+        }
+    ],
+    "categories": [
+        {
+            "id": "cid-1",
+            "image_small": "https://bizweb.dktcdn.net/thumb/thumb/100/459/160/collections/dam-be-gai-80.png?v=1657182649087",
+            "image_large": "https://bizweb.dktcdn.net/thumb/compact/100/459/160/collections/dam-be-gai-80.png?v=1657182649087",
+            "title": "Đầm bé gái",
+            "size": "large",
+            "new": true
+        },
+        {
+            "id": "cid-2",
+            "image_small": "https://bizweb.dktcdn.net/thumb/thumb/100/459/160/collections/bo-be-gai-80.png?v=1657182638380",
+            "image_large": "https://bizweb.dktcdn.net/thumb/compact/100/459/160/collections/bo-be-gai-80.png?v=1657182638380",
+            "title": "Bộ bé gái",
+            "size": "large",
+            "new": true
+        },
+        {
+            "id": "cid-3",
+            "image_small": "https://bizweb.dktcdn.net/thumb/thumb/100/459/160/collections/ao-be-gai-80.png?v=1657182670947",
+            "image_large": "https://bizweb.dktcdn.net/thumb/compact/100/459/160/collections/ao-be-gai-80.png?v=1657182670947",
+            "title": "Áo bé gái",
+            "size": "large",
+            "new": true
+        },
+        {
+            "id": "cid-4",
+            "image_small": "https://bizweb.dktcdn.net/thumb/thumb/100/459/160/collections/bo-be-trai-80.png?v=1657182685220",
+            "image_large": "https://bizweb.dktcdn.net/thumb/compact/100/459/160/collections/bo-be-trai-80.png?v=1657182685220",
+            "title": "Bộ bé trai",
+            "size": "large",
+            "new": true
+        },
+        {
+            "id": "cid-5",
+            "image_small": "https://bizweb.dktcdn.net/thumb/thumb/100/459/160/collections/quan-be-trai-80.png?v=1657182701517",
+            "image_large": "https://bizweb.dktcdn.net/thumb/compact/100/459/160/collections/quan-be-trai-80.png?v=1657182701517",
+            "title": "Quần bé trai",
+            "size": "large",
+            "new": true
+        },
+        {
+            "id": "cid-6",
+            "image_small": "",
+            "image_large": "https://bizweb.dktcdn.net/thumb/compact/100/459/160/collections/ao-be-trai-80.png?v=1657182718667",
+            "title": "Áo bé trai",
+            "size": "large",
+            "new": false
+        },
+        {
+            "id": "cid-7",
+            "image_small": "",
+            "image_large": "https://bizweb.dktcdn.net/thumb/compact/100/459/160/collections/quan-be-gai-80.png?v=1657182733363",
+            "title": "Quần bé gái",
+            "size": "large",
+            "new": false
+        },
+        {
+            "id": "cid-8",
+            "image_small": "",
+            "image_large": "https://bizweb.dktcdn.net/thumb/compact/100/459/160/collections/giay-be-gai-80.png?v=1657184995837",
+            "title": "Giày dép",
+            "size": "large",
+            "new": false
+        }
+    ],
+    "filters": [
+        {
+            "id": "f_1",
+            "name_filter": "Thương hiệu",
+            "children": [
+                {
+                    "id": 1,
+                    "children_name": "Dolce"
+                },
+                {
+                    "id": 2,
+                    "children_name": "Golden Piz"
+                },
+                {
+                    "id": 3,
+                    "children_name": "Nuke"
+                },
+                {
+                    "id": 4,
+                    "children_name": "Việt Nam"
+                },
+                {
+                    "id": 5,
+                    "children_name": "Zara"
+                }
+            ]
+        },
+        {
+            "id": "f_2",
+            "name_filter": "Theo mức giá",
+            "children": [
+                {
+                    "id": 1,
+                    "children_name": "Dưới 100.000đ"
+                },
+                {
+                    "id": 2,
+                    "children_name": "Từ 100.000đ đến 200.000đ"
+                },
+                {
+                    "id": 3,
+                    "children_name": "Từ 200.000đ đến 400.000đ"
+                },
+                {
+                    "id": 4,
+                    "children_name": "Từ 400.000đ đến 600.000đ"
+                },
+                {
+                    "id": 5,
+                    "children_name": "Từ 600.000đ đến 800.000đ"
+                },
+                {
+                    "id": 6,
+                    "children_name": "Từ 800.000đ đến 1 triệu"
+                },
+                {
+                    "id": 7,
+                    "children_name": "Từ 1 đến 2 triệu"
+                },
+                {
+                    "id": 8,
+                    "children_name": "Trên 2 triệu"
+                }
+            ]
+        },
+        {
+            "id": "f_3",
+            "name_filter": "Tìm theo loại",
+            "children": [
+                {
+                    "id": 1,
+                    "children_name": "Giày da"
+                },
+                {
+                    "id": 2,
+                    "children_name": "Giày vải"
+                },
+                {
+                    "id": 3,
+                    "children_name": "Vải bông"
+                },
+                {
+                    "id": 4,
+                    "children_name": "Vải thun"
+                }
+            ]
+        }
+    ],
+    "services": [
+        {
+            "id": "s_1",
+            "image": "https://bizweb.dktcdn.net/100/459/160/themes/867807/assets/ico_sv1.png?1684485482688",
+            "title": "Hỗ trợ 24/7",
+            "description": "Nhân viên online hỗ trợ"
+        },
+        {
+            "id": "s_2",
+            "image": "https://bizweb.dktcdn.net/100/459/160/themes/867807/assets/ico_sv2.png?1684485482688",
+            "title": "Tiết kiệm",
+            "description": "Mua nhiều ưu đãi hơn"
+        },
+        {
+            "id": "s_3",
+            "image": "https://bizweb.dktcdn.net/100/459/160/themes/867807/assets/ico_sv3.png?1684485482688",
+            "title": "Quà tặng",
+            "description": "Tri ân khách hàng cũ"
+        },
+        {
+            "id": "s_4",
+            "image": "https://bizweb.dktcdn.net/100/459/160/themes/867807/assets/ico_sv4.png?1684485482688",
+            "title": "Vận chuyển",
+            "description": "Siêu nhanh, toàn thế giới"
+        }
+    ],
+    "users": [
+        {
+            "username": "linhhc",
+            "name_user": "Huỳnh Chí Linh",
+            "email": "linhhc.1612@gmail.com",
+            "password": "12345",
+            "avt": "https://png.pngtree.com/png-clipart/20220404/original/pngtree-cartoon-cute-godzilla-character-girl-drinking-milk-tea-head-png-image_7498312.png"
+        },
+        {
+            "username": "admin",
+            "name_user": "Admin",
+            "email": "a@gmail.com",
+            "password": "1",
+            "avt": "https://png.pngtree.com/png-clipart/20190920/original/pngtree-user-flat-character-avatar-png-png-image_4643588.jpg"
+        }
+    ]
 }
