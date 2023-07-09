@@ -18,4 +18,12 @@ export const put = async (id = '', options = {}) => {
     }
 };
 
+export const deleted = async (id = '') => {
+    try {
+        return await httpRequest.delete(id);
+    } catch (error) {
+        console.log('Lỗi khi cập nhật giá trị:', error);
+    }
+};
+
 export default httpRequest;

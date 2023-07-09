@@ -21,7 +21,6 @@ import { Link, useParams } from 'react-router-dom';
 import Service from '~/components/Service';
 import CategoryList from '~/components/Category';
 import CardProduct from '~/components/CardProduct';
-import axios from 'axios';
 
 const cx = classNames.bind(styles);
 
