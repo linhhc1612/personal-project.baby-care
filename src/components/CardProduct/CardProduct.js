@@ -1,34 +1,48 @@
-import { useEffect, useState } from 'react';
 import classNames from 'classnames/bind';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
+import * as request from '~/untils/httpRequest';
 import styles from './CardProduct.module.scss';
 import Button from '~/components/Button';
 
 const cx = classNames.bind(styles);
+function CardProduct({ typeDefault = true, data }) {
+    const handleAddToCart = async () => {
+        try {
+            const response = await request.get(`/products/${data.id}`);
 
-function CardProduct({ typeDefault = true, data, checkData }) {
-    const renderPrice = data.price_product;
-    const [formatPrice, setFormatPrice] = useState(renderPrice);
-    const [formatPriceSale, setFormatPriceSale] = useState(renderPrice - (renderPrice * data.sale) / 100);
+            response.status = 'in-cart';
+            if (response.qty_in_cart !== 0) {
+                response.qty_in_cart += 1;
+            } else {
+                response.qty_in_cart = 1;
+            }
 
-    useEffect(() => {
-        const format = () => {
-            const formatPri = new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(
-                formatPrice,
-            );
-            const formatPriSale = new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(
-                formatPriceSale,
-            );
+            await request.put(`/products/${data.id}`, response);
+            notify();
+        } catch (error) {
+            console.log(error);
+        }
+    };
 
-            setFormatPrice(formatPri);
-            setFormatPriceSale(formatPriSale);
-        };
+    const emptyHandle = () => {
+        return;
+    };
 
-        format();
-        // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, []);
+    const notify = () =>
+        toast.success('Thêm vào giỏ hàng thành công!', {
+            position: 'top-right',
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: 'colored',
+        });
 
     return (
         <>
@@ -45,9 +59,18 @@ function CardProduct({ typeDefault = true, data, checkData }) {
                         </Link>
                     </h3>
                     <div className={cx('price-box')}>
-                        <span className={cx('price')}>{formatPriceSale}</span>
+                        <span className={cx('price')}>
+                            {new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(
+                                data.price_product - (data.price_product * data.sale) / 100,
+                            )}
+                        </span>
                         <span className={cx('compare-price')}>
-                            Giá gốc: <span>{formatPrice}</span>
+                            Giá gốc:{' '}
+                            <span>
+                                {new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(
+                                    data.price_product,
+                                )}
+                            </span>
                         </span>
                     </div>
                     {!typeDefault && (
@@ -66,9 +89,26 @@ function CardProduct({ typeDefault = true, data, checkData }) {
                 </div>
 
                 <div className={cx('action-card', typeDefault ? '' : 'flash')}>
-                    <Button outline rounded>
+                    <Button
+                        to={data.quantity >= 100 ? `` : `/product-detail-page/${data.id}/${data.name_product}`}
+                        onClick={data.quantity >= 100 ? handleAddToCart : emptyHandle}
+                        outline
+                        rounded
+                    >
                         {data.quantity >= 100 ? 'Cho vào giỏ' : 'Lựa chọn'}
                     </Button>
+                    <ToastContainer
+                        position="top-right"
+                        autoClose={5000}
+                        hideProgressBar={false}
+                        newestOnTop={false}
+                        closeOnClick
+                        rtl={false}
+                        pauseOnFocusLoss
+                        draggable
+                        pauseOnHover
+                        theme="colored"
+                    />
                 </div>
             </div>
         </>
@@ -78,7 +118,6 @@ function CardProduct({ typeDefault = true, data, checkData }) {
 CardProduct.propTypes = {
     data: PropTypes.object,
     typeDefault: PropTypes.bool,
-    checkData: PropTypes.string,
 };
 
 export default CardProduct;

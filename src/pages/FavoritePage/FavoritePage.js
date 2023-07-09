@@ -53,15 +53,7 @@ function FavoritePage() {
         const fetchApiProduct = async () => {
             try {
                 const response = await request.get('/products');
-                const newData = [];
-
-                // eslint-disable-next-line array-callback-return
-                response.map((data) => {
-                    if (data.favorite) {
-                        newData.push(data);
-                        return setArrProduct(newData);
-                    }
-                });
+                return setArrProduct(response);
             } catch (error) {
                 console.log(error);
             }
@@ -102,11 +94,14 @@ function FavoritePage() {
                     <div className={cx('row')}>
                         {currentItems.length <= 0 && <span>Không có sản phẩm nào được yêu thích</span>}
 
-                        {currentItems.map((result) => (
-                            <div key={result.id} className={cx('col-6 col-md-3')}>
-                                <CardProduct data={result} typeDefault={true} checkData="product" />
-                            </div>
-                        ))}
+                        {currentItems.map(
+                            (result) =>
+                                result.favorite && (
+                                    <div key={result.id} className={cx('col-6 col-md-3')}>
+                                        <CardProduct data={result} typeDefault={true} checkData="product" />
+                                    </div>
+                                ),
+                        )}
 
                         <div className={cx('d-flex justify-content-end align-item-center')}>
                             <Pagination>
@@ -123,13 +118,21 @@ function FavoritePage() {
                                 <Pagination.Item active>{currentPage}</Pagination.Item>
                                 <Pagination.Item
                                     onClick={(e) => setCurrentPage(parseInt(e.target.innerText))}
-                                    className={cx(currentPage + 1 >= currentItems.length ? 'd-none' : 'd-inline-block')}
+                                    className={cx(
+                                        currentPage + 1 >= currentItems.length || currentItems.length <= 16
+                                            ? 'd-none'
+                                            : 'd-inline-block',
+                                    )}
                                 >
                                     {currentPage + 1}
                                 </Pagination.Item>
                                 <Pagination.Next
                                     onClick={() => setCurrentPage(currentPage + 1)}
-                                    className={cx(currentPage + 1 >= currentItems.length ? 'd-none' : 'd-inline-block')}
+                                    className={cx(
+                                        currentPage + 1 >= currentItems.length || currentItems.length <= 16
+                                            ? 'd-none'
+                                            : 'd-inline-block',
+                                    )}
                                 />
                             </Pagination>
                         </div>

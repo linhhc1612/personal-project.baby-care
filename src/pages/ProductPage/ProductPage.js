@@ -27,6 +27,7 @@ function ProductPage() {
     const [currentPage, setCurrentPage] = useState(1);
 
     const param = useParams();
+    const key = param.key.slice(1);
     const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
     const endIndex = startIndex + ITEMS_PER_PAGE;
     const currentItems = arrProduct.slice(startIndex, endIndex);
@@ -63,19 +64,21 @@ function ProductPage() {
         const fetchApiProduct = async () => {
             try {
                 const response = await request.get('/products');
-                const newData = [];
-                const key = param.key.slice(1);
+                // const newData = [];
+                //
 
-                response.map((data) => {
-                    if (data.category === key) {
-                        newData.push(data);
-                        setArrProduct(newData);
-                    }
+                // response.map((data) => {
+                //     if (data.category === key) {
+                //         newData.push(data);
+                //         setArrProduct(newData);
+                //     }
 
-                    if (key === 'all') {
-                        setArrProduct(response);
-                    }
-                });
+                //     if (key === 'all') {
+                //         setArrProduct(response);
+                //     }
+                // });
+
+                setArrProduct(response);
             } catch (error) {
                 console.log(error);
             }
@@ -253,11 +256,14 @@ function ProductPage() {
                     </div>
                     <div className={cx('list-products')}>
                         <div className={cx('row')}>
-                            {currentItems.map((result) => (
-                                <div key={result.id} className={cx('col-6 col-md-3')}>
-                                    <CardProduct data={result} typeDefault={true} checkData="product" />
-                                </div>
-                            ))}
+                            {currentItems.map(
+                                (result) =>
+                                    (result.category === key || key === 'all') && (
+                                        <div key={result.id} className={cx('col-6 col-md-3')}>
+                                            <CardProduct data={result} typeDefault={true} checkData="product" />
+                                        </div>
+                                    ),
+                            )}
                         </div>
                         <div className={cx('d-flex justify-content-end align-item-center')}>
                             <Pagination>
@@ -274,13 +280,21 @@ function ProductPage() {
                                 <Pagination.Item active>{currentPage}</Pagination.Item>
                                 <Pagination.Item
                                     onClick={(e) => setCurrentPage(parseInt(e.target.innerText))}
-                                    className={cx(currentPage + 1 >= currentItems.length ? 'd-none' : 'd-inline-block')}
+                                    className={cx(
+                                        currentPage + 1 >= currentItems.length || arrProduct.length <= 16
+                                            ? 'd-none'
+                                            : 'd-inline-block',
+                                    )}
                                 >
                                     {currentPage + 1}
                                 </Pagination.Item>
                                 <Pagination.Next
                                     onClick={() => setCurrentPage(currentPage + 1)}
-                                    className={cx(currentPage + 1 >= currentItems.length ? 'd-none' : 'd-inline-block')}
+                                    className={cx(
+                                        currentPage + 1 >= currentItems.length || arrProduct.length <= 16
+                                            ? 'd-none'
+                                            : 'd-inline-block',
+                                    )}
                                 />
                             </Pagination>
                         </div>
