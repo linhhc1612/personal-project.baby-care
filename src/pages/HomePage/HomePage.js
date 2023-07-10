@@ -1,6 +1,5 @@
 /* eslint-disable array-callback-return */
 /* eslint-disable no-useless-concat */
-import 'https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js';
 import React, { useEffect, useState } from 'react';
 import classNames from 'classnames/bind';
 import { Link } from 'react-router-dom';
