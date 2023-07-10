@@ -4,6 +4,7 @@ import { publicRoutes } from './routes';
 
 function App() {
     return (
+        // Deloy
         <Router>
             <Fragment>
                 <Routes>
