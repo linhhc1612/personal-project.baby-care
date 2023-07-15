@@ -1,4 +1,5 @@
 {
+    "homepage": "https://linhhc1612.github.io/personal-project.baby-care",
     "name": "project-e-commerce-management-baby-care",
     "version": "0.1.0",
     "private": true,
@@ -36,7 +37,7 @@
         "customize-cra": "^1.0.0",
         "gh-pages": "^5.0.0",
         "react-app-rewired": "^2.2.1",
-        "sass": "^1.51.0"
+        "sass": "^1.63.4"
     },
     "scripts": {
         "predeploy": "npm run build",
